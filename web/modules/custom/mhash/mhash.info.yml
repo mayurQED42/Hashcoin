@@ -1,0 +1,5 @@
+name: My Hash
+type: module
+description: created for custom block for bitcoin calculator and free Quotes information.
+package: custom
+core: 8.x
