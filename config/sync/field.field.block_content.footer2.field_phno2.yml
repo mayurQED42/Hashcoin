@@ -1,0 +1,23 @@
+uuid: 74a685f8-7f9e-4100-b620-15c90922a3dd
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.footer2
+    - field.storage.block_content.field_phno2
+id: block_content.footer2.field_phno2
+field_name: field_phno2
+entity_type: block_content
+bundle: footer2
+label: phno
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

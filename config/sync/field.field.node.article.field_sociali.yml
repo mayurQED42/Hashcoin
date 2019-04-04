@@ -1,0 +1,117 @@
+uuid: d9975d15-fd5d-4ba9-8f1d-bdab670b5154
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_sociali
+    - node.type.article
+  module:
+    - social_media_links_field
+id: node.article.field_sociali
+field_name: field_sociali
+entity_type: node
+bundle: article
+label: sociali
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    platform: null
+    value: null
+    platform_values:
+      youtube_channel:
+        value: 'https://www.youtube.com/channel/'
+      instagram:
+        value: 'https://www.instagram.com/'
+      twitter:
+        value: 'https://www.twitter.com/'
+      facebook:
+        value: 'https://www.facebook.com/'
+      googleplus:
+        value: 'https://plus.google.com/'
+default_value_callback: ''
+settings:
+  iconset: 'fontawesome:2x'
+  platforms:
+    rss:
+      description: ''
+      weight: '-10'
+      enabled: 0
+    email:
+      description: ''
+      weight: '-9'
+      enabled: 0
+    youtube_channel:
+      enabled: '1'
+      description: ''
+      weight: '-8'
+    instagram:
+      enabled: '1'
+      description: ''
+      weight: '-7'
+    vimeo:
+      description: ''
+      weight: '-6'
+      enabled: 0
+    github:
+      description: ''
+      weight: '-5'
+      enabled: 0
+    bitbucket:
+      description: ''
+      weight: '-4'
+      enabled: 0
+    drupal:
+      description: ''
+      weight: '-3'
+      enabled: 0
+    tumblr:
+      description: ''
+      weight: '-2'
+      enabled: 0
+    contact:
+      description: ''
+      weight: '-1'
+      enabled: 0
+    behance:
+      description: ''
+      weight: '0'
+      enabled: 0
+    flickr:
+      description: ''
+      weight: '1'
+      enabled: 0
+    linkedin:
+      description: ''
+      weight: '2'
+      enabled: 0
+    twitter:
+      enabled: '1'
+      description: ''
+      weight: '3'
+    youtube:
+      description: ''
+      weight: '4'
+      enabled: 0
+    pinterest:
+      description: ''
+      weight: '5'
+      enabled: 0
+    vkontakte:
+      description: ''
+      weight: '6'
+      enabled: 0
+    facebook:
+      enabled: '1'
+      description: ''
+      weight: '7'
+    googleplus:
+      enabled: '1'
+      description: ''
+      weight: '8'
+    slideshare:
+      description: ''
+      weight: '9'
+      enabled: 0
+field_type: social_media_links_field

@@ -1,0 +1,28 @@
+uuid: 2e334d02-2cec-4c78-813e-99b17d7578fb
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.bannerfoot
+    - field.field.block_content.bannerfoot.field_paraimg2
+  module:
+    - paragraphs
+id: block_content.bannerfoot.default
+targetEntityType: block_content
+bundle: bannerfoot
+mode: default
+content:
+  field_paraimg2:
+    type: entity_reference_paragraphs
+    weight: 0
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: open
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: ''
+    third_party_settings: {  }
+    region: content
+hidden:
+  info: true

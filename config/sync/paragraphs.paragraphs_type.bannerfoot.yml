@@ -1,0 +1,9 @@
+uuid: 74396202-1dbf-426b-a14f-a5a8e13661da
+langcode: en
+status: true
+dependencies: {  }
+id: bannerfoot
+label: bannerfoot
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

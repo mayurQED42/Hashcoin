@@ -1,0 +1,31 @@
+uuid: ab3c8978-6e22-44d6-a42e-7331b1fc2b44
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.bannerfoot
+    - field.storage.block_content.field_paraimg2
+    - paragraphs.paragraphs_type.bannerfoot
+  module:
+    - entity_reference_revisions
+id: block_content.bannerfoot.field_paraimg2
+field_name: field_paraimg2
+entity_type: block_content
+bundle: bannerfoot
+label: paraimg
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      bannerfoot: bannerfoot
+    target_bundles_drag_drop:
+      bannerfoot:
+        enabled: true
+        weight: 2
+field_type: entity_reference_revisions

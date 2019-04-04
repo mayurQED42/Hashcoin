@@ -1,0 +1,19 @@
+uuid: b9011298-287c-4f2f-83bd-927a0b6d14df
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+    - social_media_links_field
+id: block_content.field_socialiconshead
+field_name: field_socialiconshead
+entity_type: block_content
+type: social_media_links_field
+settings: {  }
+module: social_media_links_field
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

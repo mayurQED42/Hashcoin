@@ -1,0 +1,24 @@
+uuid: 1033bd81-e6ee-418e-aad5-d29092d0e959
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.bannerfoot
+    - field.field.block_content.bannerfoot.field_paraimg2
+  module:
+    - entity_reference_revisions
+id: block_content.bannerfoot.default
+targetEntityType: block_content
+bundle: bannerfoot
+mode: default
+content:
+  field_paraimg2:
+    type: entity_reference_revisions_entity_view
+    weight: 1
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
+hidden: {  }

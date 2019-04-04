@@ -1,18 +1,16 @@
-uuid: 2685f5b1-ac88-4f48-88be-e7f127b68be5
+uuid: d15512e0-e3f4-464c-a285-9f3d7f07033b
 langcode: en
 status: true
 dependencies:
   config:
-    - block_content.type.basic
+    - block_content.type.social1
     - field.storage.block_content.body
   module:
     - text
-_core:
-  default_config_hash: R__6wc-rMfFMO8d7jcgqnqiA92j8spKhcc5MiqecrMc
-id: block_content.basic.body
+id: block_content.social1.body
 field_name: body
 entity_type: block_content
-bundle: basic
+bundle: social1
 label: Body
 description: ''
 required: false
