@@ -1,0 +1,21 @@
+uuid: fcc4e2b4-aaa6-43c3-8865-a4e478dc7e22
+langcode: en
+status: true
+dependencies:
+  module:
+    - contact
+id: contact_message.field_your_subject
+field_name: field_your_subject
+entity_type: contact_message
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

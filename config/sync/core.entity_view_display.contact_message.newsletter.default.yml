@@ -1,0 +1,37 @@
+uuid: ac3c14c4-7502-4daf-bd5e-883ae54a7014
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.newsletter
+    - field.field.contact_message.newsletter.field_email_address
+    - field.field.contact_message.newsletter.field_heading
+id: contact_message.newsletter.default
+targetEntityType: contact_message
+bundle: newsletter
+mode: default
+content:
+  field_email_address:
+    weight: 2
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  field_heading:
+    weight: 1
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  message:
+    type: string
+    weight: 0
+    label: above
+    region: content
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+hidden: {  }

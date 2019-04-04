@@ -1,0 +1,12 @@
+uuid: a9f2fb50-7da2-4ebf-a024-91c22ef61478
+langcode: en
+status: true
+dependencies: {  }
+id: newsletter
+label: Newsletter
+recipients:
+  - mayur.gajar@qed42.com
+reply: ''
+weight: 0
+message: ''
+redirect: ''

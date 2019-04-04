@@ -1,0 +1,54 @@
+uuid: 2dbc235a-05d5-4c84-9049-4d37b64fb29d
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.free_quote
+    - field.field.contact_message.free_quote.field_e
+    - field.field.contact_message.free_quote.field_fu
+    - field.field.contact_message.free_quote.field_y
+    - field.field.contact_message.free_quote.field_your_subject
+id: contact_message.free_quote.default
+targetEntityType: contact_message
+bundle: free_quote
+mode: default
+content:
+  field_e:
+    weight: 2
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  field_fu:
+    weight: 1
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_y:
+    weight: 4
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  field_your_subject:
+    weight: 3
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  message:
+    type: string
+    weight: 0
+    label: above
+    region: content
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+hidden: {  }

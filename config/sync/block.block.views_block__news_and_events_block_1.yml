@@ -1,0 +1,24 @@
+uuid: ebd906a4-a186-4f9b-882c-909ae46d1b17
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.news_and_events
+  module:
+    - views
+  theme:
+    - bartik
+id: views_block__news_and_events_block_1
+theme: bartik
+region: featured_top
+weight: -7
+provider: null
+plugin: 'views_block:news_and_events-block_1'
+settings:
+  id: 'views_block:news_and_events-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility: {  }

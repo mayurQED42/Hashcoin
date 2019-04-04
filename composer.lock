@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3c5ff6c23d338d446fd284d50ee0151e",
+    "content-hash": "6691c62288b006d881347fbb5f5755bd",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -2173,6 +2173,69 @@
             }
         },
         {
+            "name": "drupal/blazy",
+            "version": "1.0.0-rc4",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/blazy.git",
+                "reference": "8.x-1.0-rc4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/blazy-8.x-1.0-rc4.zip",
+                "reference": "8.x-1.0-rc4",
+                "shasum": "cea1185469fc6d19a5162f550e12f26cff193062"
+            },
+            "require": {
+                "drupal/core": "*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.0-rc4",
+                    "datestamp": "1545235980",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "RC releases are not covered by Drupal security advisories."
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Gaus Surahman",
+                    "homepage": "https://www.drupal.org/u/gausarts",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "Contributors",
+                    "homepage": "https://www.drupal.org/node/2663268/committers",
+                    "role": "Contributor"
+                },
+                {
+                    "name": "sun",
+                    "homepage": "https://www.drupal.org/user/54136"
+                }
+            ],
+            "description": "Provides basic bLazy integration for lazy loading and multi-serving images.",
+            "homepage": "https://drupal.org/project/blazy",
+            "keywords": [
+                "Drupal",
+                "bLazy",
+                "lazyload"
+            ],
+            "support": {
+                "source": "http://cgit.drupalcode.org/blazy",
+                "issues": "https://drupal.org/project/issues/blazy"
+            }
+        },
+        {
             "name": "drupal/console",
             "version": "1.8.0",
             "source": {
@@ -2427,6 +2490,53 @@
             ],
             "description": "Drupal Console Extend Plugin",
             "time": "2017-07-28T17:11:54+00:00"
+        },
+        {
+            "name": "drupal/contact_block",
+            "version": "1.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/contact_block.git",
+                "reference": "8.x-1.4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/contact_block-8.x-1.4.zip",
+                "reference": "8.x-1.4",
+                "shasum": "0e10326e33c02f821c0f20885a3662f8c3e34c64"
+            },
+            "require": {
+                "drupal/core": "*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.4",
+                    "datestamp": "1493036943",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Sutharsan",
+                    "homepage": "https://www.drupal.org/user/73854"
+                }
+            ],
+            "description": "Provides blocks for Contact form module.",
+            "homepage": "https://www.drupal.org/project/contact_block",
+            "support": {
+                "source": "https://git.drupalcode.org/project/contact_block"
+            }
         },
         {
             "name": "drupal/core",
@@ -2746,6 +2856,132 @@
                 "irc": "irc://irc.freenode.org/drupal-contribute"
             },
             "time": "2019-03-26T17:35:41+00:00"
+        },
+        {
+            "name": "drupal/owlcarousel",
+            "version": "1.0.0-alpha3",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/owl-carousel.git",
+                "reference": "8.x-1.0-alpha3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/owlcarousel-8.x-1.0-alpha3.zip",
+                "reference": "8.x-1.0-alpha3",
+                "shasum": "38a5bdb64e67a42cc0429e4f005949cfd65dfafa"
+            },
+            "require": {
+                "drupal/core": "*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.0-alpha3",
+                    "datestamp": "1548504780",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Alpha releases are not covered by Drupal security advisories."
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Anybody",
+                    "homepage": "https://www.drupal.org/user/291091"
+                },
+                {
+                    "name": "Sebastien @Actualys",
+                    "homepage": "https://www.drupal.org/user/380104"
+                },
+                {
+                    "name": "ipwa",
+                    "homepage": "https://www.drupal.org/user/130909"
+                },
+                {
+                    "name": "swim",
+                    "homepage": "https://www.drupal.org/user/1968266"
+                },
+                {
+                    "name": "thomas.frobieter",
+                    "homepage": "https://www.drupal.org/user/409335"
+                }
+            ],
+            "description": "Drupal integration for Owl Carousel",
+            "homepage": "https://www.drupal.org/project/owlcarousel",
+            "support": {
+                "source": "https://git.drupalcode.org/project/owlcarousel",
+                "issues": "https://www.drupal.org/project/owlcarousel"
+            }
+        },
+        {
+            "name": "drupal/slick",
+            "version": "1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/slick.git",
+                "reference": "8.x-1.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/slick-8.x-1.1.zip",
+                "reference": "8.x-1.1",
+                "shasum": "8565c1e74cfb5e6316c1cdb357868107303f2be4"
+            },
+            "require": {
+                "drupal/blazy": "~1.0",
+                "drupal/core": "~8.0"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.1",
+                    "datestamp": "1545236281",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "arshadcn",
+                    "homepage": "https://www.drupal.org/user/571032"
+                },
+                {
+                    "name": "gausarts",
+                    "homepage": "https://www.drupal.org/user/159062"
+                },
+                {
+                    "name": "thalles",
+                    "homepage": "https://www.drupal.org/user/3589086"
+                }
+            ],
+            "description": "Slick carousel, the last carousel you'll ever need.",
+            "homepage": "https://drupal.org/project/slick",
+            "keywords": [
+                "Drupal",
+                "carousel",
+                "slideshow"
+            ],
+            "support": {
+                "source": "http://cgit.drupalcode.org/slick",
+                "issues": "https://drupal.org/project/issues/slick"
+            }
         },
         {
             "name": "drush/drush",
