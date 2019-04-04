@@ -2,8 +2,6 @@ uuid: 0234d4a0-9231-4531-a5e8-34439b868440
 langcode: en
 status: true
 dependencies:
-  theme:
-    - myboot
 _core:
   default_config_hash: ffxthelqQF8xcr4GTG4HlaNNsluiHftN0pujmQpW0bQ
 id: myboot_local_actions

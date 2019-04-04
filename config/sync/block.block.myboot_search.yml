@@ -4,8 +4,6 @@ status: true
 dependencies:
   module:
     - search
-  theme:
-    - myboot
 _core:
   default_config_hash: F3d5hyAFunLh4PhGviJF019fHn1Z3_zy5gzsQ0tX1K0
 id: myboot_search

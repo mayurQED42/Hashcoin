@@ -4,8 +4,6 @@ status: true
 dependencies:
   module:
     - search
-  theme:
-    - hashcoin
 _core:
   default_config_hash: za-39d5WDUg6XvbyqSnuVYEeq6QM4qKJxW8MnoAha5A
 id: hashcoin_search

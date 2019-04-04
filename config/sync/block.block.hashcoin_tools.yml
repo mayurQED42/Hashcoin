@@ -6,8 +6,6 @@ dependencies:
     - system.menu.tools
   module:
     - system
-  theme:
-    - hashcoin
 _core:
   default_config_hash: NeHSoqm4XFqA7_0bDmR429ZZQt3LRbZMNRJTMsFyOfI
 id: hashcoin_tools

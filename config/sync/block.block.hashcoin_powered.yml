@@ -4,8 +4,6 @@ status: true
 dependencies:
   module:
     - system
-  theme:
-    - hashcoin
 _core:
   default_config_hash: jQQUUWN2Uxr5qZtc9zcJKBCxpKY8orN1u2HPqYYRQDI
 id: hashcoin_powered

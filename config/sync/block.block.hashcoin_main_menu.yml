@@ -6,8 +6,6 @@ dependencies:
     - system.menu.main
   module:
     - system
-  theme:
-    - hashcoin
 _core:
   default_config_hash: rx9IrdDv7Ldc4kpalZAxdhIPZfYIeOMh1N-qKoQZwHo
 id: hashcoin_main_menu

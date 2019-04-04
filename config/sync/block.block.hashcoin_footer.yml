@@ -6,8 +6,6 @@ dependencies:
     - system.menu.footer
   module:
     - system
-  theme:
-    - hashcoin
 _core:
   default_config_hash: kkISXE1LT2FJEoYnqCrCpeFB-2pmGmMxMklVk7rQcfg
 id: hashcoin_footer

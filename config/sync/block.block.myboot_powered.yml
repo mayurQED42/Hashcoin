@@ -4,8 +4,6 @@ status: true
 dependencies:
   module:
     - system
-  theme:
-    - myboot
 _core:
   default_config_hash: iggZSiUKz4mYP1YPJ8SsUfFu79HIgOTt6IDy3Up59aM
 id: myboot_powered
