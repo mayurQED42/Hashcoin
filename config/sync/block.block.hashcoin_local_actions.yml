@@ -1,0 +1,20 @@
+uuid: cb7a865b-ac5c-48d0-81ea-a5bcb36ab8bc
+langcode: en
+status: true
+dependencies:
+  theme:
+    - hashcoin
+_core:
+  default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
+id: hashcoin_local_actions
+theme: hashcoin
+region: content
+weight: -20
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

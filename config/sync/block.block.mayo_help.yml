@@ -1,0 +1,22 @@
+uuid: 5afc8240-8aff-476f-a784-287c09fa9c96
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - mayo
+_core:
+  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
+id: mayo_help
+theme: mayo
+region: content
+weight: -30
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

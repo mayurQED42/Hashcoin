@@ -1,0 +1,24 @@
+uuid: 37e0bb86-02bc-4cef-b5d0-ad6d77ab54ef
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.highlight
+  module:
+    - views
+  theme:
+    - bartik
+id: views_block__highlight_block_1
+theme: bartik
+region: featured_top
+weight: -8
+provider: null
+plugin: 'views_block:highlight-block_1'
+settings:
+  id: 'views_block:highlight-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility: {  }

@@ -1,0 +1,21 @@
+uuid: 7dd34f52-e26a-4741-8b0d-809fd91e63dc
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.div1
+    - field.storage.block_content.field_heading3
+  module:
+    - text
+id: block_content.div1.field_heading3
+field_name: field_heading3
+entity_type: block_content
+bundle: div1
+label: Heading
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

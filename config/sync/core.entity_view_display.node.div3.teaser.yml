@@ -1,0 +1,36 @@
+uuid: aab2226e-eced-46eb-aabd-8069d774265a
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.div3.body
+    - field.field.node.div3.field_imageu3
+    - field.field.node.div3.field_name3
+    - field.field.node.div3.field_rating
+    - node.type.div3
+  module:
+    - text
+    - user
+id: node.div3.teaser
+targetEntityType: node
+bundle: div3
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  field_imageu3: true
+  field_name3: true
+  field_rating: true
