@@ -34,6 +34,7 @@ module:
   rdf: 0
   search: 0
   shortcut: 0
+  starrating: 0
   system: 0
   taxonomy: 0
   text: 0
@@ -50,6 +51,10 @@ theme:
   classy: 0
   bartik: 0
   seven: 0
+  bootstrap: 0
+  myboot: 0
+  mayo: 0
+  hashcoin: 0
 profile: standard
 _core:
   default_config_hash: R4IF-ClDHXxblLcG0L7MgsLvfBIMAvi_skumNFQwkDc

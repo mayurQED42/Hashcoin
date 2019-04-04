@@ -1,0 +1,24 @@
+uuid: 9a458ae6-8d79-4219-b5f4-af62f2dc8f39
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_rating
+    - node.type.div3
+  module:
+    - starrating
+id: node.div3.field_rating
+field_name: field_rating
+entity_type: node
+bundle: div3
+label: Rating
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: '0'
+default_value_callback: ''
+settings:
+  max_value: '5'
+field_type: starrating
