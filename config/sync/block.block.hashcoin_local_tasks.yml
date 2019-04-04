@@ -2,8 +2,6 @@ uuid: c094545e-3bc2-4222-9d3c-3a9bec20a52d
 langcode: en
 status: true
 dependencies:
-  theme:
-    - hashcoin
 _core:
   default_config_hash: X9I1OB0W3WlWtrK-CNcg6hNWwa8wficanpH8pYnDZDE
 id: hashcoin_local_tasks

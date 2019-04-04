@@ -6,8 +6,6 @@ dependencies:
     - system.menu.main
   module:
     - system
-  theme:
-    - myboot
 _core:
   default_config_hash: GT_zYl7I9VAILH8OxMRe-VDvFadCDHxRcnmBc5xEmf0
 id: myboot_main_menu

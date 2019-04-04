@@ -4,8 +4,6 @@ status: true
 dependencies:
   module:
     - help
-  theme:
-    - myboot
 _core:
   default_config_hash: MhtNdV__HKRTab0ZPjkPNfYL4Ng4UPBucDLoC7Rg5Eo
 id: myboot_help

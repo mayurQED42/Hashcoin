@@ -6,8 +6,6 @@ dependencies:
     - system.menu.account
   module:
     - system
-  theme:
-    - hashcoin
 _core:
   default_config_hash: DweBpscQZdG0-fHkSpUzdYucrNH45G_KF7Z82V-oyQM
 id: hashcoin_account_menu

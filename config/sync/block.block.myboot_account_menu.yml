@@ -6,8 +6,6 @@ dependencies:
     - system.menu.account
   module:
     - system
-  theme:
-    - myboot
 _core:
   default_config_hash: R2K_qX0ZUMbUL6ie_-S9tZVjvqmlWKlscikgeRv9vhw
 id: myboot_account_menu
