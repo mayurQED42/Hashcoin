@@ -1,0 +1,38 @@
+uuid: ddc52493-cdbb-4c23-9d36-5b006c28292e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_bannerimg2
+    - paragraphs.paragraphs_type.bannerfoot
+  module:
+    - image
+id: paragraph.bannerfoot.field_bannerimg2
+field_name: field_bannerimg2
+entity_type: paragraph
+bundle: bannerfoot
+label: bannerimg2
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_extensions: 'png gif jpg jpeg'
+  alt_field: true
+  alt_field_required: true
+  title_field: false
+  title_field_required: false
+  max_resolution: ''
+  min_resolution: ''
+  default_image:
+    uuid: null
+    alt: ''
+    title: ''
+    width: null
+    height: null
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  max_filesize: ''
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: image

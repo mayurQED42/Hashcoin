@@ -1,0 +1,33 @@
+uuid: f8003c3e-ccfd-43e2-a7bc-51c0ad9f67c7
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.social1
+    - field.field.block_content.social1.body
+    - field.field.block_content.social1.field_socialiconshead
+  module:
+    - social_media_links_field
+    - text
+id: block_content.social1.default
+targetEntityType: block_content
+bundle: social1
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_socialiconshead:
+    weight: 1
+    label: above
+    settings:
+      appearance: {  }
+      link_attributes: {  }
+    third_party_settings: {  }
+    type: social_media_links_field_default
+    region: content
+hidden: {  }

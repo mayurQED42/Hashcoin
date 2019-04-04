@@ -1,0 +1,20 @@
+uuid: b09220ae-31d0-4162-a34f-20f6f473eabf
+langcode: en
+status: true
+dependencies:
+  module:
+    - we_megamenu
+  theme:
+    - bartik
+id: mainnavigation
+theme: bartik
+region: primary_menu
+weight: 0
+provider: null
+plugin: 'we_megamenu_block:main'
+settings:
+  id: 'we_megamenu_block:main'
+  label: 'Main navigation'
+  provider: we_megamenu
+  label_display: '0'
+visibility: {  }

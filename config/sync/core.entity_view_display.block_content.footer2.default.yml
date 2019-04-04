@@ -1,0 +1,80 @@
+uuid: 82953934-048b-4f58-a45a-b6375c32cf60
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.footer2
+    - field.field.block_content.footer2.body
+    - field.field.block_content.footer2.field_address2
+    - field.field.block_content.footer2.field_image2
+    - field.field.block_content.footer2.field_mail2
+    - field.field.block_content.footer2.field_phno2
+    - field.field.block_content.footer2.field_socialmed2
+    - field.field.block_content.footer2.field_title2
+  module:
+    - image
+    - social_media_links_field
+    - text
+id: block_content.footer2.default
+targetEntityType: block_content
+bundle: footer2
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 2
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_address2:
+    weight: 3
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_image2:
+    weight: 0
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_mail2:
+    weight: 5
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  field_phno2:
+    weight: 4
+    label: hidden
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+    region: content
+  field_socialmed2:
+    weight: 6
+    label: hidden
+    settings:
+      appearance: {  }
+      link_attributes: {  }
+    third_party_settings: {  }
+    type: social_media_links_field_default
+    region: content
+  field_title2:
+    weight: 1
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+hidden: {  }
