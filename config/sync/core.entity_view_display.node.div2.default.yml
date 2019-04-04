@@ -1,0 +1,35 @@
+uuid: 5c587abf-94ae-43bc-8c1e-f4810248115a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.div2.body
+    - field.field.node.div2.field_imaged3
+    - node.type.div2
+  module:
+    - image
+    - text
+    - user
+id: node.div2.default
+targetEntityType: node
+bundle: div2
+mode: default
+content:
+  body:
+    label: above
+    type: text_default
+    weight: 2
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_imaged3:
+    weight: 0
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+hidden:
+  links: true

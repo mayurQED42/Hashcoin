@@ -1,0 +1,14 @@
+uuid: bed5f933-894d-463f-a93a-1479afdc7de4
+langcode: en
+status: true
+dependencies: {  }
+name: featureimage
+label: featureimage
+effects:
+  4127388b-9fdb-425a-a45e-dd88103c348f:
+    uuid: 4127388b-9fdb-425a-a45e-dd88103c348f
+    id: image_resize
+    weight: 1
+    data:
+      width: 40
+      height: 40

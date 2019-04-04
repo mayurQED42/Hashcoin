@@ -1,0 +1,19 @@
+uuid: c17181db-6c39-410a-883e-b4ca057d49cb
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.free_quote
+    - field.storage.contact_message.field_e
+id: contact_message.free_quote.field_e
+field_name: field_e
+entity_type: contact_message
+bundle: free_quote
+label: 'EMAIL ADDRESS'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: email

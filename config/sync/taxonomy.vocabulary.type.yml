@@ -1,0 +1,9 @@
+uuid: 2a38a862-e468-4b8f-a1e1-18684b1bdcd5
+langcode: en
+status: true
+dependencies: {  }
+name: type
+vid: type
+description: 'type : NEWS & EVENT'
+hierarchy: 0
+weight: 0

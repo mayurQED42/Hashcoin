@@ -1,0 +1,22 @@
+uuid: af6eacbd-1804-45ae-81fa-72bba1019e34
+langcode: en
+status: true
+dependencies:
+  module:
+    - mhash
+  theme:
+    - bartik
+id: bitcoin
+theme: bartik
+region: featured_top
+weight: -9
+provider: null
+plugin: bitcoin_block
+settings:
+  id: bitcoin_block
+  label: BITCOIN
+  provider: mhash
+  label_display: visible
+  bimage:
+    - '15'
+visibility: {  }

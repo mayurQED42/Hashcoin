@@ -1,0 +1,20 @@
+uuid: c094545e-3bc2-4222-9d3c-3a9bec20a52d
+langcode: en
+status: true
+dependencies:
+_core:
+  default_config_hash: X9I1OB0W3WlWtrK-CNcg6hNWwa8wficanpH8pYnDZDE
+id: hashcoin_local_tasks
+theme: hashcoin
+region: content
+weight: -40
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

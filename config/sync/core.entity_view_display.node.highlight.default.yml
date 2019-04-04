@@ -1,0 +1,28 @@
+uuid: aa4d7a91-1274-4a3f-b2ef-1fda836114f8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.highlight.body
+    - field.field.node.highlight.field_imageh3
+    - node.type.highlight
+  module:
+    - image
+    - user
+id: node.highlight.default
+targetEntityType: node
+bundle: highlight
+mode: default
+content:
+  field_imageh3:
+    weight: 0
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+hidden:
+  body: true
+  links: true

@@ -1,0 +1,21 @@
+uuid: cff0a49e-351b-4b29-864e-052d7566e7d4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_name3
+    - node.type.div3
+  module:
+    - text
+id: node.div3.field_name3
+field_name: field_name3
+entity_type: node
+bundle: div3
+label: Name
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text
