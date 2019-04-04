@@ -1,0 +1,19 @@
+uuid: 73b2125c-0170-4ae3-9100-e81d8cf64855
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.free_quote
+    - field.storage.contact_message.field_y
+id: contact_message.free_quote.field_y
+field_name: field_y
+entity_type: contact_message
+bundle: free_quote
+label: 'YOUR QUESTION'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

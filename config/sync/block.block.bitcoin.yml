@@ -1,4 +1,4 @@
-uuid: 43a17e05-abb4-4e8a-86f2-27574a57292a
+uuid: af6eacbd-1804-45ae-81fa-72bba1019e34
 langcode: en
 status: true
 dependencies:
@@ -9,7 +9,7 @@ dependencies:
 id: bitcoin
 theme: bartik
 region: featured_top
-weight: 0
+weight: -9
 provider: null
 plugin: bitcoin_block
 settings:
@@ -18,5 +18,5 @@ settings:
   provider: mhash
   label_display: visible
   bimage:
-    - '1'
+    - '15'
 visibility: {  }

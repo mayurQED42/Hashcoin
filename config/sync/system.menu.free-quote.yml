@@ -1,0 +1,8 @@
+uuid: 39b4e15e-5776-431b-adca-a73fceb3a44c
+langcode: en
+status: true
+dependencies: {  }
+id: free-quote
+label: 'Free Quote'
+description: 'free quote'
+locked: false

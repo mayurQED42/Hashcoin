@@ -1,0 +1,23 @@
+uuid: dbdbd616-a750-46cf-8888-43dd01e37a41
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.newsletter
+  module:
+    - contact_block
+  theme:
+    - bartik
+id: contactblock_2
+theme: bartik
+region: footer_third
+weight: 0
+provider: null
+plugin: contact_block
+settings:
+  id: contact_block
+  label: Newsletter
+  provider: contact_block
+  label_display: visible
+  contact_form: newsletter
+visibility: {  }
