@@ -1,0 +1,7 @@
+mhash.bitcoin_form:
+  path: '/bitcoin-form' 
+  defaults:
+    _form:  '\Drupal\mhash\Form\BitcoinForm'
+    _title: 'Bitcoin Form'
+  requirements:
+    _permission: 'access content'

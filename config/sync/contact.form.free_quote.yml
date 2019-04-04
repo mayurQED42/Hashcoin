@@ -1,0 +1,12 @@
+uuid: 86f9b876-f850-467b-82c8-93a53b26fac0
+langcode: en
+status: true
+dependencies: {  }
+id: free_quote
+label: 'Free Quote'
+recipients:
+  - mayur.gajar@qed42.com
+reply: ''
+weight: 0
+message: ''
+redirect: ''
