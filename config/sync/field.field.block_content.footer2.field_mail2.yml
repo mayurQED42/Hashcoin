@@ -1,0 +1,19 @@
+uuid: 4d57d339-845d-47bf-be7f-5f9b98ca7264
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.footer2
+    - field.storage.block_content.field_mail2
+id: block_content.footer2.field_mail2
+field_name: field_mail2
+entity_type: block_content
+bundle: footer2
+label: mail
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: email

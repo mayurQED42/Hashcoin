@@ -1,0 +1,25 @@
+uuid: 88469ac4-b220-4cce-8b09-2d571a05acb2
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:bannerfoot:464dd880-a309-41d2-821c-f377efca28bd'
+  module:
+    - block_content
+  theme:
+    - bartik
+id: bannerimgs
+theme: bartik
+region: featured_bottom_first
+weight: 0
+provider: null
+plugin: 'block_content:464dd880-a309-41d2-821c-f377efca28bd'
+settings:
+  id: 'block_content:464dd880-a309-41d2-821c-f377efca28bd'
+  label: bannerimgs
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

@@ -1,0 +1,25 @@
+uuid: 8a71bfdc-6699-4fda-93a1-05d22bceabce
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:social1:6bdb144b-21d4-4c61-923e-713119651748'
+  module:
+    - block_content
+  theme:
+    - bartik
+id: socialicons1
+theme: bartik
+region: header
+weight: -7
+provider: null
+plugin: 'block_content:6bdb144b-21d4-4c61-923e-713119651748'
+settings:
+  id: 'block_content:6bdb144b-21d4-4c61-923e-713119651748'
+  label: socialicons1
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

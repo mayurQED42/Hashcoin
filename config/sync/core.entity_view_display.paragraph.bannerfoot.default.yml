@@ -1,0 +1,24 @@
+uuid: 6aa4a1a8-c07b-48d2-bc11-647cab9fb50d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.bannerfoot.field_bannerimg2
+    - paragraphs.paragraphs_type.bannerfoot
+  module:
+    - image
+id: paragraph.bannerfoot.default
+targetEntityType: paragraph
+bundle: bannerfoot
+mode: default
+content:
+  field_bannerimg2:
+    weight: 0
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+hidden: {  }
