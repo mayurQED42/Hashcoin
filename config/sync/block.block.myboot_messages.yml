@@ -1,6 +1,6 @@
 uuid: 0c8eb340-bc74-4283-93f2-a5fc88dde2aa
 langcode: en
-status: true
+status: false
 dependencies:
   module:
     - system
@@ -8,7 +8,7 @@ _core:
   default_config_hash: 9RnnTUBcn0WRWXfrGOnId2H0Q31uQUeu_F5TnDxl2yg
 id: myboot_messages
 theme: myboot
-region: header
+region: ''
 weight: -50
 provider: null
 plugin: system_messages_block

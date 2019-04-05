@@ -1,6 +1,6 @@
 uuid: 68a5ea9c-a990-45e1-9781-f0efde9e4cc3
 langcode: en
-status: true
+status: false
 dependencies:
   config:
     - system.menu.footer
@@ -10,7 +10,7 @@ _core:
   default_config_hash: kkISXE1LT2FJEoYnqCrCpeFB-2pmGmMxMklVk7rQcfg
 id: hashcoin_footer
 theme: hashcoin
-region: footer
+region: ''
 weight: 0
 provider: null
 plugin: 'system_menu_block:footer'

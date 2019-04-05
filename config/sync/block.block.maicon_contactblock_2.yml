@@ -1,0 +1,23 @@
+uuid: ce37f120-c93a-49ba-a576-8241a515f972
+langcode: en
+status: false
+dependencies:
+  config:
+    - contact.form.newsletter
+  module:
+    - contact_block
+  theme:
+    - maicon
+id: maicon_contactblock_2
+theme: maicon
+region: header
+weight: 0
+provider: null
+plugin: contact_block
+settings:
+  id: contact_block
+  label: Newsletter
+  provider: contact_block
+  label_display: visible
+  contact_form: newsletter
+visibility: {  }

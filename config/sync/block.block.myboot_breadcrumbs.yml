@@ -1,6 +1,6 @@
 uuid: 73fc14b0-6047-4227-86fa-05412cd6f003
 langcode: en
-status: true
+status: false
 dependencies:
   module:
     - system
@@ -8,7 +8,7 @@ _core:
   default_config_hash: wDR9JKEATSWldBjw8du8s3G2zjEYeQf88nlld11hMLo
 id: myboot_breadcrumbs
 theme: myboot
-region: header
+region: ''
 weight: -100
 provider: null
 plugin: system_breadcrumb_block

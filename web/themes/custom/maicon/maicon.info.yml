@@ -1,0 +1,18 @@
+name: 'Maicon'
+description: 'This is the theme for Hashcoin'
+core: 8.x
+type: theme
+base theme: mayo
+
+regions:
+  
+   header: 'Header'
+   menubar: 'Menu bar'
+   highlight: 'Highlights'
+   content: 'Content'
+   banner: 'Banner Bottom'
+   footerpri: 'Footer Primary'
+   footersec: 'Footer Secondary'
+
+libraries:
+  - maicon/global-styling

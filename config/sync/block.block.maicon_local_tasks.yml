@@ -1,0 +1,22 @@
+uuid: 5061385b-6752-4777-9c17-b938a7ad0bb6
+langcode: en
+status: true
+dependencies:
+  theme:
+    - maicon
+_core:
+  default_config_hash: X9I1OB0W3WlWtrK-CNcg6hNWwa8wficanpH8pYnDZDE
+id: maicon_local_tasks
+theme: maicon
+region: content
+weight: -11
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }
