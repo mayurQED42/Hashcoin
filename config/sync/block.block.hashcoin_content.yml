@@ -1,6 +1,6 @@
 uuid: b07b578e-b001-4eb2-a0eb-317fecff3dbb
 langcode: en
-status: true
+status: false
 dependencies:
   module:
     - system
@@ -8,7 +8,7 @@ _core:
   default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
 id: hashcoin_content
 theme: hashcoin
-region: content
+region: ''
 weight: 0
 provider: null
 plugin: system_main_block

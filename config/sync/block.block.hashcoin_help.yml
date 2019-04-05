@@ -1,6 +1,6 @@
 uuid: 50ef22c9-9b8f-432c-b0cc-93089af346d3
 langcode: en
-status: true
+status: false
 dependencies:
   module:
     - help
@@ -8,7 +8,7 @@ _core:
   default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
 id: hashcoin_help
 theme: hashcoin
-region: content
+region: ''
 weight: -30
 provider: null
 plugin: help_block

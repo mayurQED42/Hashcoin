@@ -1,0 +1,20 @@
+uuid: f0adeaa7-fa9f-4e0d-ad17-aac1f4d8c264
+langcode: en
+status: true
+dependencies:
+  theme:
+    - maicon
+_core:
+  default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
+id: maicon_local_actions
+theme: maicon
+region: content
+weight: -9
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

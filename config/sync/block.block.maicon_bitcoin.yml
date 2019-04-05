@@ -1,0 +1,22 @@
+uuid: f94c857d-9e2a-4dbe-a2bf-db1c6ec72da8
+langcode: en
+status: false
+dependencies:
+  module:
+    - mhash
+  theme:
+    - maicon
+id: maicon_bitcoin
+theme: maicon
+region: header
+weight: -15
+provider: null
+plugin: bitcoin_block
+settings:
+  id: bitcoin_block
+  label: BITCOIN
+  provider: mhash
+  label_display: visible
+  bimage:
+    - '15'
+visibility: {  }

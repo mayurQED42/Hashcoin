@@ -1,12 +1,12 @@
 uuid: e5252430-9448-40af-ab27-be92279c9058
 langcode: en
-status: true
-dependencies:
+status: false
+dependencies: null
 _core:
   default_config_hash: 7rR9chwXvdM2H8OYMAYx9Zj3GGlPMrZp_M3ZA4thYTk
 id: hashcoin_page_title
 theme: hashcoin
-region: content
+region: ''
 weight: -50
 provider: null
 plugin: page_title_block
