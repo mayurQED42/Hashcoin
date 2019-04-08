@@ -11,7 +11,7 @@ dependencies:
 id: contactblock_2
 theme: bartik
 region: footer_third
-weight: 0
+weight: -14
 provider: null
 plugin: contact_block
 settings:

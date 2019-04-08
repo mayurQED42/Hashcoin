@@ -1,17 +1,13 @@
 uuid: ad6f8c56-c486-44de-ae49-a2f3e23d4994
 langcode: en
-status: true
+status: false
 dependencies:
-  content:
-    - 'block_content:div1:2f0f6f6f-d634-4ea4-88be-23835be5a7e9'
-  module:
-    - block_content
   theme:
     - bartik
 id: what_is_bitcoin
 theme: bartik
 region: featured_top
-weight: -7
+weight: -9
 provider: null
 plugin: 'block_content:2f0f6f6f-d634-4ea4-88be-23835be5a7e9'
 settings:
