@@ -1,12 +1,12 @@
 uuid: 0234d4a0-9231-4531-a5e8-34439b868440
 langcode: en
-status: true
-dependencies:
+status: false
+dependencies: null
 _core:
   default_config_hash: ffxthelqQF8xcr4GTG4HlaNNsluiHftN0pujmQpW0bQ
 id: myboot_local_actions
 theme: myboot
-region: header
+region: ''
 weight: 20
 provider: null
 plugin: local_actions_block

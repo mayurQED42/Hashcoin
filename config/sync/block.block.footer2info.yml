@@ -10,8 +10,8 @@ dependencies:
     - bartik
 id: footer2info
 theme: bartik
-region: footer_third
-weight: 0
+region: footer_second
+weight: -14
 provider: null
 plugin: 'block_content:b619155d-d189-40ab-8130-7a3bd5c39bb5'
 settings:

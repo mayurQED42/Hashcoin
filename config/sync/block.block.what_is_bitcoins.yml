@@ -1,0 +1,25 @@
+uuid: 691cc10f-cfb2-4e41-991a-b6fcc142dfec
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:div1:4bb26c8a-375d-4a5a-bd72-d2f90ed98605'
+  module:
+    - block_content
+  theme:
+    - bartik
+id: what_is_bitcoins
+theme: bartik
+region: featured_top
+weight: -14
+provider: null
+plugin: 'block_content:4bb26c8a-375d-4a5a-bd72-d2f90ed98605'
+settings:
+  id: 'block_content:4bb26c8a-375d-4a5a-bd72-d2f90ed98605'
+  label: 'WHAT IS BITCOIN'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

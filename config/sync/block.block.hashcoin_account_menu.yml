@@ -1,6 +1,6 @@
 uuid: 580a3ce5-2b48-4fe3-aa91-952329a10cd4
 langcode: en
-status: true
+status: false
 dependencies:
   config:
     - system.menu.account
@@ -10,7 +10,7 @@ _core:
   default_config_hash: DweBpscQZdG0-fHkSpUzdYucrNH45G_KF7Z82V-oyQM
 id: hashcoin_account_menu
 theme: hashcoin
-region: footer
+region: ''
 weight: 0
 provider: null
 plugin: 'system_menu_block:account'

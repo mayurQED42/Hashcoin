@@ -1,6 +1,6 @@
 uuid: 1d21bb65-f508-4c29-a42c-36568a393ca4
 langcode: en
-status: true
+status: false
 dependencies:
   config:
     - system.menu.footer
@@ -10,7 +10,7 @@ _core:
   default_config_hash: h06zhb3xV9_2_3Zy9NsyylL7YBaEDlMwMEqNwAn8kMo
 id: myboot_footer
 theme: myboot
-region: header
+region: ''
 weight: 0
 provider: null
 plugin: 'system_menu_block:footer'

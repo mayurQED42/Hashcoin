@@ -1,6 +1,6 @@
 uuid: 1db549e6-6bb0-424e-9cfa-6279cc5c613d
 langcode: en
-status: true
+status: false
 dependencies:
   config:
     - system.menu.tools
@@ -10,7 +10,7 @@ _core:
   default_config_hash: f3Dd5TnUiFDjFZp9yEGJInwt6cUzs7O6SvLTFTATSlU
 id: myboot_tools
 theme: myboot
-region: header
+region: ''
 weight: 0
 provider: null
 plugin: 'system_menu_block:tools'

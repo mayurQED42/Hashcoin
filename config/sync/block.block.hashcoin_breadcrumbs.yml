@@ -1,6 +1,6 @@
 uuid: 17b94ae3-e19e-4e3a-9426-8b2d412f09e0
 langcode: en
-status: true
+status: false
 dependencies:
   module:
     - system
@@ -8,7 +8,7 @@ _core:
   default_config_hash: oXUb3JZR2WW5VOdw4HrhRicCsq51mCgLfRyvheG68ck
 id: hashcoin_breadcrumbs
 theme: hashcoin
-region: header
+region: ''
 weight: 0
 provider: null
 plugin: system_breadcrumb_block
