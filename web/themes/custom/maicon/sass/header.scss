@@ -1,0 +1,198 @@
+.header{
+  border-bottom: 1px solid #808080;
+}
+.header-wrapper {
+  display:flex;
+  justify-content: space-around;
+  margin:0 auto;
+  max-width:1284px;
+  width:100%;
+  height:160px;
+}
+#block-maicon-branding:hover {
+  opacity:0.7; 
+
+  &::before {
+    margin-left: 107px;
+  }
+}
+#site_logo{
+  max-width: 100%;
+  height: auto;
+  margin-left: 107px;
+}
+div#block-maicon-searchform {
+  width: 33.33%;
+}
+.social-media-links--platforms {
+  width:33.33%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 69px;
+  margin-left: 60px;
+
+  .fa-twitter:before {
+    content: "\f099";
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    color: #00abef;
+  }
+  .fa-twitter:hover {
+    background-color:  #00abef;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+
+    &::before {
+      color: white;
+    }
+  }
+  .fa-google-plus:before {
+    content: "\f0d5";
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    color: #d93e2d;
+  }
+  .fa-google-plus:hover {
+    background-color:  #d93e2d;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+
+    &::before {
+      color: white;
+    }
+  }
+  .fa-youtube:before {
+    content: "\f167";
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    color: #d93e2d;
+  }
+  .fa-youtube:hover{
+    background-color:  #d93e2d;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+
+    &::before {
+      color: white;
+    }
+  }
+  .fa-linkedin:before {
+    content: "\f0e1";
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    color: #3371b7;
+  }
+  .fa-linkedin:hover{
+    background-color:  #3371b7;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+
+    &::before {
+      color: white;
+    }
+  }
+
+  .fa-facebook:before {
+    content: "\f09a";
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    color: #3371b7;
+  }
+  .fa-facebook:hover{
+    background-color:  #3371b7;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+
+    &::before {
+      color: white;
+    }
+  }
+  .fa-2x {
+    width: 40.3px;
+  }
+}
+input[type=search] {
+  border: 1px solid #ccc; 
+  border-radius: 20px; 
+  color: #3b3b3b; 
+  width: 207px;
+  margin-left: 100px;
+  margin-top: 66px;
+  padding: 7px;
+  background-position: 179px;
+}
+.social-media-links--platforms span.fa {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 11px 13px;
+  margin-bottom: 4px;
+  border-radius: 50%;
+  font-size: 0;
+  line-height: 0;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+
+  &::before {
+    font-size: 12px;
+    line-height: 16px;
+    border: 1px solid transparent;
+  }
+}
+.social-media-links--platforms.vertical {
+  li {
+    margin-right: 7px;
+  }
+} 
+.navbar-we-mega-menu .nav-tabs>li.active>a:hover {
+  cursor: pointer;
+  color: #fab915;
+} 
+.we-mega-menu-ul {
+height: 86px;
+color: #333333;
+display: flex;
+justify-content: center;
+background-color: white;
+  &::before {
+    content: none;
+    margin-left: 25px;
+    margin-right: 25px;
+    padding-top: 28px;
+    padding-bottom: 28px;
+    padding-right: 0;
+    padding-left: 0;
+    letter-spacing: 0.2em;
+    font-size: 14px;
+    font-weight: 700;
+    white-space: nowrap;
+  }
+}
+
+.we-mega-menu-ul>.we-mega-menu-li.active>a, 
+.we-mega-menu-ul>.we-mega-menu-li.active>a:hover, 
+.we-mega-menu-ul>.we-mega-menu-li.active>a:focus, 
+.we-mega-menu-ul>.we-mega-menu-li.active-trail>a, 
+.we-mega-menu-ul>.we-mega-menu-li.active-trail>a:hover, 
+.we-mega-menu-ul>.we-mega-menu-li.active-trail>a:focus {
+  background-color: white;
+  border: 0 none;
+  font-size: 14px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.we-mega-menu-ul .dropdown-menu>a:before,
+.we-mega-menu-ul .dropdown-menu>a:after, 
+.we-mega-menu-ul .dropdown-menu>span:before, 
+.we-mega-menu-ul .dropdown-menu>span:after {
+  content: none;
+}
+.we-mega-menu-submenu li.we-mega-menu-li a:hover, 
+.we-mega-menu-submenu li.we-mega-menu-li a:focus {
+  color: #fab915;
+}
+.we-mega-menu-submenu li.we-mega-menu-li a {
+  border-bottom: 1px solid rgba(0,0,0,0);
+}
+.we-mega-menu-ul>.we-mega-menu-li{
+  border-left:none;
+}

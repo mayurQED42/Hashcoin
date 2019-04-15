@@ -2,6 +2,7 @@ global-styling:
   version: VERSION
   css:
     theme:
+<<<<<<< HEAD
       css/fontawesome1/css/all.css: {}
       css/regions.css: {}
       css/myblock.css: {}
@@ -15,3 +16,8 @@ global-styling:
       css/highlight.css: {}
       css/testimonials.css: {}
 
+=======
+      css/regions.css: {}
+      css/header.css: {}
+      css/footer.css: {}
+>>>>>>> Completed Header Part. Adding the same
