@@ -13,7 +13,11 @@ _core:
 id: maicon_footer
 theme: maicon
 region: header
+<<<<<<< HEAD
 weight: -9
+=======
+weight: -4
+>>>>>>> Completed my Block - What is Bitcoin
 provider: null
 plugin: 'system_menu_block:footer'
 settings:

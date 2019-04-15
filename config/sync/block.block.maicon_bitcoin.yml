@@ -9,7 +9,7 @@ dependencies:
 id: maicon_bitcoin
 theme: maicon
 region: header
-weight: -15
+weight: -14
 provider: null
 plugin: bitcoin_block
 settings:

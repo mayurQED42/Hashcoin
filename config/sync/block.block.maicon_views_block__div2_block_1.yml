@@ -11,14 +11,18 @@ dependencies:
 id: maicon_views_block__div2_block_1
 theme: maicon
 region: content
+<<<<<<< HEAD
 weight: -5
+=======
+weight: -13
+>>>>>>> Completed my Block - What is Bitcoin
 provider: null
 plugin: 'views_block:div2-block_1'
 settings:
   id: 'views_block:div2-block_1'
   label: ''
   provider: views
-  label_display: '0'
+  label_display: visible
   views_label: ''
   items_per_page: none
 visibility: {  }

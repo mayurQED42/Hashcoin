@@ -6,8 +6,13 @@ dependencies:
     - maicon
 id: maicon_footer2info
 theme: maicon
+<<<<<<< HEAD
 region: footerpri
 weight: -13
+=======
+region: header
+weight: 5
+>>>>>>> Completed my Block - What is Bitcoin
 provider: null
 plugin: 'block_content:b619155d-d189-40ab-8130-7a3bd5c39bb5'
 settings:

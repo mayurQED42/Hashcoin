@@ -10,7 +10,11 @@ dependencies:
     - maicon
 id: maicon_views_block__highlight_block_1
 theme: maicon
+<<<<<<< HEAD
 region: highlight
+=======
+region: header
+>>>>>>> Completed my Block - What is Bitcoin
 weight: -15
 provider: null
 plugin: 'views_block:highlight-block_1'

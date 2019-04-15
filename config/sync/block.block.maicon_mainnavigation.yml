@@ -8,8 +8,13 @@ dependencies:
     - maicon
 id: maicon_mainnavigation
 theme: maicon
+<<<<<<< HEAD
 region: menubar
 weight: -14
+=======
+region: header
+weight: -2
+>>>>>>> Completed my Block - What is Bitcoin
 provider: null
 plugin: 'we_megamenu_block:main'
 settings:

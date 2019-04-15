@@ -11,7 +11,11 @@ _core:
 id: maicon_search
 theme: maicon
 region: header
+<<<<<<< HEAD
 weight: -11
+=======
+weight: -6
+>>>>>>> Completed my Block - What is Bitcoin
 provider: null
 plugin: search_form_block
 settings:

@@ -11,7 +11,11 @@ _core:
 id: maicon_breadcrumbs
 theme: maicon
 region: header
+<<<<<<< HEAD
 weight: -10
+=======
+weight: -5
+>>>>>>> Completed my Block - What is Bitcoin
 provider: null
 plugin: system_breadcrumb_block
 settings:
