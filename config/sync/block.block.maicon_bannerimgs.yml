@@ -6,8 +6,8 @@ dependencies:
     - maicon
 id: maicon_bannerimgs
 theme: maicon
-region: header
-weight: 5
+region: banner
+weight: -14
 provider: null
 plugin: 'block_content:464dd880-a309-41d2-821c-f377efca28bd'
 settings:

@@ -17,6 +17,8 @@ module:
   contextual: 0
   datetime: 0
   dblog: 0
+  devel: 0
+  devel_generate: 0
   dynamic_page_cache: 0
   editor: 0
   entity_reference_revisions: 0
@@ -27,6 +29,7 @@ module:
   help: 0
   history: 0
   image: 0
+  kint: 0
   link: 0
   menu_ui: 0
   mhash: 0
@@ -40,9 +43,9 @@ module:
   rdf: 0
   search: 0
   shortcut: 0
+  slick: 0
   social_media_links: 0
   social_media_links_field: 0
-  slick: 0
   starrating: 0
   system: 0
   taxonomy: 0
@@ -64,8 +67,6 @@ theme:
   seven: 0
   bootstrap: 0
   mayo: 0
-  hashcoin: 0
-  myboot: 0
   maicon: 0
 profile: standard
 _core:

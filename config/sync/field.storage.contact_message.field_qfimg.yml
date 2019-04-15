@@ -1,0 +1,30 @@
+uuid: b5d549b5-3c9d-48ab-84d5-ecb835263bbe
+langcode: en
+status: true
+dependencies:
+  module:
+    - contact
+    - file
+    - image
+id: contact_message.field_qfimg
+field_name: field_qfimg
+entity_type: contact_message
+type: image
+settings:
+  uri_scheme: public
+  default_image:
+    uuid: 635e81fd-032d-43a4-844f-f7a960f340e4
+    alt: ''
+    title: ''
+    width: 1920
+    height: 875
+  target_type: file
+  display_field: false
+  display_default: false
+module: image
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

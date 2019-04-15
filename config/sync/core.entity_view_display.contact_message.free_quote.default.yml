@@ -6,49 +6,69 @@ dependencies:
     - contact.form.free_quote
     - field.field.contact_message.free_quote.field_e
     - field.field.contact_message.free_quote.field_fu
+    - field.field.contact_message.free_quote.field_qfimg
+    - field.field.contact_message.free_quote.field_title
     - field.field.contact_message.free_quote.field_y
     - field.field.contact_message.free_quote.field_your_subject
+  module:
+    - image
 id: contact_message.free_quote.default
 targetEntityType: contact_message
 bundle: free_quote
 mode: default
 content:
   field_e:
-    weight: 2
-    label: above
+    weight: 3
+    label: hidden
     settings: {  }
     third_party_settings: {  }
     type: basic_string
     region: content
   field_fu:
-    weight: 1
-    label: above
+    weight: 2
+    label: hidden
     settings:
-      link_to_entity: false
+      link_to_entity: true
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_qfimg:
+    weight: 6
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_title:
+    weight: 0
+    label: hidden
+    settings:
+      link_to_entity: true
     third_party_settings: {  }
     type: string
     region: content
   field_y:
-    weight: 4
-    label: above
+    weight: 5
+    label: hidden
     settings: {  }
     third_party_settings: {  }
     type: basic_string
     region: content
   field_your_subject:
-    weight: 3
-    label: above
+    weight: 4
+    label: hidden
     settings:
-      link_to_entity: false
+      link_to_entity: true
     third_party_settings: {  }
     type: string
     region: content
   message:
-    type: string
-    weight: 0
-    label: above
+    type: basic_string
+    weight: 1
+    label: hidden
     region: content
-    settings:
-      link_to_entity: false
+    settings: {  }
     third_party_settings: {  }
 hidden: {  }

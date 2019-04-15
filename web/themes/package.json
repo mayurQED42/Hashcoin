@@ -3,11 +3,10 @@
   "version": "1.0.0",
   "description": "Gulp for Subtheme - Maicon",
   "main": "index.js",
-  "dependencies": {
-    "gulp": "^4.0.0"
-  },
+  "dependencies": {},
   "devDependencies": {
     "browser-sync": "^2.26.3",
+    "gulp": "^4.0.0",
     "gulp-imagemin": "^5.0.3",
     "gulp-sass": "^4.0.2"
   },

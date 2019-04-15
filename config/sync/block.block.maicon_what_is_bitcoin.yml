@@ -10,8 +10,8 @@ dependencies:
     - maicon
 id: maicon_what_is_bitcoin
 theme: maicon
-region: header
-weight: -10
+region: content
+weight: -5
 provider: null
 plugin: 'block_content:2f0f6f6f-d634-4ea4-88be-23835be5a7e9'
 settings:

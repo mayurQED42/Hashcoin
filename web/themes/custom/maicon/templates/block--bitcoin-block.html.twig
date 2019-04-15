@@ -1,0 +1,30 @@
+{% extends "block.html.twig" %}
+{# bitcoin block #}
+{% block content %}
+{% if content.title['#title'] == "Currency Calculator" %}
+<div class="bitcoinwrapper" style="background-image: url('{{ file_url(content['#image']) }}');">
+    <div class="bitcoin-column">
+        <div class="heading">BITCOIN</div>
+        <h2> {{ content.title }} </h2>
+        <div class="bitcoin-desc">{{ content.description }}</div>
+        <div class="bitcoin-func">
+            <div class="form-text">
+                {{ content.EM1 }}
+                {{ content.EM2 }}
+            </div>
+            <div class="form-select">
+                <div class="sl1">
+                    {{ content.type_options1 }}
+                </div>
+                <div class="sl2">
+                    {{ content.type_options2 }}
+                </div>
+            </div>    
+        </div>
+        <div class="bitcoinbutton">
+            {{ content.my_button }}    
+        </div>
+    </div>   
+</div>
+{% endif %}
+{% endblock %}

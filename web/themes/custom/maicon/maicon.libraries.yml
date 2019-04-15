@@ -3,3 +3,5 @@ global-styling:
   css:
     theme:
       css/regions.css: {}
+      css/myblock.css: {}
+

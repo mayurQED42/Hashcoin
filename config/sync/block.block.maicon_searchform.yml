@@ -9,7 +9,7 @@ dependencies:
 id: maicon_searchform
 theme: maicon
 region: header
-weight: -7
+weight: -14
 provider: null
 plugin: search_form_block
 settings:

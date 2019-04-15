@@ -10,8 +10,8 @@ dependencies:
     - maicon
 id: maicon_contactblock_2
 theme: maicon
-region: header
-weight: 0
+region: footerpri
+weight: -12
 provider: null
 plugin: contact_block
 settings:

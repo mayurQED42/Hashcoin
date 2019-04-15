@@ -9,7 +9,7 @@ dependencies:
 id: maicon_socialmedialinks
 theme: maicon
 region: header
-weight: -6
+weight: -12
 provider: null
 plugin: social_media_links_block
 settings:

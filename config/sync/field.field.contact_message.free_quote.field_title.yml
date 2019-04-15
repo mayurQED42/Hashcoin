@@ -1,0 +1,21 @@
+uuid: 8c1f9053-f666-4819-9348-6534de90843d
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.free_quote
+    - field.storage.contact_message.field_title
+id: contact_message.free_quote.field_title
+field_name: field_title
+entity_type: contact_message
+bundle: free_quote
+label: title
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 'Free Quote '
+default_value_callback: ''
+settings: {  }
+field_type: string

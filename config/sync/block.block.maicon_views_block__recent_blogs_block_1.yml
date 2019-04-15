@@ -10,8 +10,8 @@ dependencies:
     - maicon
 id: maicon_views_block__recent_blogs_block_1
 theme: maicon
-region: header
-weight: 1
+region: footerpri
+weight: -14
 provider: null
 plugin: 'views_block:recent_blogs-block_1'
 settings:

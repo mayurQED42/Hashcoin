@@ -8,8 +8,8 @@ dependencies:
     - maicon
 id: maicon_mainnavigation
 theme: maicon
-region: header
-weight: -1
+region: menubar
+weight: -14
 provider: null
 plugin: 'we_megamenu_block:main'
 settings:

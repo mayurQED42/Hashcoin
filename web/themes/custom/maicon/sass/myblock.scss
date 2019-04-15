@@ -1,0 +1,494 @@
+/* for desktop */
+@media (min-width: 1025px){
+    /* for bitcoin block */
+    .bitcoinwrapper{
+        color:black;
+        padding-left: 8%;
+        padding-right: 8%;
+        padding-top: 8%;
+        padding-bottom: 8%;
+        background-size: cover;
+    }
+    .bitcoinwrapper .bitcoin-column .heading{
+        color: #bf3654;
+        font-family: 'Raleway', sans-serif;
+        font-size: 14px;
+    }
+    .bitcoinwrapper .bitcoin-column h2 {
+        font-family: 'Raleway', sans-serif;
+        line-height: 1.4;
+        font-size: 48px;
+        color: #333333;
+    }
+    .bitcoinwrapper .bitcoin-column{
+        width:40%;
+    }
+    .bitcoinwrapper .bitcoin-column .bitcoin-desc{
+        width:100%;
+        color:#ffffff;
+        font-family: Arial;
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+    .bitcoin-func{
+        margin-bottom: 70px;
+        margin-top: 30px;
+        width:100%;
+        display:flex;
+    }
+    .bitcoinwrapper .bitcoin-column .bitcoin-func .form-text{
+        border-radius:20px;
+        width: 100%;
+        height: 40px;
+        padding: 5px,20px,5px,30px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    .bitcoinwrapper .bitcoin-column .bitcoin-func .form-select .sl1{
+        border-radius:20px;
+        margin-bottom: 10px; 
+    }
+    .bitcoinwrapper .bitcoin-column .bitcoin-func .form-select .sl2{
+        border-radius:20px;
+        margin-bottom: 8px;
+    }
+    .bitcoinwrapper .form-select{
+        width: 100%;
+        height:40px;
+        padding: 2px 40px 5px 30px;
+        text-align: center;
+        -webkit-appearance: none;
+        -webkit-border-radius: 20px; 
+        -moz-border-radius: 6px;
+    }
+    .bitcoinwrapper select.form-select{
+        background-color: white;
+    } 
+    .bitcoinwrapper .form-submit{
+        width:200px;
+        height:60px;
+        border-radius:30px;
+        font-family: 'Raleway', sans-serif;
+        font-size: 14px;
+        color:white;
+        background-color: #bf3654;
+        background: #bf3654;
+        border-color: #bf3654; 
+    }
+    .bitcoinwrapper input[type="submit"]:hover{
+        background-color: orange;
+        border-color: orange;
+    }
+
+    /* for Quote form */
+    .quotewrapper{
+        color:black;
+        padding-left: 8%;
+        padding-right: 8%;
+        padding-top: 8%;
+        padding-bottom: 8%;
+        background-size: cover;
+    }
+    .quotewrapper .heading{
+        color: #bf3654;
+        font-family: 'Raleway', sans-serif;
+        font-size: 14px;
+        text-align: center;
+    }
+    .quotewrapper h2 {
+        font-family: 'Raleway', sans-serif;
+        line-height: 1.4;
+        font-size: 48px;
+        color: #333333;
+        text-align: center;
+        margin-top: -0.5%;
+    }
+    .quotewrapper label{
+        display: none;
+    }
+    .quotewrapper .tfwrapper{
+        width:100%;
+        display:flex;
+        justify-content: space-evenly;
+    }
+    .quotewrapper .tfwrapper .tf1{
+        width: 33.3%;
+        height: 40px;
+        border-radius: 20px;
+        margin-right: 11px;
+    }
+    .quotewrapper .tfwrapper .tf2{
+        width: 33.3%;
+        height: 40px;
+        border-radius: 20px;
+        margin-right: 11px;
+        margin-left: 11px; 
+    }
+    .quotewrapper .tfwrapper .tf3{
+        width: 33.3%;
+        height: 40px;
+        border-radius: 20px;
+        margin-left: 11px; 
+    }
+    .tf1 .form-text, .tf2 .form-email, .tf3 .form-text{
+        width:100%;
+        border-radius: 20px;
+        height: 40px;
+        text-align: center;
+        border-color: #ffffff;
+    }
+   .tfquestion{
+       margin-top: 20px;
+   }
+   .tfquestion textarea.form-textarea{
+        border-radius: 20px;
+        height: 160px;
+        text-align: center;
+        border-color: #ffffff;
+   }
+   .quotewrapper .qfbutton{
+       display: flex;
+       justify-content: center;
+   }
+   .quotewrapper .form-submit{
+    background-color: #bf3654;
+    background: #bf3654;
+    border-color: #bf3654; 
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    border-radius:30px;
+    width: 200px;
+    height: 60px;
+    margin-top: 40px;
+    }
+    .quotewrapper input[type="submit"]:hover{
+        background-color: orange;
+        border-color: orange;
+    }
+   
+}
+/* for mobile */
+@media (max-width: 767px) {
+    /* for bitcoin block */
+    .bitcoinwrapper{
+        color:black;
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-top: 10%;
+        padding-bottom: 10%;
+        background-size: cover;
+    }
+    .bitcoinwrapper .bitcoin-column .heading{
+        color: #bf3654;
+        font-family: 'Raleway', sans-serif;
+        font-size: 14px;
+    }
+    .bitcoinwrapper .bitcoin-column h2 {
+        font-family: 'Raleway', sans-serif;
+        line-height: 0.85;
+        font-size: 32px;
+        color: #3f3535;
+    }
+    .bitcoinwrapper .bitcoin-column .bitcoin-desc{
+        width:100%;
+        color:#ffffff;
+        font-family: 'Raleway', sans-serif;
+        font-size: 12px;
+        margin-bottom: 20px;
+    }
+    .bitcoin-func{
+        margin-bottom: 70px;
+        margin-top: 30px;
+        width:100%;
+        display:flex;
+    }
+    .bitcoinwrapper .bitcoin-column .bitcoin-func .form-text{
+        border-radius:20px;
+        width: 100%;
+        height: 40px;
+        padding: 5px,20px,5px,30px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    .bitcoinwrapper .bitcoin-column .bitcoin-func .form-select .sl1{
+        border-radius:20px;
+        margin-bottom: 10px; 
+    }
+    .bitcoinwrapper .bitcoin-column .bitcoin-func .form-select .sl2{
+        border-radius:20px;
+        margin-bottom: 8px;
+    }
+    .bitcoinwrapper .form-select{
+        width: 100%;
+        height:40px;
+        padding: 2px 40px 5px 30px;
+        text-align: center;
+        -webkit-appearance: none;
+        -webkit-border-radius: 20px; 
+        -moz-border-radius: 6px;
+    }
+    .bitcoinwrapper select.form-select{
+        background-color: white;
+    } 
+    .bitcoinwrapper .form-submit{
+        width:33%;
+        height:50px;
+        border-radius:25px;
+        font-family: 'Raleway', sans-serif;
+        font-size: 14px;
+        color:white;
+        background-color: #bf3654;
+        background: #bf3654;
+        border-color: #bf3654; 
+    }
+    .bitcoinwrapper input[type="submit"]:hover{
+        background-color: orange;
+        border-color: orange;
+    }
+    /* for Quote form */
+    .quotewrapper{
+        color:black;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 24%;
+        padding-bottom: 24%;
+        background-size: cover;
+    }
+    .quotewrapper .heading{
+        color: #bf3654;
+        font-family: 'Raleway', sans-serif;
+        font-size: 14px;
+        text-align: center;
+    }
+    .quotewrapper h2 {
+        margin-top: -1%;
+        font-family: 'Raleway', sans-serif;
+        line-height: 1.4;
+        font-size: 32px;
+        color: #333333;
+        text-align: center;
+    }
+    .quotewrapper label{
+        display: none;
+    }
+    .quotewrapper .tfwrapper .tf1{
+        height: 40px;
+        border-radius: 20px;
+        margin-bottom: 10px;
+    }
+    .quotewrapper .tfwrapper .tf2{
+        height: 40px;
+        border-radius: 20px; 
+        margin-bottom: 10px;
+    }
+    .quotewrapper .tfwrapper .tf3{
+        height: 40px;
+        border-radius: 20px;
+        margin-bottom: 10px;
+    }
+    .tf1 .form-text, .tf2 .form-email, .tf3 .form-text{
+        width:100%;
+        border-radius: 20px;
+        height: 40px;
+        text-align: center;
+        border-color: #ffffff;
+    }
+    .tfquestion{
+        margin-top: 20px;
+    }
+    .tfquestion textarea.form-textarea{
+         border-radius: 20px;
+         height: 160px;
+         text-align: center;
+         border-color: #ffffff;
+    }
+    .quotewrapper .qfbutton{
+        display: flex;
+        justify-content: center;
+    }
+    .quotewrapper .form-submit{
+     background-color: #bf3654;
+     background: #bf3654;
+     border-color: #bf3654; 
+     color: #ffffff;
+     font-family: 'Raleway', sans-serif;
+     font-size: 14px;
+     border-radius:30px;
+     width: 200px;
+     height: 60px;
+     margin-top: 40px;
+     }
+     .quotewrapper input[type="submit"]:hover{
+         background-color: orange;
+         border-color: orange;
+     }
+}
+/* for tablets */
+@media (min-width: 768px) and (max-width: 1024px){
+    /* for bitcoin block */
+    .bitcoinwrapper{
+        color:black;
+        padding-left: 3%;
+        padding-right: 3%;
+        padding-top: 10%;
+        padding-bottom: 10%;
+        background-size: cover;
+    }
+    .bitcoinwrapper .bitcoin-column .heading{
+        color: #bf3654;
+        font-family: 'Raleway', sans-serif;
+        font-size: 14px;
+    }
+    .bitcoinwrapper .bitcoin-column{
+        width:66%;
+    }
+    .bitcoinwrapper .bitcoin-column h2 {
+        font-family: 'Raleway', sans-serif;
+        line-height: 0.85;
+        font-size: 36px;
+        color: #3f3535;
+    }
+    .bitcoinwrapper .bitcoin-column .bitcoin-desc{
+        width:100%;
+        color:#ffffff;
+        font-family: 'Raleway', sans-serif;
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+    .bitcoin-func{
+        margin-bottom: 70px;
+        margin-top: 30px;
+        width:100%;
+        display:flex;
+    }
+    .bitcoinwrapper .bitcoin-column .bitcoin-func .form-text{
+        border-radius:20px;
+        width: 100%;
+        height: 40px;
+        padding: 5px,20px,5px,30px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    .bitcoinwrapper .bitcoin-column .bitcoin-func .form-select .sl1{
+        border-radius:20px;
+        margin-bottom: 10px; 
+    }
+    .bitcoinwrapper .bitcoin-column .bitcoin-func .form-select .sl2{
+        border-radius:20px;
+        margin-bottom: 8px;
+    }
+    .bitcoinwrapper .form-select{
+        width: 100%;
+        height:40px;
+        padding: 2px 40px 5px 30px;
+        text-align: center;
+        -webkit-appearance: none;
+        -webkit-border-radius: 20px; 
+        -moz-border-radius: 6px;
+    }
+    .bitcoinwrapper select.form-select{
+        background-color: white;
+    } 
+    .bitcoinwrapper .form-submit{
+        width:33%;
+        height:50px;
+        border-radius:25px;
+        font-family: 'Raleway', sans-serif;
+        font-size: 14px;
+        color:white;
+        background-color: #bf3654;
+        background: #bf3654;
+        border-color: #bf3654; 
+    }
+    .bitcoinwrapper input[type="submit"]:hover{
+        background-color: orange;
+        border-color: orange;
+    }
+    /* for Quote form */
+    .quotewrapper{
+        color:black;
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-top: 8%;
+        padding-bottom: 8%;
+        background-size: cover;
+    }
+    .quotewrapper .heading{
+        color: #bf3654;
+        font-family: 'Raleway', sans-serif;
+        font-size: 14px;
+        text-align: center;
+    }
+    .quotewrapper h2 {
+        font-family: 'Raleway', sans-serif;
+        line-height: 1.4;
+        font-size: 48px;
+        color: #333333;
+        text-align: center;
+        margin-top: -1%;
+    }
+    .quotewrapper label{
+        display: none;
+    }
+    .quotewrapper .tfwrapper{
+        width:100%;
+        display:flex;
+        justify-content: space-evenly;
+    }
+    .quotewrapper .tfwrapper .tf1{
+        width: 33.3%;
+        height: 40px;
+        border-radius: 20px;
+        margin-right: 11px;
+    }
+    .quotewrapper .tfwrapper .tf2{
+        width: 33.3%;
+        height: 40px;
+        border-radius: 20px;
+        margin-right: 11px;
+        margin-left: 11px; 
+    }
+    .quotewrapper .tfwrapper .tf3{
+        width: 33.3%;
+        height: 40px;
+        border-radius: 20px;
+        margin-left: 11px; 
+    }
+    .tf1 .form-text, .tf2 .form-email, .tf3 .form-text{
+        width:100%;
+        border-radius: 20px;
+        height: 40px;
+        text-align: center;
+        border-color: #ffffff;
+    }
+    .tfquestion{
+        margin-top: 30px;
+    }
+    .tfquestion textarea.form-textarea{
+         border-radius: 20px;
+         height: 160px;
+         text-align: center;
+         border-color: #ffffff;
+    }
+    .quotewrapper .qfbutton{
+        display: flex;
+        justify-content: center;
+    }
+    .quotewrapper .form-submit{
+     background-color: #bf3654;
+     background: #bf3654;
+     border-color: #bf3654; 
+     color: #ffffff;
+     font-family: 'Raleway', sans-serif;
+     font-size: 14px;
+     border-radius:30px;
+     width: 200px;
+     height: 60px;
+     margin-top: 40px;
+     }
+     .quotewrapper input[type="submit"]:hover{
+         background-color: orange;
+         border-color: orange;
+     }
+}
