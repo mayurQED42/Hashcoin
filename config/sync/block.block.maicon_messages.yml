@@ -11,7 +11,11 @@ _core:
 id: maicon_messages
 theme: maicon
 region: header
+<<<<<<< HEAD
 weight: -7
+=======
+weight: -4
+>>>>>>> Added Header Part
 provider: null
 plugin: system_messages_block
 settings:

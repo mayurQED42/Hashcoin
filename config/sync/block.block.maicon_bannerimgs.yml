@@ -1,13 +1,26 @@
 uuid: 49231123-a12b-4de8-8dcd-5ae619b02ee0
 langcode: en
+<<<<<<< HEAD
 status: false
 dependencies:
+=======
+status: true
+dependencies:
+  content:
+    - 'block_content:bannerfoot:464dd880-a309-41d2-821c-f377efca28bd'
+  module:
+    - block_content
+>>>>>>> Added Header Part
   theme:
     - maicon
 id: maicon_bannerimgs
 theme: maicon
 region: banner
+<<<<<<< HEAD
 weight: -14
+=======
+weight: -15
+>>>>>>> Added Header Part
 provider: null
 plugin: 'block_content:464dd880-a309-41d2-821c-f377efca28bd'
 settings:

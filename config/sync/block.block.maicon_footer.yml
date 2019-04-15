@@ -13,7 +13,11 @@ _core:
 id: maicon_footer
 theme: maicon
 region: header
+<<<<<<< HEAD
 weight: -9
+=======
+weight: -6
+>>>>>>> Added Header Part
 provider: null
 plugin: 'system_menu_block:footer'
 settings:

@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 uuid: 2efb5aca-d972-4c5b-93da-890035854322
+=======
+uuid: 382e9aa9-b0e5-4741-8b9d-2a487f1b3437
+>>>>>>> Added Header Part
 langcode: en
 status: true
 dependencies:

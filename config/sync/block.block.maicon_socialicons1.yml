@@ -1,20 +1,37 @@
 uuid: b08f6d98-aaa3-439f-b7d6-3c1568514606
 langcode: en
+<<<<<<< HEAD
 status: false
 dependencies:
+=======
+status: true
+dependencies:
+  content:
+    - 'block_content:social1:6bdb144b-21d4-4c61-923e-713119651748'
+  module:
+    - block_content
+>>>>>>> Added Header Part
   theme:
     - maicon
 id: maicon_socialicons1
 theme: maicon
 region: header
+<<<<<<< HEAD
 weight: -13
+=======
+weight: -15
+>>>>>>> Added Header Part
 provider: null
 plugin: 'block_content:6bdb144b-21d4-4c61-923e-713119651748'
 settings:
   id: 'block_content:6bdb144b-21d4-4c61-923e-713119651748'
   label: socialicons1
   provider: block_content
+<<<<<<< HEAD
   label_display: visible
+=======
+  label_display: '0'
+>>>>>>> Added Header Part
   status: true
   info: ''
   view_mode: full

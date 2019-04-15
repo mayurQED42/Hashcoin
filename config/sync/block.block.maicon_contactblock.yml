@@ -1,6 +1,10 @@
 uuid: a4106382-c88e-4996-aa53-ce73cd5f9529
 langcode: en
+<<<<<<< HEAD
 status: true
+=======
+status: false
+>>>>>>> Added Header Part
 dependencies:
   config:
     - contact.form.free_quote
@@ -10,7 +14,11 @@ dependencies:
     - maicon
 id: maicon_contactblock
 theme: maicon
+<<<<<<< HEAD
 region: content
+=======
+region: header
+>>>>>>> Added Header Part
 weight: -9
 provider: null
 plugin: contact_block
@@ -18,6 +26,10 @@ settings:
   id: contact_block
   label: 'Free Quote'
   provider: contact_block
+<<<<<<< HEAD
   label_display: '0'
+=======
+  label_display: visible
+>>>>>>> Added Header Part
   contact_form: free_quote
 visibility: {  }

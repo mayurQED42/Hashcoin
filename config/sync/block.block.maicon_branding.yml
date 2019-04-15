@@ -1,6 +1,10 @@
 uuid: 34c55657-1d23-4ea3-8503-37626cddc43c
 langcode: en
+<<<<<<< HEAD
 status: false
+=======
+status: true
+>>>>>>> Added Header Part
 dependencies:
   module:
     - system
@@ -11,7 +15,11 @@ _core:
 id: maicon_branding
 theme: maicon
 region: header
+<<<<<<< HEAD
 weight: -15
+=======
+weight: -14
+>>>>>>> Added Header Part
 provider: null
 plugin: system_branding_block
 settings:

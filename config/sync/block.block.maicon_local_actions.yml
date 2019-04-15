@@ -9,7 +9,11 @@ _core:
 id: maicon_local_actions
 theme: maicon
 region: content
+<<<<<<< HEAD
 weight: -5
+=======
+weight: -7
+>>>>>>> Added Header Part
 provider: null
 plugin: local_actions_block
 settings:

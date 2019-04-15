@@ -1,6 +1,10 @@
 uuid: 396b3976-7757-4767-8d71-c2e84c310462
 langcode: en
+<<<<<<< HEAD
 status: false
+=======
+status: true
+>>>>>>> Added Header Part
 dependencies:
   config:
     - views.view.recent_blogs

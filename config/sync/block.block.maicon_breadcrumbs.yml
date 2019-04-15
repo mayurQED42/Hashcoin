@@ -11,7 +11,11 @@ _core:
 id: maicon_breadcrumbs
 theme: maicon
 region: header
+<<<<<<< HEAD
 weight: -10
+=======
+weight: -7
+>>>>>>> Added Header Part
 provider: null
 plugin: system_breadcrumb_block
 settings:

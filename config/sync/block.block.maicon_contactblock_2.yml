@@ -1,6 +1,10 @@
 uuid: ce37f120-c93a-49ba-a576-8241a515f972
 langcode: en
+<<<<<<< HEAD
 status: false
+=======
+status: true
+>>>>>>> Added Header Part
 dependencies:
   config:
     - contact.form.newsletter

@@ -13,7 +13,11 @@ _core:
 id: maicon_tools
 theme: maicon
 region: header
+<<<<<<< HEAD
 weight: -6
+=======
+weight: -3
+>>>>>>> Added Header Part
 provider: null
 plugin: 'system_menu_block:tools'
 settings:
