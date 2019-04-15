@@ -1,0 +1,7 @@
+global-styling:
+  version: VERSION
+  css:
+    theme:
+      css/regions.css: {}
+      css/header.css: {}
+      css/footer.css: {}
