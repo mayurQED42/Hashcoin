@@ -4,3 +4,4 @@ global-styling:
     theme:
       css/regions.css: {}
       css/myblock.css: {}
+

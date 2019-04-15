@@ -2,6 +2,10 @@ uuid: 6d8719a4-adbb-4860-9cf8-028031b934ca
 langcode: en
 status: false
 dependencies:
+  content:
+    - 'block_content:div1:2f0f6f6f-d634-4ea4-88be-23835be5a7e9'
+  module:
+    - block_content
   theme:
     - maicon
 id: maicon_what_is_bitcoin
