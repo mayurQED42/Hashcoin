@@ -1,0 +1,24 @@
+uuid: f313d48a-8df9-4a29-ad99-9c585fd29ea1
+langcode: en
+status: false
+dependencies:
+  config:
+    - views.view.div3
+  module:
+    - views
+  theme:
+    - maicon
+id: maicon_views_block__div3_block_1
+theme: maicon
+region: content
+weight: -5
+provider: null
+plugin: 'views_block:div3-block_1'
+settings:
+  id: 'views_block:div3-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility: {  }

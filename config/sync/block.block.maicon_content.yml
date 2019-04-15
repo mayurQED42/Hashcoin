@@ -1,0 +1,22 @@
+uuid: a4136bda-4320-4145-8110-6622b31b5585
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - maicon
+_core:
+  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
+id: maicon_content
+theme: maicon
+region: content
+weight: -6
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }
