@@ -1,0 +1,24 @@
+uuid: 036b4fa5-7cd9-49be-acdb-182e3d4c5dd2
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.news_and_events
+  module:
+    - views
+  theme:
+    - maicon
+id: maicon_views_block__news_and_events_block_1
+theme: maicon
+region: content
+weight: -13
+provider: null
+plugin: 'views_block:news_and_events-block_1'
+settings:
+  id: 'views_block:news_and_events-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility: {  }

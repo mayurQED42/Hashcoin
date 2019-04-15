@@ -1,0 +1,20 @@
+uuid: c00e289d-ba07-4fdc-94ab-a88b37ce197b
+langcode: en
+status: false
+dependencies:
+  module:
+    - we_megamenu
+  theme:
+    - maicon
+id: maicon_mainnavigation
+theme: maicon
+region: menubar
+weight: -14
+provider: null
+plugin: 'we_megamenu_block:main'
+settings:
+  id: 'we_megamenu_block:main'
+  label: 'Main navigation'
+  provider: we_megamenu
+  label_display: '0'
+visibility: {  }

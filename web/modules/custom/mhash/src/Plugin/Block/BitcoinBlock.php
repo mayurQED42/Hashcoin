@@ -35,9 +35,12 @@ class BitcoinBlock extends BlockBase {
         $image=$configs['bimage'];
         $image_uri = \Drupal\file\Entity\File::load($image[0]);
         $image_uri->setPermanent();
-        $image_uri->save();    
+        $image_uri->save(); 
+        
+
 
         $form = \Drupal::formBuilder()->getForm('Drupal\mhash\Form\BitcoinForm');
+        $form['#image'] = $image_uri->getFileUri();
         return $form;
     }
   

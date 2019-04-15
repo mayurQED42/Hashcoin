@@ -1,12 +1,12 @@
 uuid: 462bf6dd-9265-49e0-ad42-4a4dff7fd9c6
 langcode: en
-status: true
-dependencies:
+status: false
+dependencies: null
 _core:
   default_config_hash: 1TQP4b3ZnlzvIH9bj6cpCz_SyUHdJjLQkZnHpikjjhw
 id: myboot_page_title
 theme: myboot
-region: header
+region: ''
 weight: 0
 provider: null
 plugin: page_title_block

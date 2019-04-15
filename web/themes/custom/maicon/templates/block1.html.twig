@@ -1,0 +1,64 @@
+{{ kint(content) }}
+{# bitcoin block #}
+{% if content.title['#title'] == "Currency Calculator" %}
+<div class="bitcoinwrapper" style="background-image: url('{{ file_url(content['#image']) }}');">
+    <div class="bitcoin-column">
+        <div class="heading">BITCOIN</div>
+        <h2> {{ content.title }} </h2>
+        <div class="bitcoin-desc">{{ content.description }}</div>
+        <div class="bitcoin-func">
+            <div class="form-text">
+                {{ content.EM1 }}
+                {{ content.EM2 }}
+            </div>
+            <div class="form-select">
+                <div class="sl1">
+                    {{ content.type_options1 }}
+                </div>
+                <div class="sl2">
+                    {{ content.type_options2 }}
+                </div>
+            </div>    
+        </div>
+        <div class="bitcoinbutton">
+            {{ content.my_button }}    
+        </div>
+    </div>   
+</div>
+{% endif %}
+
+{# for news and events block #}
+{% if content['#name'] == "news_and_events" %}
+{{ content }}
+{% endif %}
+
+{# for featureblock #}
+{% if content['#name'] == "featureblock" %}
+{{ content }}
+{% endif %}
+
+{# for Quote form #}
+{% if content['#form_id'] == "contact_message_free_quote_form" %}
+<div class="quotewrapper" style="background-image: url('{{ file_url(content.field_qfimg.widget.0.preview['#uri']) }}');">
+    <div class="heading">GET A</div>
+    <h2> {{ content.field_title.widget.0.value['#default_value'] }} </h2>
+    <div class="tfwrapper">
+        <div class="tf1">
+            {{ content.field_fu }}
+        </div>
+        <div class="tf2">
+            {{ content.field_e }}
+        </div>
+        <div class="tf3">
+            {{ content.field_your_subject }}
+        </div>
+    </div>
+    <div class="tfquestion">
+        {{ content.field_y }}
+    </div>
+    <div class="qfbutton">
+    {{ content.actions.submit }}
+    </div>
+</div>
+{% endif %}
+

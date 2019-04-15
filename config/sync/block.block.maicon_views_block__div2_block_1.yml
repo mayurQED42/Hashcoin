@@ -1,0 +1,24 @@
+uuid: e75dbd1a-24ab-453b-adb9-551ab474b759
+langcode: en
+status: false
+dependencies:
+  config:
+    - views.view.div2
+  module:
+    - views
+  theme:
+    - maicon
+id: maicon_views_block__div2_block_1
+theme: maicon
+region: content
+weight: -4
+provider: null
+plugin: 'views_block:div2-block_1'
+settings:
+  id: 'views_block:div2-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility: {  }

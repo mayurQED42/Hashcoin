@@ -1,6 +1,6 @@
 uuid: 03b6fa48-1df0-4f1a-9534-828954e17cce
 langcode: en
-status: true
+status: false
 dependencies:
   module:
     - system
@@ -8,7 +8,7 @@ _core:
   default_config_hash: fNNLN48MSGSLiqwIFywCuxH2Dk_IxDbaP0kYhg_IPrg
 id: myboot_content
 theme: myboot
-region: content
+region: ''
 weight: 0
 provider: null
 plugin: system_main_block

@@ -1,0 +1,27 @@
+{% extends "block.html.twig" %}
+{% block content %}
+{# for Quote form #}
+{% if content['#form_id'] == "contact_message_free_quote_form" %}
+<div class="quotewrapper" style="background-image: url('{{ file_url(content.field_qfimg.widget.0.preview['#uri']) }}');">
+    <div class="heading">GET A</div>
+    <h2> {{ content.field_title.widget.0.value['#default_value'] }} </h2>
+    <div class="tfwrapper">
+        <div class="tf1">
+            {{ content.field_fu }}
+        </div>
+        <div class="tf2">
+            {{ content.field_e }}
+        </div>
+        <div class="tf3">
+            {{ content.field_your_subject }}
+        </div>
+    </div>
+    <div class="tfquestion">
+        {{ content.field_y }}
+    </div>
+    <div class="qfbutton">
+    {{ content.actions.submit }}
+    </div>
+</div>
+{% endif %}
+{% endblock %}

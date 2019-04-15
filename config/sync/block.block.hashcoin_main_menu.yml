@@ -1,6 +1,6 @@
 uuid: ab2b65fb-e95a-4e07-a090-769e3e0227ee
 langcode: en
-status: true
+status: false
 dependencies:
   config:
     - system.menu.main
@@ -10,7 +10,7 @@ _core:
   default_config_hash: rx9IrdDv7Ldc4kpalZAxdhIPZfYIeOMh1N-qKoQZwHo
 id: hashcoin_main_menu
 theme: hashcoin
-region: footer
+region: ''
 weight: 0
 provider: null
 plugin: 'system_menu_block:main'

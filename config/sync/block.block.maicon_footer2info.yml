@@ -1,0 +1,21 @@
+uuid: 40f3f916-3cb4-4d11-9015-77315b213bc3
+langcode: en
+status: false
+dependencies:
+  theme:
+    - maicon
+id: maicon_footer2info
+theme: maicon
+region: footerpri
+weight: -13
+provider: null
+plugin: 'block_content:b619155d-d189-40ab-8130-7a3bd5c39bb5'
+settings:
+  id: 'block_content:b619155d-d189-40ab-8130-7a3bd5c39bb5'
+  label: 'footer2 info'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

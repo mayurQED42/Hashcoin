@@ -1,0 +1,6 @@
+global-styling:
+  version: VERSION
+  css:
+    theme:
+      css/regions.css: {}
+      css/myblock.css: {}

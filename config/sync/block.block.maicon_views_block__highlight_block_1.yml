@@ -1,0 +1,24 @@
+uuid: abab5013-04e1-470a-b675-a28916ca6062
+langcode: en
+status: false
+dependencies:
+  config:
+    - views.view.highlight
+  module:
+    - views
+  theme:
+    - maicon
+id: maicon_views_block__highlight_block_1
+theme: maicon
+region: highlight
+weight: -15
+provider: null
+plugin: 'views_block:highlight-block_1'
+settings:
+  id: 'views_block:highlight-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility: {  }

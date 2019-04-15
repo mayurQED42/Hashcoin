@@ -1,6 +1,6 @@
 uuid: b4bd6f3c-0c64-4a9b-a49e-746513d5288f
 langcode: en
-status: true
+status: false
 dependencies:
   config:
     - system.menu.account
@@ -10,7 +10,7 @@ _core:
   default_config_hash: R2K_qX0ZUMbUL6ie_-S9tZVjvqmlWKlscikgeRv9vhw
 id: myboot_account_menu
 theme: myboot
-region: header
+region: ''
 weight: 11
 provider: null
 plugin: 'system_menu_block:account'
