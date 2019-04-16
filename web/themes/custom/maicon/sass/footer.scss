@@ -1,3 +1,6 @@
+/*DESKTOP */
+
+@media screen and (min-width: 1024px){
 .footerpri {
     background-color: #333333;
     color: #919899;
@@ -9,6 +12,7 @@
     margin:0 auto;
     max-width:1284px;
     height: 675px;
+    
 }
 .field--name-field-image2 {
     text-align: center;
@@ -25,6 +29,7 @@
 #block-maicon-footer2info{
     width: 356.66px;
     height: 490px;
+    order: 1;
 }
 #block-maicon-contactblock-2{
     width: 406.66px;
@@ -42,7 +47,7 @@
 }
 .field--name-body {
     p {
-        margin-bottom: 10px;
+    margin-bottom: 10px;
     display: block;
     margin-block-start: 1em;
     margin-block-end: 1em;
@@ -80,4 +85,80 @@
 }
 .field--name-field-mail2:hover {
 color: #bf3654;
+}
+}
+/* for mobile */
+@media ( min-width: 320px) and (max-width: 767px) {
+    .footerpri {
+        background-color: #333333;
+        color: #919899;
+        width:100%;
+        max-width:767px;
+        margin:0 auto;
+    }  
+    .footer-wrapper {
+        display:flex;
+        flex-flow: row wrap;
+    } 
+    .field--name-field-title2 {  
+        font-size: 36px;
+        font-weight: 600;
+        margin-bottom: 25px;
+        color: white;
+        text-align: center;
+        font-family: 'Raleway', sans-serif;
+        line-height: 30px;
+        margin-top: 15px;
+    }
+    .field--name-body {
+        p {
+        margin-bottom: 10px;
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        text-align: center;
+        font-family: 'Raleway', sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        }
+      
+       
+    }
+    .field--name-field-address2 {
+        color: #ffffff;
+        border-color: #ffffff;
+        font-weight: 700;
+        font-size: 14px;
+        text-transform: uppercase;
+        letter-spacing: 0.2em;
+        margin: 0 0 10px;
+        text-align: center;
+        font-family: 'Raleway', sans-serif;
+        line-height: 30px;
+    }
+    .field--name-field-mail2 {
+        color: #fab915;
+        font-weight: 700;
+        font-size: 14px;
+        text-transform: uppercase;
+        letter-spacing: 0.2em;
+        text-align: center;
+        font-family: 'Raleway', sans-serif;
+        margin-bottom: -36px;
+    }
+    .field--name-field-image2 {
+        margin: 0 auto;
+    }
+    .field.field--name-field-image2.field--type-image.field--label-hidden.field__item {
+        display: flex;
+        justify-content: center;
+    }
+    div#block-maicon-views-block-recent-blogs-block-1 {
+        order: 2;
+    }
+    div#block-contactblock-4 {
+        order: 3;
+    }
 }

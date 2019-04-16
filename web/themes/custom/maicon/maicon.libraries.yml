@@ -20,4 +20,9 @@ global-styling:
       css/regions.css: {}
       css/header.css: {}
       css/footer.css: {}
+<<<<<<< HEAD
 >>>>>>> Completed Header Part. Adding the same
+=======
+      css/myblock.css: {}
+
+>>>>>>> added header for mobile view
