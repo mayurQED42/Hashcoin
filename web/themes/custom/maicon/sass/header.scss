@@ -1,3 +1,6 @@
+/*DESKTOP */
+
+@media screen and (min-width: 1024px){
 .header{
   border-bottom: 1px solid #808080;
 }
@@ -195,4 +198,182 @@ background-color: white;
 }
 .we-mega-menu-ul>.we-mega-menu-li{
   border-left:none;
+}
+}
+
+
+/* for mobile */
+@media ( min-width: 320px) and (max-width: 767px) {
+  .header-wrapper {
+    display:flex;
+    justify-content: space-around;
+    margin:0 auto;
+    max-width:767px;
+    width:100%;
+    flex-direction: column-reverse;
+    height: 154.3px;
+  }
+  #block-maicon-branding{
+    width: 200px;
+    height: auto;
+    margin: 0 auto;
+
+  }
+  input[type="search"] {
+    display: none;
+  }
+  .social-media-links--platforms {
+    padding-left: 0;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    position: relative;
+    min-height: 1px;
+    padding-right: 30px;
+    padding-left: 30px;
+    text-align: center;
+
+    .fa-twitter:before {
+      content: "\f099";
+      border: 1px solid rgba(0, 0, 0, 0.1);
+      border-radius: 50%;
+      color: #00abef;
+    }
+    .fa-twitter:hover {
+      background-color:  #00abef;
+      border: 1px solid rgba(0, 0, 0, 0.1);
+      border-radius: 50%;
+  
+      &::before {
+        color: white;
+      }
+    }
+    .fa-google-plus:before {
+      content: "\f0d5";
+      border: 1px solid rgba(0, 0, 0, 0.1);
+      border-radius: 50%;
+      color: #d93e2d;
+    }
+    .fa-google-plus:hover {
+      background-color:  #d93e2d;
+      border: 1px solid rgba(0, 0, 0, 0.1);
+      border-radius: 50%;
+  
+      &::before {
+        color: white;
+      }
+    }
+    .fa-youtube:before {
+      content: "\f167";
+      border: 1px solid rgba(0, 0, 0, 0.1);
+      border-radius: 50%;
+      color: #d93e2d;
+    }
+    .fa-youtube:hover{
+      background-color:  #d93e2d;
+      border: 1px solid rgba(0, 0, 0, 0.1);
+      border-radius: 50%;
+  
+      &::before {
+        color: white;
+      }
+    }
+    .fa-linkedin:before {
+      content: "\f0e1";
+      border: 1px solid rgba(0, 0, 0, 0.1);
+      border-radius: 50%;
+      color: #3371b7;
+    }
+    .fa-linkedin:hover{
+      background-color:  #3371b7;
+      border: 1px solid rgba(0, 0, 0, 0.1);
+      border-radius: 50%;
+  
+      &::before {
+        color: white;
+      }
+    }
+  
+    .fa-facebook:before {
+      content: "\f09a";
+      border: 1px solid rgba(0, 0, 0, 0.1);
+      border-radius: 50%;
+      color: #3371b7;
+    }
+    .fa-facebook:hover{
+      background-color:  #3371b7;
+      border: 1px solid rgba(0, 0, 0, 0.1);
+      border-radius: 50%;
+  
+      &::before {
+        color: white;
+      }
+    }
+    .fa-2x {
+      width: 40.3px;
+    }
+  }
+  
+  .social-media-links--platforms span.fa {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 11px 13px;
+    margin-bottom: 4px;
+    border-radius: 50%;
+    font-size: 0;
+    line-height: 0;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+  
+    &::before {
+      font-size: 12px;
+      line-height: 16px;
+      border: 1px solid transparent;
+    }
+  }
+  div#block-maicon-mainnavigation {
+    position: fixed;
+    top: 10px;
+    /* right: 23px; */
+    left: 255px;
+    
+  }
+  .region-we-mega-menu {
+    background-color: #ffffff;
+    padding: 28px 18px;
+    padding-top: 14px;
+    margin-top: -11px;
+  }
+  .navbar-toggle .icon-bar {
+    background-color: #343a40;
+    width: 30px;
+  }
+  a.navbar-toggle.collapsed {
+    height: 2px;
+  }
+  .navbar-toggle .icon-bar+.icon-bar {
+    margin-top: 7px;
+  }
+  div#site_logo {
+    float: left;
+    padding: 0px;
+  }
+  span.btn-close {
+    background-color: #333333;
+    border: none;
+    left: auto;
+    top: 0;
+    right: 0;
+    position: fixed;
+    margin: 0;
+    z-index: 3000;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    visibility: visible;
+  }
+  nav.main.navbar {
+    width: 100%;
+  }
 }

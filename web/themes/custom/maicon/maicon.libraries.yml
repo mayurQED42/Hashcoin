@@ -5,3 +5,5 @@ global-styling:
       css/regions.css: {}
       css/header.css: {}
       css/footer.css: {}
+      css/myblock.css: {}
+
