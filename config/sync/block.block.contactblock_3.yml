@@ -1,6 +1,6 @@
 uuid: fe53d2da-6794-480d-8145-822abb4f309a
 langcode: en
-status: true
+status: false
 dependencies:
   config:
     - contact.form.free_quote
