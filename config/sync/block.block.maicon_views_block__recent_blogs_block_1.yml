@@ -10,13 +10,8 @@ dependencies:
     - maicon
 id: maicon_views_block__recent_blogs_block_1
 theme: maicon
-<<<<<<< HEAD
 region: footerpri
 weight: -14
-=======
-region: header
-weight: 0
->>>>>>> Completed my Block - What is Bitcoin
 provider: null
 plugin: 'views_block:recent_blogs-block_1'
 settings:

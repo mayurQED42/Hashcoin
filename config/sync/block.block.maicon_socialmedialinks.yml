@@ -9,11 +9,7 @@ dependencies:
 id: maicon_socialmedialinks
 theme: maicon
 region: header
-<<<<<<< HEAD
 weight: -12
-=======
-weight: -7
->>>>>>> Completed my Block - What is Bitcoin
 provider: null
 plugin: social_media_links_block
 settings:

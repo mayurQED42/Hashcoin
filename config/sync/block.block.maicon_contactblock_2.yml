@@ -10,13 +10,8 @@ dependencies:
     - maicon
 id: maicon_contactblock_2
 theme: maicon
-<<<<<<< HEAD
 region: footerpri
 weight: -12
-=======
-region: header
-weight: -1
->>>>>>> Completed my Block - What is Bitcoin
 provider: null
 plugin: contact_block
 settings:

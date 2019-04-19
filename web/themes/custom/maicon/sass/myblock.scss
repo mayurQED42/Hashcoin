@@ -7,6 +7,8 @@
         padding-right: 8%;
         padding-top: 10%;
         padding-bottom: 10%;
+        padding-top: 8%;
+        padding-bottom: 8%;
         background-size: cover;
     }
     .bitcoinwrapper .bitcoin-column .heading{
@@ -64,6 +66,10 @@
         margin-bottom: 8px;
         position: relative;
         display: grid;
+    }
+    .bitcoinwrapper .bitcoin-column .bitcoin-func .form-select .sl2{
+        border-radius:20px;
+        margin-bottom: 8px;
     }
     .bitcoinwrapper .form-select{
         width: 100%;
@@ -139,6 +145,7 @@
         color: #bf3654;
         top: 35%;
         left: 5%;
+
     }
     .quotewrapper .tfwrapper .tf2{
         width: 33.3%;
@@ -172,6 +179,7 @@
         color: #bf3654;
         top: 35%;
         left: 5%;
+
     }
     .tf1 .form-text, .tf2 .form-email, .tf3 .form-text{
         width:100%;
@@ -182,6 +190,7 @@
     }
    .tfquestion{
        margin-top: 20px;
+
        position: relative;
    }
    .quotewrapper .fa-pencil-alt:before {
@@ -191,6 +200,8 @@
         left: 1.5%;
         color: #bf3653;
     }
+
+   
    .tfquestion textarea.form-textarea{
         border-radius: 20px;
         height: 160px;
@@ -217,6 +228,7 @@
         background-color: orange;
         border-color: orange;
     }
+
    /* for feature block */
    .featurewrapper{
         width: 100%;
@@ -451,6 +463,7 @@
    .nefooter .type a:hover{
         color:#bf3654;
    }
+
 }
 /* for mobile */
 @media (max-width: 767px) {
@@ -551,6 +564,8 @@
         padding-top: 30%;
         padding-bottom: 24%;
         background-position: right;
+        padding-top: 24%;
+        padding-bottom: 24%;
         background-size: cover;
     }
     .quotewrapper .heading{
@@ -632,6 +647,7 @@
         top: 20%;
         left: 4%;
         color: #bf3653;
+
     }
     .tfquestion textarea.form-textarea{
          border-radius: 20px;
@@ -659,6 +675,7 @@
          background-color: orange;
          border-color: orange;
      }
+
      /* for feature block */
    .featurewrapper{
     width: 100%;
@@ -882,6 +899,7 @@
         color:#bf3654;
    }
    
+
 }
 /* for tablets */
 @media (min-width: 768px) and (max-width: 1024px){
@@ -1075,6 +1093,7 @@
         top: 20%;
         left: 1.5%;
         color: #bf3653;
+
     }
     .tfquestion textarea.form-textarea{
          border-radius: 20px;
@@ -1102,6 +1121,7 @@
          background-color: orange;
          border-color: orange;
      }
+
      /* for feature block */
     .featurewrapper{
         width: 100%;
@@ -1343,4 +1363,5 @@
    .nefooter .type a:hover{
         color:#bf3654;
    }
+
 }

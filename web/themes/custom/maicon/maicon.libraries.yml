@@ -2,12 +2,15 @@ global-styling:
   version: VERSION
   css:
     theme:
-<<<<<<< HEAD
       css/fontawesome1/css/all.css: {}
       css/regions.css: {}
       css/myblock.css: {}
-      
-=======
       css/regions.css: {}
       css/block.css: {}
->>>>>>> Completed my Block - What is Bitcoin
+      css/block.css: {}
+      css/myblock.css: {}
+      css/iconview.css: {}
+      css/fontawesome/css/all.css: {}
+      css/fontawesome/css/fontawesome.css: {}
+      css/highlight.css: {}
+

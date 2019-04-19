@@ -10,13 +10,8 @@ _core:
   default_config_hash: jQQUUWN2Uxr5qZtc9zcJKBCxpKY8orN1u2HPqYYRQDI
 id: maicon_powered
 theme: maicon
-<<<<<<< HEAD
 region: footersec
 weight: -14
-=======
-region: header
-weight: 6
->>>>>>> Completed my Block - What is Bitcoin
 provider: null
 plugin: system_powered_by_block
 settings:

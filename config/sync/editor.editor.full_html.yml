@@ -48,16 +48,19 @@ settings:
         -
           name: Tools
           items:
+            - Styles
             - ShowBlocks
             - Source
   plugins:
     stylescombo:
-      styles: ''
+      styles: "h2.class1|Choose\r\nh2.class2|Progress\r\nh2.class3|Success\r\nh2.class4|Rent\r\nh2.class5|Invest\r\np.class6|Button"
+    language:
+      language_list: un
 image_upload:
   status: true
   scheme: public
   directory: inline-images
   max_size: ''
   max_dimensions:
-    width: 0
-    height: 0
+    width: null
+    height: null

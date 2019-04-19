@@ -7,11 +7,7 @@ dependencies:
 id: maicon_socialicons1
 theme: maicon
 region: header
-<<<<<<< HEAD
 weight: -13
-=======
-weight: -10
->>>>>>> Completed my Block - What is Bitcoin
 provider: null
 plugin: 'block_content:6bdb144b-21d4-4c61-923e-713119651748'
 settings:
