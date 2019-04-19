@@ -2,6 +2,7 @@ global-styling:
   version: VERSION
   css:
     theme:
+      css/fontawesome1/css/all.css: {}
       css/regions.css: {}
       css/myblock.css: {}
-
+      

@@ -1,0 +1,25 @@
+{% extends "block.html.twig" %}
+{% block content %}
+{# for featureblock #}
+{% if content['#name'] == "featureblock" %}
+<div class="featurewrapper" style="background-image: url('themes/custom/maicon/images/advantages.jpg')">
+    <div class="featurecontent">
+    {{ content }}
+    </div>
+</div>
+{% endif %}
+
+
+{# for news and events block #}
+{% if content['#name'] == "news_and_events" %}
+<div class="newrapper">
+    <div class="heading">OUR BLOG</div>
+    <div class="nepager">
+        <div class="owl-wrapper-outer">
+        </div>
+    </div>
+    <h2> {{ content['#title'] }} </h2>
+    {{ content }}
+</div>
+{% endif %}
+{% endblock %}

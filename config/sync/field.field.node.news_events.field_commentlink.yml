@@ -1,0 +1,28 @@
+uuid: d0ad99d7-a8fb-4233-8896-587b345ab04c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_commentlink
+    - node.type.news_events
+  module:
+    - link
+id: node.news_events.field_commentlink
+field_name: field_commentlink
+entity_type: node
+bundle: news_events
+label: commentlink
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    attributes: {  }
+    uri: 'internal:/comment'
+    title: comment
+    options: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link

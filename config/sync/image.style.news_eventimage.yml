@@ -1,0 +1,14 @@
+uuid: 8d4ad25a-bf94-4492-b315-d4ecc1a61c1f
+langcode: en
+status: true
+dependencies: {  }
+name: news_eventimage
+label: 'News&EventImage'
+effects:
+  c855805c-3a7e-4867-a505-858c68bd0cbf:
+    uuid: c855805c-3a7e-4867-a505-858c68bd0cbf
+    id: image_resize
+    weight: 1
+    data:
+      width: 360
+      height: 360

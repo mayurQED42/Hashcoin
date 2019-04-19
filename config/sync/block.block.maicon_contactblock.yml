@@ -11,7 +11,7 @@ dependencies:
 id: maicon_contactblock
 theme: maicon
 region: content
-weight: -11
+weight: -12
 provider: null
 plugin: contact_block
 settings:
