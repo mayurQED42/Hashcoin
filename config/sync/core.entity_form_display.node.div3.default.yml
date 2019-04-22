@@ -5,6 +5,7 @@ dependencies:
   config:
     - field.field.node.div3.body
     - field.field.node.div3.field_imageu3
+    - field.field.node.div3.field_last_name3
     - field.field.node.div3.field_name3
     - field.field.node.div3.field_rating
     - image.style.thumbnail
@@ -41,6 +42,14 @@ content:
       preview_image_style: thumbnail
     third_party_settings: {  }
     type: image_image
+    region: content
+  field_last_name3:
+    weight: 26
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textfield
     region: content
   field_name3:
     weight: 2

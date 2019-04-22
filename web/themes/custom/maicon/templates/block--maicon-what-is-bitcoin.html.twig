@@ -1,0 +1,19 @@
+{#{% extends "block.html.twig" %}#}
+{# What is Bitcoin #}
+{% if content['field_heading3'] %}
+<div class="div1" style="background-image: url('{{ file_url(content.field_imagebk3['#items'].entity.uri.value) }}');" >
+<div class="insidediv1">
+    {% set heading = content['field_heading3'] %}
+    {% set body = content['body'] %}
+    {%set title = label %}
+    {{ title }}
+    <h1>{{ heading }}</h1>
+    <p2>{{ body }}<p2><br>
+    <div class="div1button">
+    <a href="">JOIN US</a>
+    </div>
+    </div>
+</div>
+{% endif %}
+{# /What is Bitcoin#}
+

@@ -9,7 +9,7 @@ dependencies:
 id: bitcoin_2
 theme: maicon
 region: content
-weight: -15
+weight: -12
 provider: null
 plugin: bitcoin_block
 settings:
@@ -18,5 +18,5 @@ settings:
   provider: mhash
   label_display: '0'
   bimage:
-    - '53'
+    - '17'
 visibility: {  }

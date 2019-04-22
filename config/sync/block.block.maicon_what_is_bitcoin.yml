@@ -1,18 +1,22 @@
 uuid: 6d8719a4-adbb-4860-9cf8-028031b934ca
 langcode: en
-status: false
+status: true
 dependencies:
+  content:
+    - 'block_content:div1:2f0f6f6f-d634-4ea4-88be-23835be5a7e9'
+  module:
+    - block_content
   theme:
     - maicon
 id: maicon_what_is_bitcoin
 theme: maicon
 region: content
-weight: -6
+weight: -15
 provider: null
 plugin: 'block_content:2f0f6f6f-d634-4ea4-88be-23835be5a7e9'
 settings:
   id: 'block_content:2f0f6f6f-d634-4ea4-88be-23835be5a7e9'
-  label: 'What is Bitcoin'
+  label: 'WHAT IS BITCOIN'
   provider: block_content
   label_display: visible
   status: true

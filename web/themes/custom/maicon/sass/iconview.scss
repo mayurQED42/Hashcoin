@@ -1,0 +1,338 @@
+@import "./css/fontawesome/css/all.css";
+
+@media only screen and (min-width: 1025px) {
+.view-content{
+    display: flex;
+    justify-content: space-around;
+    background-color: #f6f7f9;
+    padding: 10%;
+}
+
+.icon-contain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align : center;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+
+.view-icon{
+    height : 170px;
+    width : 170px;
+    border : 1px dashed #808080;
+    border-radius: 50%;
+    display : flex;
+    font-size: 16px;
+    align-items: center;
+    justify-content: center;
+    
+    &:before {
+        font-family: 'Font Awesome 5 Free';
+        content: "\f007";
+      }
+}
+// .view-content {
+//     .views-row {
+//         &:nth-child(1) {
+//             .view-icon {
+//                 &:before {
+//                 font-family: 'Font Awesome 5 Free';
+//                 content: "\f007";
+//             }			
+//         }
+            
+//         }
+//         &:nth-child(2) {
+//             .view-icon {
+//                 &:before {
+//                 font-family: 'Font Awesome 5 Free';
+//                 content: "\f007";
+//             }
+//         }
+            
+//         }
+//         &:nth-child(3) {
+//             .view-icon {
+//                 &:before {
+// 				font-family: 'Font Awesome 5 Brands';
+//                 content: "\f53a";
+//             }
+//         }
+            
+//         }
+//     }
+// }
+
+.icon-contain:hover .view-icon{
+    cursor: pointer;
+    color: #f6f7f9;
+}
+
+.view-content {
+    .views-row {
+        &:nth-child(1) {
+            .view-icon {
+                color : #bf3654;
+    			font-size: 3rem;
+            }
+        }
+        &:nth-child(2) {
+            .view-icon {
+                color : hotpink;
+    			font-size: 3rem;
+            }
+        }
+        &:nth-child(3) {
+            .view-icon {
+                color : #fab915;
+    			font-size: 3rem;
+            }
+        }
+    }
+}
+
+//Content Heading
+.view-content .views-row a{
+    font-size: 24px;
+    color : black;
+}
+
+// .view-content :after{
+//     content : '../../images/2.png';
+// }
+
+.view-body p{
+    color: #808080;
+    width: 350px;
+}
+.icon-contain:hover {
+ cursor: pointer;
+ color : black
+}
+
+//For Text Change
+.view-content {
+    .views-row {
+        &:nth-child(1) {
+            .view-title:hover a{
+				text-decoration: none;
+                color: #bf3654;
+            }
+        }
+        &:nth-child(2) {
+            .view-title:hover a{
+				text-decoration: none;
+                color: hotpink;
+            }
+        }
+        &:nth-child(3) {
+            .view-title:hover a{
+				text-decoration: none;
+                color: #fab915;
+            }
+        }
+    }
+}
+
+}
+
+
+@media only screen and (max-width: 767px) {
+    .view-content{
+        
+        justify-content: space-around;
+        background-color: #f6f7f9;
+        padding: 10%;
+    }
+    
+    .icon-contain{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align : center;
+        font-size: 16px;
+        line-height: 30px;
+    }
+    
+    
+    .view-icon{
+        height : 170px;
+        width : 170px;
+        border : 1px dashed #808080;
+        border-radius: 50%;
+        display : flex;
+        align-items: center;
+		justify-content: center;
+		&:before {
+			font-family: 'Font Awesome 5 Free';
+			content: "\f007";
+		  }
+    }
+    .icon-contain .view-icon .fa-user{
+        color : black;
+        font-size: 3rem;
+    }
+    .fa-user :hover{
+        cursor: pointer;
+        font-size: 5rem;
+        transition: 2s;
+    }
+    
+    
+    .icon-contain a{
+        font-size: 24px;
+        color : black;
+    }
+    
+    .view-body p{
+        color: #808080;
+        // width: 350px;
+    }
+    .view-content {
+        .views-row {
+            &:nth-child(1) {
+                .view-title:hover a{
+					text-decoration: none;
+                    color: #bf3654;
+                }
+            }
+            &:nth-child(2) {
+                .view-title:hover a{
+					text-decoration: none;
+                    color: hotpink;
+                }
+            }
+            &:nth-child(3) {
+                .view-title:hover a{
+					text-decoration: none;
+                    color: #fab915;
+                }
+            }
+        }
+	}
+	.view-content {
+		.views-row {
+			&:nth-child(1) {
+				.view-icon {
+					color : #bf3654;
+					font-size: 3rem;
+				}
+			}
+			&:nth-child(2) {
+				.view-icon {
+					color : hotpink;
+					font-size: 3rem;
+				}
+			}
+			&:nth-child(3) {
+				.view-icon {
+					color : #fab915;
+					font-size: 3rem;
+				}
+			}
+		}
+	}
+
+}
+@media (min-width: 768px) and (max-width: 1024px){
+    .view-content{
+        display: flex;
+        justify-content: space-around;
+        background-color: #f6f7f9;
+        padding: 10%;
+    }
+    
+    .icon-contain{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align : center;
+        font-size: 16px;
+        line-height: 30px;
+    }
+    
+    
+    .view-icon{
+        height : 170px;
+        width : 170px;
+        border : 1px dashed #808080;
+        border-radius: 50%;
+        display : flex;
+        align-items: center;
+		justify-content: center;
+		&:before {
+			font-family: 'Font Awesome 5 Free';
+			content: "\f007";
+		  }
+    }
+    .icon-contain .view-icon .fa-user{
+        color : black;
+        font-size: 3rem;
+    }
+    .fa-user :hover{
+        cursor: pointer;
+        font-size: 5rem;
+        transition: 2s;
+    }
+    
+    
+    .icon-contain a{
+        font-size: 24px;
+        color : black;
+    }
+    
+    .view-body p{
+        color: #808080;
+        width: 256px;
+	}
+	.view-content {
+		.views-row {
+			&:nth-child(1) {
+				.view-icon {
+					color : #bf3654;
+					font-size: 3rem;
+				}
+			}
+			&:nth-child(2) {
+				.view-icon {
+					color : hotpink;
+					font-size: 3rem;
+				}
+			}
+			&:nth-child(3) {
+				.view-icon {
+					color : #fab915;
+					font-size: 3rem;
+				}
+			}
+		}
+	}
+	.view-content {
+        .views-row {
+            &:nth-child(1) {
+                .view-title:hover a{
+					text-decoration: none;
+                    color: #bf3654;
+                }
+            }
+            &:nth-child(2) {
+                .view-title:hover a{
+					text-decoration: none;
+                    color: hotpink;
+                }
+            }
+            &:nth-child(3) {
+                .view-title:hover a{
+					text-decoration: none;
+                    color: #fab915;
+                }
+            }
+        }
+	}
+
+}

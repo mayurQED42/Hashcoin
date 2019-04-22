@@ -1,6 +1,6 @@
 uuid: 5061385b-6752-4777-9c17-b938a7ad0bb6
 langcode: en
-status: true
+status: false
 dependencies:
   theme:
     - maicon
@@ -9,7 +9,7 @@ _core:
 id: maicon_local_tasks
 theme: maicon
 region: content
-weight: -10
+weight: -7
 provider: null
 plugin: local_tasks_block
 settings:

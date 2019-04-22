@@ -16,7 +16,7 @@ bundle: div1
 mode: default
 content:
   body:
-    label: above
+    label: hidden
     type: text_default
     weight: 1
     settings: {  }
@@ -24,14 +24,14 @@ content:
     region: content
   field_heading3:
     weight: 0
-    label: above
+    label: hidden
     settings: {  }
     third_party_settings: {  }
     type: text_default
     region: content
   field_imagebk3:
     weight: 2
-    label: above
+    label: hidden
     settings:
       image_style: ''
       image_link: ''

@@ -1,6 +1,6 @@
 uuid: abab5013-04e1-470a-b675-a28916ca6062
 langcode: en
-status: false
+status: true
 dependencies:
   config:
     - views.view.highlight
@@ -18,7 +18,7 @@ settings:
   id: 'views_block:highlight-block_1'
   label: ''
   provider: views
-  label_display: visible
+  label_display: '0'
   views_label: ''
   items_per_page: none
 visibility: {  }

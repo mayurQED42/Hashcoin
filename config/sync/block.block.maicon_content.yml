@@ -1,6 +1,6 @@
 uuid: a4136bda-4320-4145-8110-6622b31b5585
 langcode: en
-status: true
+status: false
 dependencies:
   module:
     - system
@@ -11,7 +11,7 @@ _core:
 id: maicon_content
 theme: maicon
 region: content
-weight: -7
+weight: -4
 provider: null
 plugin: system_main_block
 settings:
