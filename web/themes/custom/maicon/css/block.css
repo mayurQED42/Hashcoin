@@ -19,7 +19,8 @@
     top: 20%;
     right: 10%;
     width: 420px; }
-  h1 {
+  .insidediv1 h1 {
+    font-size: 35px;
     color: black; }
   .insidediv1 p2 {
     color: #808080;

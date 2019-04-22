@@ -1,6 +1,6 @@
 uuid: a4106382-c88e-4996-aa53-ce73cd5f9529
 langcode: en
-status: true
+status: false
 dependencies:
   config:
     - contact.form.free_quote
@@ -11,7 +11,7 @@ dependencies:
 id: maicon_contactblock
 theme: maicon
 region: content
-weight: -12
+weight: -9
 provider: null
 plugin: contact_block
 settings:

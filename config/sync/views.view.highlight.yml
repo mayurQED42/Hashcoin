@@ -65,8 +65,8 @@ display:
           default_row_class: true
           items: '1'
           itemsDesktop: '[1199,4]'
-          itemsDesktopSmall: '[979,3]'
-          itemsTablet: '[768,2]'
+          itemsDesktopSmall: '[1024,1]'
+          itemsTablet: '[768,1]'
           itemsMobile: '[479,1]'
           singleItem: 0
           itemsScaleUp: 0
@@ -163,7 +163,7 @@ display:
           exclude: false
           alter:
             alter_text: true
-            text: "<div class=\"highlight\">\r\n     <div class=\"slider\">\r\n             <div class=\"title\"> {{body}} </div>\r\n             {{ field_imageh3 }}\r\n    </div>\r\n</div>"
+            text: "<div class=\"highlight\">\r\n     <div class=\"slider\">\r\n              {{ field_imageh3 }}\r\n             <div class=\"title\"> {{body}} </div>\r\n    </div>\r\n</div>"
             make_link: false
             path: ''
             absolute: false

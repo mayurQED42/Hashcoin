@@ -11,7 +11,7 @@ _core:
 id: maicon_help
 theme: maicon
 region: content
-weight: -9
+weight: -6
 provider: null
 plugin: help_block
 settings:

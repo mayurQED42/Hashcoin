@@ -1,6 +1,6 @@
 uuid: b7c31c0c-9030-457c-b084-e9b0514839ae
 langcode: en
-status: true
+status: false
 dependencies:
   module:
     - mhash
@@ -9,7 +9,7 @@ dependencies:
 id: bitcoin_2
 theme: maicon
 region: content
-weight: -15
+weight: -12
 provider: null
 plugin: bitcoin_block
 settings:

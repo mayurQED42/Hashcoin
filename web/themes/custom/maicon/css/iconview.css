@@ -91,8 +91,7 @@
     font-size: 24px;
     color: black; }
   .view-body p {
-    color: #808080;
-    width: 350px; }
+    color: #808080; }
   .view-content .views-row:nth-child(1) .view-title:hover a {
     text-decoration: none;
     color: #bf3654; }
@@ -149,7 +148,7 @@
     color: black; }
   .view-body p {
     color: #808080;
-    width: 350px; }
+    width: 256px; }
   .view-content .views-row:nth-child(1) .view-icon {
     color: #bf3654;
     font-size: 3rem; }
