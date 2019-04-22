@@ -24,5 +24,23 @@ global-styling:
 >>>>>>> Completed Header Part. Adding the same
 =======
       css/myblock.css: {}
+<<<<<<< HEAD
 
 >>>>>>> added header for mobile view
+=======
+      css/recentblogs.css: {}
+      css/subscribe.css: {}
+      css/bannerfooter.css: {}
+  js:
+      js/sticky.js: {}
+      js/menus.js: {}
+      js/banner.js: {}
+  dependencies:
+    - maicon/slick-slider
+slick-slider:
+  css:
+    theme:
+      vendor/slick/slick/slick.css: {}
+  js:
+    vendor/slick/slick/slick.min.js: {}
+>>>>>>> Worked on my components

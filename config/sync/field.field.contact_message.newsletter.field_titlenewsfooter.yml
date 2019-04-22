@@ -1,0 +1,24 @@
+uuid: 75658189-5d1f-4f34-9129-945cd2ca2ad2
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.newsletter
+    - field.storage.contact_message.field_titlenewsfooter
+  module:
+    - text
+id: contact_message.newsletter.field_titlenewsfooter
+field_name: field_titlenewsfooter
+entity_type: contact_message
+bundle: newsletter
+label: Title
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: Newsletter
+    format: basic_html
+default_value_callback: ''
+settings: {  }
+field_type: text
