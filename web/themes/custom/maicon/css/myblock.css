@@ -209,6 +209,11 @@
     margin-right: 10%;
     padding-top: 10%;
     padding-bottom: 10%; }
+  .featurewrapper .view-content {
+    display: flex;
+    justify-content: space-around;
+    background-color: transparent;
+    padding: 0%; }
   .featurecontent, .views-view-grid .views-row {
     display: flex;
     justify-content: center;
@@ -309,6 +314,11 @@
     width: 40px;
     top: -3em;
     border-radius: 80px; }
+  .newrapper .view-content {
+    display: flex;
+    justify-content: space-around;
+    background-color: transparent;
+    padding: 0%; }
   .necontent .fa-pencil-alt:before {
     position: absolute;
     content: "\f303";
@@ -488,7 +498,7 @@
     border-radius: 20px;
     margin-bottom: 10px;
     position: relative;
-    display: inline-grid; }
+    display: grid; }
   .quotewrapper .fa-user:before {
     content: "\f007";
     position: absolute;
@@ -501,7 +511,7 @@
     border-radius: 20px;
     margin-bottom: 10px;
     position: relative;
-    display: inline-grid; }
+    display: grid; }
   .quotewrapper .fa-envelope:before {
     content: "\f0e0";
     position: absolute;
@@ -514,7 +524,7 @@
     border-radius: 20px;
     margin-bottom: 10px;
     position: relative;
-    display: inline-grid; }
+    display: grid; }
   .quotewrapper .fa-paperclip:before {
     content: "\f0c6";
     position: absolute;
@@ -613,6 +623,11 @@
   .necontent {
     border-right-width: 1px;
     border-right-style: groove; }
+  .newrapper .view-content {
+    display: flex;
+    justify-content: space-around;
+    background-color: transparent;
+    padding: 0%; }
   .newrapper .heading {
     color: #bf3654;
     font-family: 'Raleway', sans-serif;
@@ -950,6 +965,11 @@
     margin-right: 5%;
     padding-top: 10%;
     padding-bottom: 10%; }
+  .featurewrapper .view-content {
+    display: flex;
+    justify-content: space-around;
+    background-color: transparent;
+    padding: 0%; }
   .featurecontent, .views-view-grid .views-row {
     display: flex;
     justify-content: center;
@@ -990,6 +1010,11 @@
     padding-left: 60px;
     padding-right: 60px;
     text-align: center; }
+  .newrapper .view-content {
+    display: flex;
+    justify-content: space-around;
+    background-color: transparent;
+    padding: 0%; }
   .newrapper .heading {
     color: #bf3654;
     font-family: 'Raleway', sans-serif;

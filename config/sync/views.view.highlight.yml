@@ -64,7 +64,7 @@ display:
           row_class: ''
           default_row_class: true
           items: '1'
-          itemsDesktop: '[1199,4]'
+          itemsDesktop: '[1199,1]'
           itemsDesktopSmall: '[1024,1]'
           itemsTablet: '[768,1]'
           itemsMobile: '[479,1]'

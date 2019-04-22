@@ -1,6 +1,6 @@
 uuid: b7c31c0c-9030-457c-b084-e9b0514839ae
 langcode: en
-status: false
+status: true
 dependencies:
   module:
     - mhash
@@ -18,5 +18,5 @@ settings:
   provider: mhash
   label_display: '0'
   bimage:
-    - '53'
+    - '17'
 visibility: {  }

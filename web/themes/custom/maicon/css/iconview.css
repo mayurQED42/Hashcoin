@@ -80,7 +80,7 @@
     .view-icon:before {
       font-family: 'Font Awesome 5 Free';
       content: "\f007"; }
-  .fa-user {
+  .icon-contain .view-icon .fa-user {
     color: black;
     font-size: 3rem; }
   .fa-user :hover {
@@ -136,7 +136,7 @@
     .view-icon:before {
       font-family: 'Font Awesome 5 Free';
       content: "\f007"; }
-  .fa-user {
+  .icon-contain .view-icon .fa-user {
     color: black;
     font-size: 3rem; }
   .fa-user :hover {

@@ -23,8 +23,7 @@
     width : 80%;
     font-size: 50px;
     right: 10%;
-    top : 60px;
-
+    top : 60px;    
 }
 
 .slider .buttontext{
@@ -57,25 +56,40 @@ h2.class1{
     font-family: 'Raleway', sans-serif;
     font-weight: 100;    
     color: white;
+    // animation: fadeIn 1s ease-in both;
 }
 
 h2.class2{
     font-weight: 600;
     font-family: 'Raleway', sans-serif;
     color: white;
+    // animation: fadeIn 1s ease-in both;
 }
 h2.class3{
     font-weight: 900;
     color: white;
+    // animation: fadeIn 1s ease-in both;
 }
 
 .class4{
     color:black;
+    // animation: fadeIn 1s ease-in both;
 }
 
 .class5{
     color:#bf3654;
+    // animation: fadeIn 1s ease-in both;
 }
+// @keyframes fadeIn {
+//     from {
+//         opacity: 0;
+//         transform: translate3d(0, 0, 0);
+//     }
+//     to {
+//         opacity: 1;
+//         transform: translate3d(0, -2%, 0);
+//     }
+// }
 #block-maicon-views-block-highlight-block-1 .owl-pagination{
     position: absolute;
     display: grid;

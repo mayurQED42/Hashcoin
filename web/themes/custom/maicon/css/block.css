@@ -90,6 +90,7 @@
     width: 100%;
     background-size: content;
     height: 566px;
+    margin-top: -6px;
     background-repeat: no-repeat;
     background-position-x: right;
     background-position-y: bottom;
