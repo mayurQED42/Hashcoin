@@ -11,7 +11,7 @@ dependencies:
 id: maicon_bannerimgs
 theme: maicon
 region: banner
-weight: -15
+weight: -16
 provider: null
 plugin: 'block_content:464dd880-a309-41d2-821c-f377efca28bd'
 settings:

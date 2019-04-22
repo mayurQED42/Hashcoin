@@ -6,6 +6,9 @@ dependencies:
     - contact.form.newsletter
     - field.field.contact_message.newsletter.field_email_address
     - field.field.contact_message.newsletter.field_heading
+    - field.field.contact_message.newsletter.field_titlenewsfooter
+  module:
+    - text
 id: contact_message.newsletter.default
 targetEntityType: contact_message
 bundle: newsletter
@@ -20,18 +23,24 @@ content:
     region: content
   field_heading:
     weight: 1
-    label: above
+    label: hidden
     settings:
       link_to_entity: false
     third_party_settings: {  }
     type: string
     region: content
-  message:
-    type: string
+  field_titlenewsfooter:
     weight: 0
     label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
     region: content
-    settings:
-      link_to_entity: false
+  message:
+    type: basic_string
+    weight: 3
+    label: above
+    region: content
+    settings: {  }
     third_party_settings: {  }
 hidden: {  }

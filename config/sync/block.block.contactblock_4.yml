@@ -1,4 +1,4 @@
-uuid: ce37f120-c93a-49ba-a576-8241a515f972
+uuid: d1467236-d490-4d46-a92d-de15ca375f67
 langcode: en
 status: true
 dependencies:
@@ -8,10 +8,10 @@ dependencies:
     - contact_block
   theme:
     - maicon
-id: maicon_contactblock_2
+id: contactblock_4
 theme: maicon
 region: footerpri
-weight: -12
+weight: -13
 provider: null
 plugin: contact_block
 settings:

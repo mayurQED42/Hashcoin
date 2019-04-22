@@ -1,0 +1,23 @@
+uuid: fe53d2da-6794-480d-8145-822abb4f309a
+langcode: en
+status: false
+dependencies:
+  config:
+    - contact.form.free_quote
+  module:
+    - contact_block
+  theme:
+    - maicon
+id: contactblock_3
+theme: maicon
+region: header
+weight: 0
+provider: null
+plugin: contact_block
+settings:
+  id: contact_block
+  label: 'Contact block'
+  provider: contact_block
+  label_display: '0'
+  contact_form: free_quote
+visibility: {  }

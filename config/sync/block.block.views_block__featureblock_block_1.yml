@@ -1,6 +1,6 @@
 uuid: c5ca35c2-ddac-4dc4-b082-9e0215c2cf97
 langcode: en
-status: true
+status: false
 dependencies:
   config:
     - views.view.featureblock

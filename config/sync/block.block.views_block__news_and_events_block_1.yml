@@ -1,6 +1,6 @@
 uuid: ebd906a4-a186-4f9b-882c-909ae46d1b17
 langcode: en
-status: true
+status: false
 dependencies:
   config:
     - views.view.news_and_events
