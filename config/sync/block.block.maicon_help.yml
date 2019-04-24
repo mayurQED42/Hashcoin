@@ -11,11 +11,7 @@ _core:
 id: maicon_help
 theme: maicon
 region: content
-<<<<<<< HEAD
 weight: -6
-=======
-weight: -8
->>>>>>> Added Header Part
 provider: null
 plugin: help_block
 settings:

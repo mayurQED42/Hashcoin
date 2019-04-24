@@ -28,19 +28,11 @@ settings:
   title_field: false
   title_field_required: false
   default_image:
-<<<<<<< HEAD
-    uuid: 3f21a6f9-e947-4f9e-a9c9-3eeedacc96de
+    uuid: 3fe25110-a41b-4c22-8119-b61bf0cc9c63
     alt: c
     title: ''
     width: 1920
     height: 875
-=======
-    uuid: ''
-    alt: ''
-    title: ''
-    width: null
-    height: null
->>>>>>> Worked on my components
   handler: 'default:file'
   handler_settings: {  }
 field_type: image

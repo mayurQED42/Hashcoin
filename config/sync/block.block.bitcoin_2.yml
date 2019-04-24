@@ -18,5 +18,5 @@ settings:
   provider: mhash
   label_display: '0'
   bimage:
-    - '17'
+    - '40'
 visibility: {  }

@@ -1,10 +1,6 @@
 uuid: f313d48a-8df9-4a29-ad99-9c585fd29ea1
 langcode: en
-<<<<<<< HEAD
 status: true
-=======
-status: false
->>>>>>> Added Header Part
 dependencies:
   config:
     - views.view.div3
@@ -15,22 +11,14 @@ dependencies:
 id: maicon_views_block__div3_block_1
 theme: maicon
 region: content
-<<<<<<< HEAD
 weight: -13
-=======
-weight: -5
->>>>>>> Added Header Part
 provider: null
 plugin: 'views_block:div3-block_1'
 settings:
   id: 'views_block:div3-block_1'
   label: ''
   provider: views
-<<<<<<< HEAD
   label_display: '0'
-=======
-  label_display: visible
->>>>>>> Added Header Part
   views_label: ''
   items_per_page: none
 visibility: {  }

@@ -1,4 +1,3 @@
-// A $( document ).ready() block.
 jQuery( document ).ready(function() {
     window.onscroll = function() {myFunction()};
     jQuery("ul.we-mega-menu-ul.nav.nav-tabs").attr('id', 'custom-header')
@@ -12,5 +11,4 @@ jQuery( document ).ready(function() {
         header.classList.remove("sticky");
     }
     }
-    // $(':edit-keys').removeAttr('placeholder');
 });

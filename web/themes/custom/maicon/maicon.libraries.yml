@@ -2,12 +2,10 @@ global-styling:
   version: VERSION
   css:
     theme:
-<<<<<<< HEAD
       css/fontawesome1/css/all.css: {}
       css/regions.css: {}
       css/myblock.css: {}
       css/regions.css: {}
-      css/block.css: {}
       css/block.css: {}
       css/myblock.css: {}
       css/iconview.css: {}
@@ -15,19 +13,10 @@ global-styling:
       css/fontawesome/css/fontawesome.css: {}
       css/highlight.css: {}
       css/testimonials.css: {}
-
-=======
       css/regions.css: {}
       css/header.css: {}
       css/footer.css: {}
-<<<<<<< HEAD
->>>>>>> Completed Header Part. Adding the same
-=======
       css/myblock.css: {}
-<<<<<<< HEAD
-
->>>>>>> added header for mobile view
-=======
       css/recentblogs.css: {}
       css/subscribe.css: {}
       css/bannerfooter.css: {}
@@ -43,4 +32,4 @@ slick-slider:
       vendor/slick/slick/slick.css: {}
   js:
     vendor/slick/slick/slick.min.js: {}
->>>>>>> Worked on my components
+

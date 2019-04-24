@@ -205,8 +205,6 @@
     font-size: 16px;
     font-family: 'Raleway', sans-serif; }
   .featurecontent {
-    margin-left: 10%;
-    margin-right: 10%;
     padding-top: 10%;
     padding-bottom: 10%; }
   .featurewrapper .view-content {
@@ -221,9 +219,9 @@
     text-align: center;
     clear: none; }
   .views-col.col-1 {
-    width: 25% !important; }
+    width: 40% !important; }
   .views-col.col-2 {
-    width: 25% !important; }
+    width: 40% !important; }
   .views-row.clearfix.row-1 .col-1 {
     padding-right: 20%;
     margin-bottom: 50px; }
@@ -312,8 +310,13 @@
     border-color: #bf3653;
     height: 40px;
     width: 40px;
-    top: -3em;
+    top: -1.5em;
     border-radius: 80px; }
+  .newrapper .view-content .owl-carousel {
+    display: none;
+    position: relative;
+    width: 100%;
+    max-height: inherit; }
   .newrapper .view-content {
     display: flex;
     justify-content: space-around;
@@ -323,8 +326,8 @@
     position: absolute;
     content: "\f303";
     color: white;
-    top: 36%;
-    left: 40%; }
+    top: 34%;
+    left: 32%; }
   .necontent .comment a {
     display: none; }
   .necontent .comment:hover {
@@ -448,7 +451,10 @@
   .bitcoinwrapper .form-select {
     width: 100%;
     height: 40px;
-    padding: 2px 40px 5px 30px;
+    padding-left: 20px;
+    padding-right: 8px;
+    padding-bottom: 5px;
+    padding-top: 2px;
     text-align: center;
     -webkit-appearance: none;
     -webkit-border-radius: 20px;
@@ -685,14 +691,14 @@
     border-color: #bf3653;
     height: 40px;
     width: 40px;
-    top: -3em;
+    top: -1.5em;
     border-radius: 80px; }
   .necontent .fa-pencil-alt:before {
     position: absolute;
     content: "\f303";
     color: white;
-    top: 36%;
-    left: 40%; }
+    top: 32%;
+    left: 32%; }
   .necontent .comment:hover {
     color: orange;
     background-color: orange;
@@ -961,8 +967,6 @@
     font-size: 16px;
     font-family: 'Raleway', sans-serif; }
   .featurecontent {
-    margin-left: 5%;
-    margin-right: 5%;
     padding-top: 10%;
     padding-bottom: 10%; }
   .featurewrapper .view-content {
@@ -977,9 +981,9 @@
     text-align: center;
     clear: none; }
   .views-col.col-1 {
-    width: 25% !important; }
+    width: 40% !important; }
   .views-col.col-2 {
-    width: 25% !important; }
+    width: 40% !important; }
   .views-row.clearfix.row-1 .col-1 {
     padding-right: 20%;
     margin-bottom: 50px; }
@@ -1076,14 +1080,14 @@
     border-color: #bf3653;
     height: 40px;
     width: 40px;
-    top: -3em;
+    top: -1.5em;
     border-radius: 80px; }
   .necontent .fa-pencil-alt:before {
     position: absolute;
     content: "\f303";
     color: white;
-    top: 36%;
-    left: 40%; }
+    top: 32%;
+    left: 32%; }
   .necontent .comment:hover {
     color: orange;
     background-color: orange;

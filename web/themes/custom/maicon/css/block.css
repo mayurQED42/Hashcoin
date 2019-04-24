@@ -10,7 +10,7 @@
     background-position-y: center;
     background-size: cover;
     box-sizing: border-box; }
-  .insidediv1 {
+  .div1 .insidediv1 {
     position: absolute;
     padding: 30px;
     font-size: 16px;
@@ -19,8 +19,10 @@
     top: 20%;
     right: 10%;
     width: 420px; }
+  .insidediv1 p {
+    text-align: left; }
   .insidediv1 h1 {
-    font-size: 35px;
+    font-size: 37px;
     color: black; }
   .insidediv1 p2 {
     color: #808080;
@@ -39,6 +41,9 @@
     justify-content: center; }
   .insidediv1 a {
     color: white; }
+  .insidediv1 a:hover {
+    color: white;
+    text-decoration: none; }
   .div1button:hover {
     cursor: pointer;
     background-color: orange; } }
@@ -79,6 +84,9 @@
     justify-content: center; }
   .insidediv1 a {
     color: white; }
+  .insidediv1 a:hover {
+    color: white;
+    text-decoration: none; }
   .div1button:hover {
     cursor: pointer;
     background-color: orange; } }
@@ -102,7 +110,7 @@
     font-weight: 400;
     line-height: 30px;
     top: 8%;
-    right: 10%;
+    right: 17%;
     width: 420px; }
   h1 {
     color: black; }
@@ -123,6 +131,9 @@
     justify-content: center; }
   .insidediv1 a {
     color: white; }
-  .div1button :hover {
+  .insidediv1 a:hover {
+    color: white;
+    text-decoration: none; }
+  .div1button:hover {
     cursor: pointer;
     background-color: orange; } }

@@ -1,5 +1,6 @@
 {% extends "block.html.twig" %}
 {% block content %}
+{{ attach_library('maicon/myblock.css') }}
 {# for featureblock #}
 {% if content['#name'] == "featureblock" %}
 <div class="featurewrapper" style="background-image: url('themes/custom/maicon/images/advantages.jpg')">

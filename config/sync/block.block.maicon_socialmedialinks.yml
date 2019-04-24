@@ -1,6 +1,6 @@
 uuid: 0c3e4445-0a32-435f-8dd1-fd2a4720a288
 langcode: en
-status: false
+status: true
 dependencies:
   module:
     - social_media_links
@@ -9,11 +9,7 @@ dependencies:
 id: maicon_socialmedialinks
 theme: maicon
 region: header
-<<<<<<< HEAD
 weight: -12
-=======
-weight: -8
->>>>>>> Added Header Part
 provider: null
 plugin: social_media_links_block
 settings:

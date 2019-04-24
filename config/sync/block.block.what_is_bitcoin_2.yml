@@ -1,0 +1,25 @@
+uuid: 49c353d0-126b-4d6b-9a45-664fe969d90a
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:div1:51eeb779-85e6-4795-9a02-0457c215b190'
+  module:
+    - block_content
+  theme:
+    - maicon
+id: what_is_bitcoin_2
+theme: maicon
+region: content
+weight: -15
+provider: null
+plugin: 'block_content:51eeb779-85e6-4795-9a02-0457c215b190'
+settings:
+  id: 'block_content:51eeb779-85e6-4795-9a02-0457c215b190'
+  label: 'WHAT IS BITCOIN'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

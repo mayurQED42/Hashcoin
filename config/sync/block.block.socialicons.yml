@@ -1,0 +1,25 @@
+uuid: 52edd7d6-9a87-44cc-8b7e-1b110a6abf0f
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:social1:2e772f62-466a-418f-bae2-b33f8aa5f46d'
+  module:
+    - block_content
+  theme:
+    - maicon
+id: socialicons
+theme: maicon
+region: header
+weight: -15
+provider: null
+plugin: 'block_content:2e772f62-466a-418f-bae2-b33f8aa5f46d'
+settings:
+  id: 'block_content:2e772f62-466a-418f-bae2-b33f8aa5f46d'
+  label: 'social icons'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

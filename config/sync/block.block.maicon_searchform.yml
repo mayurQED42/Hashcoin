@@ -1,10 +1,6 @@
 uuid: 3bbc4810-8b78-41d3-afed-534c78e414c6
 langcode: en
-<<<<<<< HEAD
-status: false
-=======
 status: true
->>>>>>> Added Header Part
 dependencies:
   module:
     - search
@@ -13,20 +9,12 @@ dependencies:
 id: maicon_searchform
 theme: maicon
 region: header
-<<<<<<< HEAD
-weight: -14
-=======
 weight: -13
->>>>>>> Added Header Part
 provider: null
 plugin: search_form_block
 settings:
   id: search_form_block
   label: 'Search form'
   provider: search
-<<<<<<< HEAD
-  label_display: visible
-=======
   label_display: '0'
->>>>>>> Added Header Part
 visibility: {  }

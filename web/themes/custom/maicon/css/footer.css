@@ -36,7 +36,7 @@
     font-family: 'Raleway', sans-serif;
     line-height: 30px;
     margin-top: 246px; }
-  input#edit-field-email-address-0-value {
+  .form-email {
     padding-left: 30px;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -44,7 +44,7 @@
     line-height: 30px;
     font-weight: 700;
     border: none; }
-  input#edit-field-email-address-0-value::after {
+  .subcribe-wrap input#edit-field-email-address-0-value::after {
     content: "\e666";
     font-size: 16px;
     font-weight: 300;
@@ -55,7 +55,7 @@
     display: none; }
   .form-item label {
     display: none; }
-  input#edit-field-email-address-0-value {
+  .subcribe-wrap input#edit-field-email-address-0-value {
     border-radius: 17px;
     border-radius: 20px;
     width: 358px;
@@ -77,7 +77,7 @@
     font-family: 'Raleway', sans-serif;
     line-height: 30px;
     margin-top: 29px; }
-  .field--name-body p {
+  .footerpri .field--name-body p {
     margin-bottom: 10px;
     display: block;
     margin-block-start: 1em;
@@ -87,7 +87,8 @@
     text-align: center;
     font-family: 'Raleway', sans-serif;
     font-size: 16px;
-    font-weight: 400; }
+    font-weight: 400;
+    line-height: 31px; }
   .field--name-field-address2 {
     color: #ffffff;
     border-color: #ffffff;
@@ -131,7 +132,7 @@
     font-family: 'Raleway', sans-serif;
     line-height: 30px;
     margin-top: 15px; }
-  .field--name-body p {
+  .footerpri .field--name-body p {
     margin-bottom: 10px;
     display: block;
     margin-block-start: 1em;
@@ -176,7 +177,7 @@
     order: 3; }
   div#block-maicon-footer2info {
     margin: 30px 20px; }
-  input#edit-field-email-address-0-value {
+  .subcribe-wrap input#edit-field-email-address-0-value {
     padding-left: 30px;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -190,7 +191,7 @@
     height: 41px;
     margin-top: 50px;
     margin-left: 20px; }
-  input#edit-field-email-address-0-value::after {
+  .subcribe-wrap input#edit-field-email-address-0-value::after {
     content: "\e666";
     font-size: 16px;
     font-weight: 300;
@@ -205,17 +206,18 @@
     color: #919899;
     width: 100%; }
   .footer-wrapper {
+    flex-wrap: wrap;
     display: flex;
-    margin: 0 auto;
-    max-width: 1024px; }
+    text-align: center;
+    margin: 0 auto; }
   .field--name-field-image2 {
     text-align: center;
     margin-top: 77px; }
   .field--name-field-image2:hover {
     opacity: 0.7; }
   #block-maicon-views-block-recent-blogs-block-1 {
-    width: 50%;
-    height: 409.69px; }
+    width: 47%;
+    margin-top: -6%; }
   div#block-maicon-views-block-recent-blogs-block-1 > h2 {
     font-size: 36px;
     font-weight: 550;
@@ -234,7 +236,7 @@
     font-family: 'Raleway', sans-serif;
     line-height: 30px;
     margin-top: 246px; }
-  input#edit-field-email-address-0-value {
+  .subcribe-wrap input#edit-field-email-address-0-value {
     padding-left: 30px;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -242,7 +244,7 @@
     line-height: 30px;
     font-weight: 700;
     border: none; }
-  input#edit-field-email-address-0-value::after {
+  .subcribe-wrap input#edit-field-email-address-0-value::after {
     content: "\e666";
     font-size: 16px;
     font-weight: 300;
@@ -253,7 +255,7 @@
     display: none; }
   .form-item label {
     display: none; }
-  input#edit-field-email-address-0-value {
+  .subcribe-wrap input#edit-field-email-address-0-value {
     border-radius: 17px;
     border-radius: 20px;
     width: 358px;
@@ -262,7 +264,7 @@
     margin-left: 44px; }
   #block-maicon-footer2info {
     width: 100%;
-    height: 490px; }
+    order: -1; }
   #block-maicon-contactblock-2 {
     width: 50%;
     height: 397px; }
@@ -275,7 +277,7 @@
     font-family: 'Raleway', sans-serif;
     line-height: 30px;
     margin-top: 29px; }
-  .field--name-body p {
+  .footerpri .field--name-body p {
     margin-bottom: 10px;
     display: block;
     margin-block-start: 1em;
@@ -285,7 +287,8 @@
     text-align: center;
     font-family: 'Raleway', sans-serif;
     font-size: 16px;
-    font-weight: 400; }
+    font-weight: 400;
+    padding: 7px; }
   .field--name-field-address2 {
     color: #ffffff;
     border-color: #ffffff;

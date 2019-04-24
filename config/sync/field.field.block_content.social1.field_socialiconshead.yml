@@ -13,7 +13,7 @@ entity_type: block_content
 bundle: social1
 label: socialiconshead
 description: ''
-required: false
+required: true
 translatable: false
 default_value:
   -

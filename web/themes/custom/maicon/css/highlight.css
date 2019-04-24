@@ -6,7 +6,7 @@
     position: relative;
     height: 675px;
     background-size: cover; }
-  .view-content .owl-carousel {
+  .highlight .view-content .owl-carousel {
     display: none;
     position: relative;
     width: 100%;
@@ -17,7 +17,15 @@
     width: 80%;
     font-size: 50px;
     right: 10%;
-    top: 60px; }
+    top: 17%;
+    animation: fade 1s ease-in both; }
+  @keyframes fade {
+    from {
+      opacity: 0;
+      transform: translate3d(0, 0, 0); }
+    to {
+      opacity: 1;
+      transform: translate3d(0, -10%, 0); } }
   .slider .buttontext {
     position: absolute;
     background-color: #bf3654;
@@ -33,6 +41,8 @@
   #block-maicon-views-block-highlight-block-1 .owl-theme .owl-controls .owl-page.active span, .owl-theme .owl-controls.clickable .owl-page:hover span {
     opacity: 1;
     background-color: #bf3654; }
+  .title > h2 {
+    margin: 0; }
   h2.class1 {
     font-family: 'Raleway', sans-serif;
     font-weight: 100;
@@ -44,9 +54,9 @@
   h2.class3 {
     font-weight: 900;
     color: white; }
-  .class4 {
+  h2.class4 {
     color: black; }
-  .class5 {
+  h2.class5 {
     color: #bf3654; }
   #block-maicon-views-block-highlight-block-1 .owl-pagination {
     position: absolute;
@@ -67,12 +77,13 @@
     justify-content: left; }
   .class6 {
     color: white;
-    font-size: 14px;
+    font-size: 15px;
     width: 200px;
     height: 60px;
     letter-spacing: 0.2em;
     display: flex;
     align-items: center;
+    margin-top: 10px !important;
     justify-content: center;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
@@ -146,7 +157,7 @@
     height: 35px;
     letter-spacing: 0.2em;
     display: flex;
-    margin: 8%;
+    margin: 4%;
     align-items: center;
     justify-content: center;
     border-top-left-radius: 30px;
@@ -189,7 +200,9 @@
     width: 80%;
     font-size: 30px;
     right: 10%;
-    top: 10px; }
+    top: 17%; }
+  .title > h2 {
+    margin: 0; }
   h2.class1 {
     font-family: 'Raleway', sans-serif;
     font-weight: 100;

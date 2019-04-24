@@ -9,12 +9,13 @@
     display: flex;
     flex-direction: column-reverse; }
     .testimg .quotes {
-      position: absolute;
-      height: 50px;
-      width: 50px;
+      position: relative;
+      height: 60px;
+      width: 60px;
       /* font-size: 25px; */
       background-color: #bf3654;
-      right: 40%;
+      left: 16em;
+      top: 21em;
       color: white;
       text-align: center;
       display: grid;
@@ -67,11 +68,11 @@
     flex-direction: column-reverse; }
     .testimg .quotes {
       position: absolute;
-      height: 50px;
-      width: 50px;
+      height: 60px;
+      width: 60px;
       /* font-size: 25px; */
       background-color: #bf3654;
-      right: 10%;
+      right: 13%;
       color: white;
       text-align: center;
       display: grid;
@@ -122,12 +123,13 @@
     display: flex;
     flex-direction: column-reverse; }
     .testimg .quotes {
-      position: absolute;
-      height: 50px;
-      width: 50px;
+      position: relative;
+      height: 60px;
+      width: 60px;
       /* font-size: 25px; */
       background-color: #bf3654;
-      right: 34%;
+      left: 16em;
+      top: 21em;
       color: white;
       text-align: center;
       display: grid;

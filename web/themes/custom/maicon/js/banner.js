@@ -4,7 +4,6 @@
     Drupal.behaviors.slider = {
       attach: function (context, settings) {
         jQuery(document).ready(function($) {
-          //alert('hello');
           $('.block-block-banner').slick({
             centerMode: true,
             centerPadding: '30px',

@@ -1,69 +1,92 @@
 /* FOR DESKTOP */
 @media screen and (min-width: 1024px) {
-  .recentblogs2 {
-    color: #ffffff;
-    display: flex;
-    justify-content: space-evenly;
-    letter-spacing: 0;
-    margin-right: -14px;
-    margin-left: -14px;
-    font-weight: 700;
-    font-size: 14px;
-    margin: 0 0 10px;
-    text-transform: uppercase;
-    line-height: 44px; }
-  .rbtitle > a {
-    color: #919899;
-    font-family: 'Raleway', sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    margin-left: 35px; }
-  .rbtitle > a:hover {
-    color: #ffffff;
-    text-decoration: none; }
-  .rbdate {
-    color: #ffffff; }
-  .rbdate:hover {
-    color: #bf3654; }
-  .authorby > a {
-    color: #ffffff; }
-  .authorby > a:hover {
-    color: #bf3654;
-    text-decoration: none; }
-  .blogtype > a {
-    color: #ffffff; }
-  .blogtype > a:hover {
-    color: #bf3654;
-    text-decoration: none; } }
+  .view-recent-blogs .view-content {
+    display: inherit;
+    justify-content: inherit;
+    background-color: inherit;
+    padding: 10px; }
+    .view-recent-blogs .view-content .views-row .recentblogs {
+      margin-top: -3%; }
+      .view-recent-blogs .view-content .views-row .recentblogs .recentblogs2 {
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        letter-spacing: 0;
+        margin-right: -14px;
+        margin-left: -14px;
+        font-weight: 700;
+        font-size: 14px;
+        margin: 0 0 10px;
+        text-transform: uppercase;
+        line-height: 44px;
+        margin-bottom: 11%; }
+        .view-recent-blogs .view-content .views-row .recentblogs .recentblogs2 a:hover {
+          color: #bf3654; }
+      .view-recent-blogs .view-content .views-row .recentblogs a {
+        color: #919899;
+        font-size: 16px;
+        color: #919899;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 400;
+        margin-left: 35px; }
+      .view-recent-blogs .view-content .views-row .recentblogs a:hover {
+        color: #ffffff;
+        text-decoration: none; }
+      .view-recent-blogs .view-content .views-row .recentblogs .rbdate:hover {
+        color: #bf3654; }
+      .view-recent-blogs .view-content .views-row .recentblogs .rbdate {
+        color: #ffffff; }
+      .view-recent-blogs .view-content .views-row .recentblogs .authorby > a {
+        text-transform: uppercase;
+        color: #ffffff; }
+      .view-recent-blogs .view-content .views-row .recentblogs .blogtype > a {
+        color: #ffffff; } }
 
 /* FOR MOBILE */
 @media (min-width: 320px) and (max-width: 767px) {
-  .recentblogs2 {
-    display: flex;
-    order: 3;
-    color: #ffffff;
-    display: flex;
-    justify-content: space-evenly;
-    letter-spacing: 0;
-    margin-right: -14px;
-    margin-left: -14px;
-    font-weight: 700;
-    font-size: 14px;
-    margin: 0 0 10px;
-    text-transform: uppercase;
-    line-height: 44px; }
-  .rbtitle > a {
-    color: #919899;
-    font-family: 'Raleway', sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    margin-left: 35px; }
-  .rbdate {
-    color: #ffffff; }
-  .authorby > a {
-    color: #ffffff; }
-  .blogtype > a {
-    color: #ffffff; }
+  .view-recent-blogs .view-content {
+    display: inherit;
+    justify-content: inherit;
+    background-color: inherit;
+    padding: 10px; }
+    .view-recent-blogs .view-content .views-row .recentblogs {
+      margin-top: -3%; }
+      .view-recent-blogs .view-content .views-row .recentblogs .recentblogs2 {
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        letter-spacing: 0;
+        margin-right: -14px;
+        margin-left: -14px;
+        font-weight: 700;
+        font-size: 14px;
+        margin: 0 0 10px;
+        text-transform: uppercase;
+        line-height: 44px;
+        margin-bottom: 11%; }
+        .view-recent-blogs .view-content .views-row .recentblogs .recentblogs2 a:hover {
+          color: #bf3654; }
+      .view-recent-blogs .view-content .views-row .recentblogs a {
+        color: #919899;
+        font-size: 16px;
+        color: #919899;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 400;
+        margin-left: 35px; }
+      .view-recent-blogs .view-content .views-row .recentblogs a:hover {
+        color: #ffffff;
+        text-decoration: none; }
+      .view-recent-blogs .view-content .views-row .recentblogs .rbdate:hover {
+        color: #bf3654; }
+      .view-recent-blogs .view-content .views-row .recentblogs .rbdate {
+        color: #ffffff; }
+      .view-recent-blogs .view-content .views-row .recentblogs .authorby > a {
+        text-transform: uppercase;
+        color: #ffffff; }
+      .view-recent-blogs .view-content .views-row .recentblogs .blogtype > a {
+        color: #ffffff; }
+      .view-recent-blogs .view-content .views-row .recentblogs .rbtitle {
+        text-align: center; }
   #block-maicon-views-block-recent-blogs-block-1 > h2 {
     font-size: 30px;
     font-weight: 600;
@@ -72,66 +95,48 @@
     text-align: center;
     font-family: 'Raleway',sans-serif;
     line-height: 30px;
-    margin-top: 15px; }
-  .rbtitle > a {
-    color: #919899;
-    margin-bottom: 10px;
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    text-align: center;
-    font-family: 'Raleway',sans-serif;
-    font-size: 16px;
-    font-weight: 400; } }
+    margin-top: 15px; } }
 
-/* FOR DESKTOP */
+/* FOR TABLET */
 @media (min-width: 768px) and (max-width: 1024px) {
-  .recentblogs2 {
-    display: flex;
-    order: 2;
-    color: #ffffff;
-    display: flex;
-    justify-content: space-evenly;
-    letter-spacing: 0;
-    margin-right: -14px;
-    margin-left: -14px;
-    font-weight: 700;
-    font-size: 14px;
-    margin: 0 0 10px;
-    text-transform: uppercase;
-    line-height: 44px; }
-  .rbtitle > a {
-    color: #919899;
-    font-family: 'Raleway', sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    margin-left: 35px; }
-  .rbdate {
-    color: #ffffff; }
-  .authorby > a {
-    color: #ffffff; }
-  .blogtype > a {
-    color: #ffffff; }
-  #block-maicon-views-block-recent-blogs-block-1 > h2 {
-    font-size: 30px;
-    font-weight: 600;
-    margin-bottom: 25px;
-    color: white;
-    text-align: center;
-    font-family: 'Raleway',sans-serif;
-    line-height: 30px;
-    margin-top: 15px; }
-  .rbtitle > a {
-    color: #919899;
-    margin-bottom: 10px;
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    text-align: center;
-    font-family: 'Raleway',sans-serif;
-    font-size: 16px;
-    font-weight: 400; } }
+  .view-recent-blogs .view-content {
+    display: inherit;
+    justify-content: inherit;
+    background-color: inherit;
+    padding: 10px; }
+    .view-recent-blogs .view-content .views-row .recentblogs {
+      margin-top: -3%; }
+      .view-recent-blogs .view-content .views-row .recentblogs .recentblogs2 {
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        letter-spacing: 0;
+        margin-right: -14px;
+        margin-left: -14px;
+        font-weight: 700;
+        font-size: 14px;
+        margin: 0 0 10px;
+        text-transform: uppercase;
+        line-height: 44px;
+        margin-bottom: 11%; }
+        .view-recent-blogs .view-content .views-row .recentblogs .recentblogs2 a:hover {
+          color: #bf3654; }
+      .view-recent-blogs .view-content .views-row .recentblogs a {
+        color: #919899;
+        font-size: 16px;
+        color: #919899;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 400;
+        margin-left: 35px; }
+      .view-recent-blogs .view-content .views-row .recentblogs a:hover {
+        color: #ffffff;
+        text-decoration: none; }
+      .view-recent-blogs .view-content .views-row .recentblogs .rbdate:hover {
+        color: #bf3654; }
+      .view-recent-blogs .view-content .views-row .recentblogs .rbdate {
+        color: #ffffff; }
+      .view-recent-blogs .view-content .views-row .recentblogs .authorby > a {
+        text-transform: uppercase;
+        color: #ffffff; }
+      .view-recent-blogs .view-content .views-row .recentblogs .blogtype > a {
+        color: #ffffff; } }

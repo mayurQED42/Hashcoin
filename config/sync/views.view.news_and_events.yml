@@ -494,7 +494,7 @@ display:
           exclude: false
           alter:
             alter_text: true
-            text: "<div class=\"necontent\">\r\n   <div class=\"neimage\">{{ field_neimage }}</div>\r\n     <div class=\"commentwrap\">\r\n     <div class=\"comment\"><i class=\"fas fa-pencil-alt\"></i>{{ field_commentlink }}</div>\r\n     </div>\r\n     <div class=\"neheader\">\r\n     <div class=\"title\">{{ title}}</div>\r\n     <div class=\"body\">{{ body}}</div>\r\n   </div>\r\n <div class=\"nefooter\">\r\n   <div class=\"created\">{{ created }}</div>\r\n   <div class=\"uid\">{{ uid }}</div>\r\n   <div class=\"type\">{{ field_type }}</div>\r\n </div>\r\n</div>"
+            text: "<div class=\"necontent\">\r\n   <div class=\"neimage\">{{ field_neimage }}</div>\r\n     <div class=\"commentwrap\">\r\n     <div class=\"comment\"><i class=\"fas fa-pencil-alt\"></i>{{ field_commentlink }}</div>\r\n     </div>\r\n     <div class=\"neheader\">\r\n     <div class=\"title ellipsis\">{{ title}}</div>\r\n     <div class=\"body ellipsis\">{{ body}}</div>\r\n   </div>\r\n <div class=\"nefooter\">\r\n   <div class=\"created\">{{ created }}</div>\r\n   <div class=\"uid\">{{ uid }}</div>\r\n   <div class=\"type\">{{ field_type }}</div>\r\n </div>\r\n</div>"
             make_link: false
             path: ''
             absolute: false

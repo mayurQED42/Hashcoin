@@ -13,11 +13,7 @@ _core:
 id: maicon_account_menu
 theme: maicon
 region: header
-<<<<<<< HEAD
-weight: -5
-=======
-weight: -2
->>>>>>> Added Header Part
+weight: -4
 provider: null
 plugin: 'system_menu_block:account'
 settings:

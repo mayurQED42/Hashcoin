@@ -10,13 +10,8 @@ _core:
   default_config_hash: za-39d5WDUg6XvbyqSnuVYEeq6QM4qKJxW8MnoAha5A
 id: maicon_search
 theme: maicon
-<<<<<<< HEAD
 region: header
-weight: -11
-=======
-region: content
-weight: -14
->>>>>>> Added Header Part
+weight: -10
 provider: null
 plugin: search_form_block
 settings:

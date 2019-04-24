@@ -1,10 +1,6 @@
 uuid: c00e289d-ba07-4fdc-94ab-a88b37ce197b
 langcode: en
-<<<<<<< HEAD
-status: false
-=======
 status: true
->>>>>>> Added Header Part
 dependencies:
   module:
     - we_megamenu
@@ -13,11 +9,7 @@ dependencies:
 id: maicon_mainnavigation
 theme: maicon
 region: menubar
-<<<<<<< HEAD
 weight: -14
-=======
-weight: -15
->>>>>>> Added Header Part
 provider: null
 plugin: 'we_megamenu_block:main'
 settings:
