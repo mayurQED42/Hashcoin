@@ -20,6 +20,7 @@ global-styling:
       css/recentblogs.css: {}
       css/subscribe.css: {}
       css/bannerfooter.css: {}
+      css/shoplist.css: {}
   js:
       js/sticky.js: {}
       js/menus.js: {}

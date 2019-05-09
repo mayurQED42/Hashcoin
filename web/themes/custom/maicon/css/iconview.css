@@ -1,6 +1,6 @@
 @import url(./css/fontawesome/css/all.css);
 @media only screen and (min-width: 1025px) {
-  .view-content {
+  .view-display-id-block_1 .view-content {
     display: flex;
     justify-content: space-around;
     background-color: #f6f7f9;
