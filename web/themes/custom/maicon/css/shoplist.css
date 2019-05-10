@@ -14,8 +14,8 @@
   opacity: 0.8;
   transform: scale(1.1); }
 
-.shop-list-main-wrapper ul.pager__items.js-pager__items {
-  margin: -8%; }
+.shop-list-main-wrapper .shop-image:hover {
+  overflow: hidden; }
 
 .shop-list-main-wrapper .shop-title {
   text-align: center;
@@ -36,3 +36,13 @@
 .shop-list-main-wrapper .shop-rate {
   display: flex;
   justify-content: space-around; }
+
+.shop-list-main-wrapper .shop-price {
+  color: #bf3654; }
+
+.shop-list-main-wrapper .form-actions {
+  padding-top: 0px; }
+
+.form--inline.clearfix {
+  display: flex;
+  justify-content: flex-end; }

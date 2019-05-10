@@ -11,15 +11,18 @@
     .shop-image{
         img{
             background-color: #f2f2f2;
-        }
+         }
         img:hover{
             opacity: 0.8;
             transform: scale(1.1);
         }
     }
-    ul.pager__items.js-pager__items {
-        margin: -8%;
+    .shop-image:hover{
+        overflow: hidden;
     }
+    // ul.pager__items.js-pager__items {
+    //     margin: -8%;
+    // }
     .shop-title {
         text-align: center;
         margin-left: 15%;
@@ -40,5 +43,15 @@
         display: flex;
         justify-content: space-around;
     }
+    .shop-price{
+    color: #bf3654;
+    }
+    .form-actions {
+         padding-top: 0px; 
+    }
 
+}
+.form--inline.clearfix{
+    display: flex;
+    justify-content: flex-end;
 }

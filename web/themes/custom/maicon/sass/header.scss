@@ -211,6 +211,10 @@
   .we-mega-menu-ul>.we-mega-menu-li>a {
      background-color: transparent;
   }
+  .navbar-we-mega-menu .nav-tabs {
+    border-bottom: 0 none;
+    z-index: 1;
+  }
 }
   
 /* FOR MOBILE */

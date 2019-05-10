@@ -158,7 +158,10 @@
   .we-mega-menu-ul > .we-mega-menu-li {
     border-left: none; }
   .we-mega-menu-ul > .we-mega-menu-li > a {
-    background-color: transparent; } }
+    background-color: transparent; }
+  .navbar-we-mega-menu .nav-tabs {
+    border-bottom: 0 none;
+    z-index: 1; } }
 
 /* FOR MOBILE */
 @media (min-width: 320px) and (max-width: 767px) {

@@ -51,8 +51,6 @@
     font-family: 'rt-icons-2'; }
   input#edit-submit {
     display: none; }
-  .form-actions {
-    display: none; }
   .form-item label {
     display: none; }
   .subcribe-wrap input#edit-field-email-address-0-value {
@@ -250,8 +248,6 @@
     font-weight: 300;
     font-family: 'rt-icons-2'; }
   input#edit-submit {
-    display: none; }
-  .form-actions {
     display: none; }
   .form-item label {
     display: none; }
