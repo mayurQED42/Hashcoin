@@ -1,3 +1,4 @@
+/* FOR DESKTOP */
 @media screen and (min-width: 1024px) {
   .block-block-banner {
     display: flex;
@@ -33,8 +34,6 @@
     margin-bottom: 50px; }
     .block-block-banner .field__label {
       display: none; }
-  ul.pager__items.js-pager__items {
-    display: none; }
   .slick-slide img {
     margin-left: -26%; }
   .slick-slide img {

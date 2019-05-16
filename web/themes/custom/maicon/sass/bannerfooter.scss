@@ -1,4 +1,4 @@
-// /* FOR DESKTOP */
+/* FOR DESKTOP */
 
 @media screen and (min-width: 1024px){
     .block-block-banner{
@@ -62,9 +62,9 @@
             display: none;
         }
     }
-    ul.pager__items.js-pager__items {
-        display: none;
-    }
+    // ul.pager__items.js-pager__items {
+    //     display: none;
+    // }
     .slick-slide img {
         margin-left: -26%;
     }

@@ -59,7 +59,7 @@
 @media only screen and (max-width: 767px) {
   .view-content {
     justify-content: space-around;
-    background-color: #f6f7f9;
+    background-color: white;
     padding: 10%; }
   .icon-contain {
     display: flex;
@@ -114,9 +114,7 @@
 @media (min-width: 768px) and (max-width: 1024px) {
   .view-content {
     display: flex;
-    justify-content: space-around;
-    background-color: #f6f7f9;
-    padding: 10%; }
+    justify-content: space-around; }
   .icon-contain {
     display: flex;
     flex-direction: column;

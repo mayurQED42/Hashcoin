@@ -124,7 +124,7 @@
     border-radius: 20px; 
     color: #3b3b3b; 
     width: 207px;
-    margin-left: 100px;
+    margin-left: 139px;
     margin-top: 15%;
     padding: 7px;
     background-position: 179px;
@@ -213,7 +213,12 @@
   }
   .navbar-we-mega-menu .nav-tabs {
     border-bottom: 0 none;
-    z-index: 1;
+    z-index: 2;
+  }
+  .nav-tabs>li.active>a,
+  .nav-tabs>li.active>a:focus, 
+  .nav-tabs>li.active>a:hover {
+    color: #fab915;
   }
 }
   

@@ -21,6 +21,7 @@ global-styling:
       css/subscribe.css: {}
       css/bannerfooter.css: {}
       css/shoplist.css: {}
+      css/shop-menu.css: {}
   js:
       js/sticky.js: {}
       js/menus.js: {}

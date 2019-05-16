@@ -148,7 +148,8 @@
     .view-content{
         
         justify-content: space-around;
-        background-color: #f6f7f9;
+        // background-color: #f6f7f9;
+        background-color: white;
         padding: 10%;
     }
     
@@ -242,12 +243,14 @@
 	}
 
 }
+//for tablet//
+
 @media (min-width: 768px) and (max-width: 1024px){
     .view-content{
         display: flex;
         justify-content: space-around;
-        background-color: #f6f7f9;
-        padding: 10%;
+        // background-color: #f6f7f9;
+        // padding: 10%;
     }
     
     .icon-contain{

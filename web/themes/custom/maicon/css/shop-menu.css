@@ -1,0 +1,103 @@
+/* FOR DESKTOP */
+@media screen and (min-width: 1024px) {
+  .shop-menu {
+    text-align: center;
+    opacity: 0.7;
+    padding-bottom: 4.2%;
+    padding-top: 4.2%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background: linear-gradient(-90deg, #fab915, #bf3654); }
+    .shop-menu li {
+      margin: 0 21px; }
+      .shop-menu li a {
+        color: #ffffff;
+        letter-spacing: 0.2em;
+        font-weight: 700;
+        font-size: 14px; }
+      .shop-menu li a:hover {
+        text-decoration: none;
+        color: #fab915; }
+    .shop-menu h1 {
+      font-size: 48px;
+      color: #ffffff;
+      margin-bottom: 10px; }
+    .shop-menu ul.menu {
+      display: flex;
+      justify-content: center;
+      color: #ffffff; }
+    .shop-menu ul.menu a.is-active {
+      color: #ffffff; }
+    .shop-menu ul.menu a.is-active:hover {
+      color: #fab915; } }
+
+/* FOR MOBILE */
+@media (min-width: 320px) and (max-width: 767px) {
+  .shop-menu {
+    text-align: center;
+    opacity: 0.7;
+    padding-bottom: 65px;
+    padding-top: 65px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background: linear-gradient(-90deg, #fab915, #bf3654); }
+    .shop-menu li {
+      margin: 0 21px; }
+      .shop-menu li a {
+        color: #ffffff;
+        letter-spacing: 0.2em;
+        font-weight: 700;
+        font-size: 14px;
+        font-family: 'Raleway', sans-serif; }
+      .shop-menu li a:hover {
+        text-decoration: none;
+        color: #fab915; }
+    .shop-menu h1 {
+      font-size: 30px;
+      font-weight: 600;
+      color: #ffffff;
+      margin-bottom: 10px; }
+    .shop-menu ul.menu {
+      display: flex;
+      justify-content: center;
+      color: #ffffff; }
+    .shop-menu ul.menu a.is-active {
+      color: #ffffff; }
+    .shop-menu ul.menu a.is-active:hover {
+      color: #fab915; }
+    .shop-menu .shop-list-main-wrapper form#views-exposed-form-shop-list-view-page-1 {
+      margin-top: 100px;
+      margin-bottom: 45px; } }
+
+/* FOR TABLET */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .shop-menu {
+    text-align: center;
+    opacity: 0.7;
+    padding-bottom: 65px;
+    padding-top: 65px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background: linear-gradient(-90deg, #fab915, #bf3654); }
+    .shop-menu li {
+      margin: 0 21px; }
+      .shop-menu li a {
+        color: #ffffff;
+        font-weight: 700;
+        font-size: 14px;
+        font-family: 'Raleway', sans-serif; }
+      .shop-menu li a:hover {
+        text-decoration: none;
+        color: #fab915; }
+    .shop-menu h1 {
+      font-size: 30px;
+      font-weight: 600;
+      color: #ffffff; }
+    .shop-menu ul.menu {
+      display: flex;
+      justify-content: center;
+      color: #ffffff; }
+    .shop-menu ul.menu a.is-active {
+      color: #ffffff; }
+    .shop-menu ul.menu a.is-active:hover {
+      color: #fab915; } }
