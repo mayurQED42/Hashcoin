@@ -1,0 +1,114 @@
+/* FOR DESKTOP */
+
+@media screen and (min-width: 1024px){
+    .subcribe-wrap{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 13%;
+        margin-top: 23%;
+        width: 406.66px;
+    }
+    .sub-title {
+        font-size: 36px;
+        font-weight: 550;
+        margin-bottom: 24px;
+        color: white;
+        text-align: center;
+        font-family: 'Raleway',sans-serif;
+        line-height: 30px;
+        margin-top: 5%;
+    }
+    .subscribe{
+    text-align: center;
+    font-family: 'Raleway',sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 31px;
+    }
+    div#block-maicon-powered>h2 {
+        text-align: center;
+        font-weight: 700;
+        font-size: 14px;
+        text-transform: uppercase;
+        letter-spacing: 0.2em;
+        font-family: 'Raleway', sans-serif;
+        color: #808080;
+        margin-top: 21px;
+        margin-top: 34px;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+}
+/* for mobile */
+@media ( min-width: 320px) and (max-width: 767px) {
+    .subcribe-wrap {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 13%;
+        margin-bottom: 23%;
+        width: 406.66px;
+        order: 3;
+    }
+    .sub-title {
+        font-size: 30px;
+        font-weight: 600;
+        margin-bottom: 25px;
+        color: white;
+        text-align: center;
+        font-family: 'Raleway',sans-serif;
+        line-height: 30px;
+        margin-top: 15px;
+    }
+    .subscribe{
+        text-align: center;
+        font-family: 'Raleway',sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+    }
+    div#block-maicon-powered>h2 {
+        text-align: center;
+    }
+}
+/* FOR TABLET */
+@media ( min-width: 768px) and (max-width: 1024px) {
+    .subcribe-wrap{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 13%;
+        margin-top: 23%;
+        width: 406.66px;
+    }
+    .sub-title {
+        font-size: 36px;
+        font-weight: 550;
+        margin-bottom: 24px;
+        color: white;
+        text-align: center;
+        font-family: 'Raleway',sans-serif;
+        line-height: 30px;
+        margin-top: 5%;
+    }
+    .subscribe{
+    text-align: center;
+    font-family: 'Raleway',sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 31px;
+    }
+    div#block-maicon-powered>h2 {
+        text-align: center;
+        font-weight: 700;
+        font-size: 14px;
+        text-transform: uppercase;
+        letter-spacing: 0.2em;
+        font-family: 'Raleway', sans-serif;
+        color: #808080;
+        margin-top: 21px;
+        margin-top: 34px;
+        padding-right: 15px;
+        padding-left: 15px;
+    } 
+}

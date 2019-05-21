@@ -1,0 +1,232 @@
+@media only screen and (min-width: 1025px) {
+    .view-div3 .view-content{
+        background-color:white;
+    }
+    .testimonials{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .testimg{
+        display: flex;
+        flex-direction: column-reverse;
+        .quotes{
+                position: relative;
+                height: 60px;
+                width: 60px;
+                /* font-size: 25px; */
+                background-color: #bf3654;
+                left:16em;
+                top:21em;
+                color: white;
+                text-align: center;
+                display: grid;
+                align-items: center;
+                border-radius: 50%;
+        &:after {
+            font-family: 'Font Awesome 5 Free';
+            content: "\f007";
+          }
+        }
+    }
+
+    .testimg img{
+        height : 300px;
+        width : 300px;
+        border-radius: 50%;
+        
+    }
+    
+
+    .firstname{
+        font-size : 14px;
+        margin-top : 30px;
+        font-weight: 700;
+        color : #fab915;
+        letter-spacing: 0.2em;
+    }
+
+    .lastname{
+        font-size: 42px;
+        font-weight: bolder;
+        margin : 20px;
+    }
+
+    .testimonials .body{
+        width : 825px;
+        text-align : center;
+        font-size: 20px;
+        font-weight: 300;
+        line-height: 30px;
+        color: #808080;
+        font-style: italic;
+    }
+
+    .view-div3 .owl-pagination{
+        position : relative;
+        display : contents;
+    }
+    #block-maicon-views-block-highlight-block-1 .owl-theme .owl-controls .owl-page.active span, .owl-theme .owl-controls.clickable .owl-page span{
+        opacity: 1;
+        background-color: black;
+    }
+    #block-maicon-views-block-highlight-block-1 .owl-theme .owl-controls .owl-page.active span, .owl-theme .owl-controls.clickable .owl-page:hover span{
+        opacity: 1;
+        background-color: #bf3654;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .view-div3 .view-content{
+        background-color:white;
+    }
+    .testimonials{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .testimg{
+        display: flex;
+        flex-direction: column-reverse;
+        .quotes{
+                position: absolute;
+                height: 60px;
+                width: 60px;
+                /* font-size: 25px; */
+                background-color: #bf3654;
+                right : 13%;
+                color: white;
+                text-align: center;
+                display: grid;
+                align-items: center;
+                border-radius: 50%;
+        &:after {
+            font-family: 'Font Awesome 5 Free';
+            content: "\f007";
+          }
+        }
+    }
+
+    .testimg img{
+        height : auto;
+        width : 100%;
+        border-radius: 50%;
+        
+    }
+    
+
+    .firstname{
+        font-size : 14px;
+        margin-top : 30px;
+        font-weight: 700;
+        color : #fab915;
+        letter-spacing: 0.2em;
+    }
+
+    .lastname{
+        font-size: 35px;
+        font-weight: bolder;
+        margin : 20px;
+    }
+
+    .testimonials .body{
+        text-align : center;
+        font-size: 20px;
+        font-weight: 300;
+        line-height: 30px;
+        color: #808080;
+        font-style: italic;
+    }
+
+    .view-div3 .owl-pagination{
+        position : relative;
+        display : contents;
+    }
+    #block-maicon-views-block-highlight-block-1 .owl-theme .owl-controls .owl-page.active span, .owl-theme .owl-controls.clickable .owl-page span{
+        opacity: 1;
+        background-color: black;
+    }
+    #block-maicon-views-block-highlight-block-1 .owl-theme .owl-controls .owl-page.active span, .owl-theme .owl-controls.clickable .owl-page:hover span{
+        opacity: 1;
+        background-color: #bf3654;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+    .view-div3 .view-content{
+        background-color:white;
+    }
+    .testimonials{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .testimg{
+        display: flex;
+        flex-direction: column-reverse;
+        .quotes{
+                position: relative;
+                height: 60px;
+                width: 60px;
+                /* font-size: 25px; */
+                background-color: #bf3654;
+                left: 16em;
+                top:21em;
+                color: white;
+                text-align: center;
+                display: grid;
+                align-items: center;
+                border-radius: 50%;
+        &:after {
+            font-family: 'Font Awesome 5 Free';
+            content: "\f007";
+          }
+        }
+    }
+
+    .testimg img{
+        height : 300px;
+        width : 300px;
+        border-radius: 50%;        
+    }
+    
+
+    .firstname{
+        font-size : 14px;
+        margin-top : 30px;
+        font-weight: 700;
+        color : #fab915;
+        letter-spacing: 0.2em;
+    }
+
+    .lastname{
+        font-size: 35px;
+        font-weight: bolder;
+        margin : 20px;
+    }
+
+    .testimonials .body{
+        font-size: 20px;
+        font-weight: 300;
+        text-align: center;
+        line-height: 30px;
+        color: #808080;
+        font-style: italic;
+    }
+
+    .view-div3 .owl-pagination{
+        position : relative;
+        display : contents;
+    }
+    #block-maicon-views-block-highlight-block-1 .owl-theme .owl-controls .owl-page.active span, .owl-theme .owl-controls.clickable .owl-page span{
+        opacity: 1;
+        background-color: black;
+    }
+    #block-maicon-views-block-highlight-block-1 .owl-theme .owl-controls .owl-page.active span, .owl-theme .owl-controls.clickable .owl-page:hover span{
+        opacity: 1;
+        background-color: #bf3654;
+    }
+}

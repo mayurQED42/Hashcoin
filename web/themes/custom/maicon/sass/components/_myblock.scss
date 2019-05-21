@@ -1,0 +1,1410 @@
+/* for desktop */
+@media (min-width: 1025px){
+    /* for bitcoin block */
+    .bitcoinwrapper{
+        color:black;
+        padding-left: 8%;
+        padding-right: 8%;
+        padding-top: 10%;
+        padding-bottom: 10%;
+        padding-top: 8%;
+        padding-bottom: 8%;
+        background-size: cover;
+    }
+    .bitcoinwrapper .bitcoin-column .heading{
+        color: #bf3654;
+        font-family: 'Raleway', sans-serif;
+        font-size: 14px;
+    }
+    .bitcoinwrapper .bitcoin-column h2 {
+        font-family: 'Raleway', sans-serif;
+        line-height: 1.4;
+        font-size: 48px;
+        color: #333333;
+        margin-top: 2px;
+    }
+    .bitcoinwrapper .bitcoin-column{
+        width:40%;
+    }
+    .bitcoinwrapper .bitcoin-column .bitcoin-desc{
+        width:100%;
+        color:#ffffff;
+        font-family: Arial;
+        font-size: 16px;
+        margin-bottom: 20px;
+        margin-top: -20px;
+    }
+    .bitcoin-func{
+        margin-bottom: 70px;
+        margin-top: 30px;
+        width:100%;
+        display:flex;
+    }
+    .bitcoinwrapper .bitcoin-column .bitcoin-func .form-text{
+        border-radius:20px;
+        width: 100%;
+        height: 40px;
+        padding: 5px,20px,5px,30px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    .bitcoinwrapper .bitcoin-column .bitcoin-func .form-select .sl1{
+        border-radius:20px;
+        margin-bottom: 10px; 
+        position: relative;
+        display: grid;
+    }
+    .bitcoinwrapper .fa-chevron-circle-down:before {
+        top: 34%;
+        right: 10%;
+        content: "\f13a";
+        position: absolute;
+        color: #bf3654;
+    } 
+    .bitcoinwrapper .bitcoin-column .bitcoin-func .form-select .sl2{
+        border-radius:20px;
+        margin-bottom: 8px;
+        position: relative;
+        display: grid;
+    }
+    .bitcoinwrapper .bitcoin-column .bitcoin-func .form-select .sl2{
+        border-radius:20px;
+        margin-bottom: 8px;
+    }
+    .bitcoinwrapper .form-select{
+        width: 100%;
+        height:40px;
+        padding: 2px 40px 5px 30px;
+        text-align: center;
+        -webkit-appearance: none;
+        -webkit-border-radius: 20px; 
+        -moz-border-radius: 6px;
+    }
+    .bitcoinwrapper select.form-select{
+        background-color: white;
+    } 
+    .bitcoinwrapper .form-submit{
+        width:200px;
+        height:60px;
+        border-radius:30px;
+        font-family: 'Raleway', sans-serif;
+        font-size: 14px;
+        color:white;
+        background-color: #bf3654;
+        background: #bf3654;
+        border-color: #bf3654; 
+    }
+    .bitcoinwrapper input[type="submit"]:hover{
+        background-color: orange;
+        border-color: orange;
+    }
+
+    /* for Quote form */
+    .quotewrapper{
+        color:black;
+        padding-left: 8%;
+        padding-right: 8%;
+        padding-top: 8%;
+        padding-bottom: 8%;
+        background-size: cover;
+    }
+    .quotewrapper .heading{
+        color: #bf3654;
+        font-family: 'Raleway', sans-serif;
+        font-size: 14px;
+        text-align: center;
+    }
+    .quotewrapper h2 {
+        font-family: 'Raleway', sans-serif;
+        line-height: 1.4;
+        font-size: 48px;
+        color: #333333;
+        text-align: center;
+        margin-top: -0.5%;
+    }
+    .quotewrapper label{
+        display: none;
+    }
+    .quotewrapper .tfwrapper{
+        width:100%;
+        display:flex;
+        justify-content: space-evenly;
+    }
+    .quotewrapper .tfwrapper .tf1{
+        width: 33.3%;
+        height: 40px;
+        border-radius: 20px;
+        margin-right: 11px;
+        position: relative;
+        display: inline-grid;
+    }
+    .quotewrapper .fa-user:before {
+        content: "\f007";
+        position: absolute;
+        display: inline-block;
+        color: #bf3654;
+        top: 35%;
+        left: 5%;
+
+    }
+    .quotewrapper .tfwrapper .tf2{
+        width: 33.3%;
+        height: 40px;
+        border-radius: 20px;
+        margin-right: 11px;
+        margin-left: 11px; 
+        position: relative;
+        display: inline-grid;
+    }
+    .quotewrapper .fa-envelope:before{
+        content: "\f0e0";
+        position: absolute;
+        display: inline-block;
+        color: #bf3654;
+        top: 35%;
+        left: 5%;
+    }
+    .quotewrapper input#edit-field-email-address-0-value{
+
+    }
+    .quotewrapper .tfwrapper .tf3{
+        width: 33.3%;
+        height: 40px;
+        border-radius: 20px;
+        margin-left: 11px; 
+        position: relative;
+        display: inline-grid;
+    }
+    .quotewrapper .fa-paperclip:before{
+        content: "\f0c6";
+        position: absolute;
+        display: inline-block;
+        color: #bf3654;
+        top: 35%;
+        left: 5%;
+
+    }
+    .tf1 .form-text, .tf2 .form-email, .tf3 .form-text{
+        width:100%;
+        border-radius: 20px;
+        height: 40px;
+        text-align: center;
+        border-color: #ffffff;
+    }
+   .tfquestion{
+       margin-top: 20px;
+
+       position: relative;
+   }
+   .quotewrapper .fa-pencil-alt:before {
+        content: "\f303";
+        position: absolute;
+        top: 20%;
+        left: 1.5%;
+        color: #bf3653;
+    }
+
+   
+   .tfquestion textarea.form-textarea{
+        border-radius: 20px;
+        height: 160px;
+        text-align: center;
+        border-color: #ffffff;
+   }
+   .quotewrapper .qfbutton{
+       display: flex;
+       justify-content: center;
+   }
+   .quotewrapper .form-submit{
+    background-color: #bf3654;
+    background: #bf3654;
+    border-color: #bf3654; 
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    border-radius:30px;
+    width: 200px;
+    height: 60px;
+    margin-top: 40px;
+    }
+    .quotewrapper input[type="submit"]:hover{
+        background-color: orange;
+        border-color: orange;
+    }
+
+   /* for feature block */
+   .featurewrapper{
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+        align-content: center;
+   }
+   .featurewrapper a{
+       color:black;
+       font-size: 24px;
+       font-family: 'Raleway', sans-serif;
+   }
+   .featurewrapper p{
+       color: #808080;
+       line-height: 1.5;
+       font-size: 16px;
+       font-family: 'Raleway', sans-serif;
+   }
+   .featurecontent{
+        // margin-left: 10%;
+        // margin-right: 10%;
+        padding-top: 10%;
+        padding-bottom: 10%;
+   }
+   .featurewrapper .view-content {
+        display: flex;
+        justify-content: space-around;
+        background-color: transparent;
+        padding: 0%;
+   }
+   .featurecontent, .views-view-grid .views-row{
+        display:flex;
+        justify-content: center;
+        align-content: center;
+        text-align: center;
+        clear: none;
+   }
+   .views-col.col-1{
+        width:40%!important;
+   }
+   .views-col.col-2{
+        width:40%!important;
+   }
+   .views-row.clearfix.row-1 .col-1 {
+        padding-right: 20%;
+        margin-bottom: 50px;
+   }
+   .views-row.clearfix.row-1 a:hover{
+        color:#bf3654;
+        text-decoration: none;
+   }
+   .views-row.clearfix.row-1 .col-2 {
+        padding-left: 20%;  
+   }
+   .views-row.clearfix.row-2 .col-1{
+        padding-right: 25%;
+        margin-bottom: 50px;   
+   }
+   .views-row.clearfix.row-2 a:hover{
+       color:orangered;
+       text-decoration: none;
+   }
+   .views-row.clearfix.row-2 .col-2{
+        padding-left: 25%;   
+   }
+   .views-row.clearfix.row-3 .col-1 {
+        padding-right: 20%;    
+   }
+   .views-row.clearfix.row-3 a:hover{
+       color:orange;
+       text-decoration: none;
+   }
+   .views-row.clearfix.row-3 .col-2 {
+        padding-left: 20%; 
+   }
+   /* for news and event block view*/
+   .newrapper{
+       padding: 150px;
+       text-align: center;
+   }
+   .newrapper .heading{
+        color: #bf3654;
+        font-family: 'Raleway', sans-serif;
+        font-size: 14px;
+    }
+    .newrapper h2 {
+        font-family: 'Raleway', sans-serif;
+        line-height: 0.85;
+        font-size: 48px;
+        color: #3f3535;
+        margin-top: unset;
+        margin-top: 10px;
+    }
+    .newrapper a{
+        color:#333333;
+        line-height: 0.85;
+        font-size: 24px;
+        font-family: 'Raleway', sans-serif;
+    }
+    .newrapper a:hover{
+        color:#bf3654;
+        text-decoration: none;
+    }
+    .newrapper p{
+        color: #808080;
+        line-height: 1.5;
+        font-size: 16px;
+        font-family: 'Raleway', sans-serif;
+    }
+    .newrapper img{
+        width:100%;
+    }
+   .newrapper .owl-carousel .owl-item{
+       padding-top: 20px;
+       padding-right: 10px;
+       padding-left: 10px;
+       box-sizing: border-box;
+   }
+   .newrapper .owl-theme .owl-controls {
+        margin-top: 10px;
+        text-align: center;
+        position: absolute;
+        top: -6%;
+        left: 44%;
+    }
+    .newrapper .owl-theme .owl-controls .owl-buttons div{
+       color: #333333;
+       background-color: #ffffff;
+       font-size: large;
+   }
+   .newrapper .views-field.views-field-field-type{
+       border-left-width: 1px;
+       border-left-style: groove;
+       border-right-width: 1px;
+       border-right-style: groove;
+       border-bottom-width: 1px;
+       border-bottom-style: groove;
+       box-sizing: border-box;
+       margin-right: -1px;
+   }
+   .necontent .commentwrap{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+   }
+   .necontent .comment{
+       position: relative;
+       color: #bf3654;
+       background-color: #bf3654;
+       border-color: #bf3653;
+       height:40px;
+       width:40px; 
+       top:-1.5em;
+       border-radius: 80px;
+   }
+   .newrapper .view-content .owl-carousel {
+        display: none;
+        position: relative;
+        width: 100%;
+        max-height: inherit;
+    }
+   .newrapper .view-content {
+        display: flex;
+        justify-content: space-around;
+        background-color: transparent;
+        padding: 0%;
+    }
+   .necontent .fa-pencil-alt:before {
+        position: absolute;
+        content: "\f303";
+        color: white;
+        top: 34%;
+        left: 32%;
+    }
+   .necontent .comment a{
+       display: none;
+   }
+   .necontent .comment:hover{
+    color: orange;
+    background-color: orange;
+    border-color: orange;
+   }
+   .neheader{
+       display: flex;
+       flex-direction: column;
+       padding-bottom: 55px;
+       padding-left: 55px;
+       padding-right: 55px;
+   }
+   .neheader .title{
+       padding-bottom: 30px; 
+       height:60px;
+       overflow: auto;
+   }
+   .neheader .body{
+        height: 90px;
+        overflow: auto;
+   }
+   .nefooter{ 
+        display: flex;
+        flex-direction: row;
+   }
+   .nefooter .created{
+        width: 33.33%;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-size: 14px;
+        font-family: 'Raleway', sans-serif;
+        color: #333333;
+        border-top-width: 1px;
+        border-top-style: groove;
+        box-sizing: border-box;
+   }
+   .nefooter .created:hover{
+        color: #bf3654; 
+   }
+   .nefooter .uid{
+        width: 33.33%;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        border-top-width: 1px;
+        border-top-style: groove;
+        border-left-width: 1px;
+        border-left-style: groove;
+        box-sizing: border-box;
+   }
+   .nefooter .uid a{
+        font-size: 14px;
+        font-family: 'Raleway', sans-serif;
+        color: #333333;
+   }
+   .nefooter .uid a:hover{
+        color:#bf3654;
+   }
+   .nefooter .type{
+        width: 33.33%;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        border-top-width: 1px;
+        border-top-style: groove;
+        border-left-width: 1px;
+        border-left-style: groove;
+        box-sizing: border-box;
+    }
+   .nefooter .type a{
+        font-size: 14px;
+        font-family: 'Raleway', sans-serif;
+        color: #333333;
+   }
+   .nefooter .type a:hover{
+        color:#bf3654;
+   }
+
+}
+/* for mobile */
+@media (max-width: 767px) {
+    /* for bitcoin block */
+    .bitcoinwrapper{
+        color:black;
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-top: 10%;
+        padding-bottom: 10%;
+        background-size: cover;
+    }
+    .bitcoinwrapper .bitcoin-column .heading{
+        color: #bf3654;
+        font-family: 'Raleway', sans-serif;
+        font-size: 14px;
+    }
+    .bitcoinwrapper .bitcoin-column h2 {
+        font-family: 'Raleway', sans-serif;
+        line-height: 0.85;
+        font-size: 32px;
+        color: #3f3535;
+        margin-top: 6px;
+    }
+    .bitcoinwrapper .bitcoin-column .bitcoin-desc{
+        width:100%;
+        color:#ffffff;
+        font-family: 'Raleway', sans-serif;
+        font-size: 12px;
+        margin-bottom: 20px;
+        margin-top: -10px;
+    }
+    .bitcoin-func{
+        margin-bottom: 70px;
+        margin-top: 30px;
+        width:100%;
+        display:flex;
+    }
+    .bitcoinwrapper .bitcoin-column .bitcoin-func .form-text{
+        border-radius:20px;
+        width: 100%;
+        height: 40px;
+        padding: 5px,20px,5px,30px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    .bitcoinwrapper .bitcoin-column .bitcoin-func .form-select .sl1{
+        border-radius:20px;
+        margin-bottom: 10px; 
+        position: relative;
+        display: grid;
+    }
+    .bitcoinwrapper .fa-chevron-circle-down:before {
+        top: 34%;
+        right: 10%;
+        content: "\f13a";
+        position: absolute;
+        color: #bf3654;
+    }
+    .bitcoinwrapper .bitcoin-column .bitcoin-func .form-select .sl2{
+        border-radius:20px;
+        margin-bottom: 8px;
+        position: relative;
+        display: grid;
+    }
+    .bitcoinwrapper .form-select{
+        width: 100%;
+        height:40px;
+        // padding: 2px 40px 5px 30px;
+        padding-left: 20px;
+        padding-right: 8px;
+        padding-bottom: 5px;
+        padding-top: 2px;
+        text-align: center;
+        -webkit-appearance: none;
+        -webkit-border-radius: 20px; 
+        -moz-border-radius: 6px;
+    }
+    .bitcoinwrapper select.form-select{
+        background-color: white;
+    } 
+    .bitcoinwrapper .form-submit{
+        width:33%;
+        height:50px;
+        border-radius:25px;
+        font-family: 'Raleway', sans-serif;
+        font-size: 14px;
+        color:white;
+        background-color: #bf3654;
+        background: #bf3654;
+        border-color: #bf3654; 
+    }
+    .bitcoinwrapper input[type="submit"]:hover{
+        background-color: orange;
+        border-color: orange;
+    }
+    /* for Quote form */
+    .quotewrapper{
+        color:black;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 30%;
+        padding-bottom: 24%;
+        background-position: right;
+        padding-top: 24%;
+        padding-bottom: 24%;
+        background-size: cover;
+    }
+    .quotewrapper .heading{
+        color: #bf3654;
+        font-family: 'Raleway', sans-serif;
+        font-size: 14px;
+        text-align: center;
+    }
+    .quotewrapper h2 {
+        margin-top: -1%;
+        font-family: 'Raleway', sans-serif;
+        line-height: 1.4;
+        font-size: 32px;
+        color: #333333;
+        text-align: center;
+    }
+    .quotewrapper label{
+        display: none;
+    }
+    .quotewrapper .tfwrapper .tf1{
+        height: 40px;
+        border-radius: 20px;
+        margin-bottom: 10px;
+        position: relative;
+        display: grid;
+    }
+    .quotewrapper .fa-user:before {
+        content: "\f007";
+        position: absolute;
+        display: inline-block;
+        color: #bf3654;
+        top: 35%;
+        left: 5%;
+    }
+    .quotewrapper .tfwrapper .tf2{
+        height: 40px;
+        border-radius: 20px; 
+        margin-bottom: 10px;
+        position: relative;
+        display: grid;
+    }
+    .quotewrapper .fa-envelope:before{
+        content: "\f0e0";
+        position: absolute;
+        display: inline-block;
+        color: #bf3654;
+        top: 35%;
+        left: 5%;
+    }
+    .quotewrapper .tfwrapper .tf3{
+        height: 40px;
+        border-radius: 20px;
+        margin-bottom: 10px;
+        position: relative;
+        display: grid;
+    }
+    .quotewrapper .fa-paperclip:before{
+        content: "\f0c6";
+        position: absolute;
+        display: inline-block;
+        color: #bf3654;
+        top: 35%;
+        left: 5%;
+    }
+    .tf1 .form-text, .tf2 .form-email, .tf3 .form-text{
+        width:100%;
+        border-radius: 20px;
+        height: 40px;
+        text-align: center;
+        border-color: #ffffff;
+    }
+    .tfquestion{
+        margin-top: 20px;
+        position: relative;
+    }
+    .quotewrapper .fa-pencil-alt:before {
+        content: "\f303";
+        position: absolute;
+        top: 20%;
+        left: 4%;
+        color: #bf3653;
+
+    }
+    .tfquestion textarea.form-textarea{
+         border-radius: 20px;
+         height: 160px;
+         text-align: center;
+         border-color: #ffffff;
+    }
+    .quotewrapper .qfbutton{
+        display: flex;
+        justify-content: center;
+    }
+    .quotewrapper .form-submit{
+     background-color: #bf3654;
+     background: #bf3654;
+     border-color: #bf3654; 
+     color: #ffffff;
+     font-family: 'Raleway', sans-serif;
+     font-size: 14px;
+     border-radius:30px;
+     width: 200px;
+     height: 60px;
+     margin-top: 40px;
+     }
+     .quotewrapper input[type="submit"]:hover{
+         background-color: orange;
+         border-color: orange;
+     }
+
+     /* for feature block */
+   .featurewrapper{
+    width: 100%;
+    background-size: cover;
+    align-content: center;
+    }
+    .featurewrapper a{
+        color:black;
+        font-size: 24px;
+        font-family: 'Raleway', sans-serif;
+    }
+    .featurewrapper p{
+        color: #808080;
+        line-height: 1.5;
+        font-size: 16px;
+        font-family: 'Raleway', sans-serif;
+    }.featurewrapper a{
+        color:black;
+        font-size: 24px;
+        font-family: 'Raleway', sans-serif;
+    }
+    .featurewrapper p{
+        color: #808080;
+        line-height: 1.5;
+        font-size: 16px;
+        font-family: 'Raleway', sans-serif;
+    }
+    .featurecontent{
+        padding-top: 20%;
+        padding-bottom: 20%;
+   }
+   .views-row.clearfix.row-1 a:hover{
+        color:#bf3654;
+        text-decoration: none;
+    }
+    .views-row.clearfix.row-2 a:hover{
+        color:orangered;
+        text-decoration: none;
+    }
+    .views-row.clearfix.row-3 a:hover{
+        color:orange;
+        text-decoration: none;
+    }
+    .views-view-grid .views-col {
+        float: none;
+        margin-bottom: 5%;
+    }
+    .views-view-grid .views-row{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+   }
+  
+   /* for news and event block view*/
+    .newrapper{
+        padding-top: 100px;
+        padding-bottom: 100px;
+        margin-right: 14px;
+        margin-left: 14px;
+        text-align: center;
+    }
+    .necontent{
+        border-right-width: 1px;
+        border-right-style: groove;
+    }
+    .newrapper .view-content {
+        display: flex;
+        justify-content: space-around;
+        background-color: transparent;
+        padding: 0%;
+    }
+    .newrapper .heading{
+        color: #bf3654;
+        font-family: 'Raleway', sans-serif;
+        font-size: 14px;
+    }
+    .newrapper h2 {
+        font-family: 'Raleway', sans-serif;
+        line-height: 0.85;
+        font-size: 40px;
+        color: #3f3535;
+        margin-top: unset;
+        margin-top: 10px;
+        margin-bottom: 45px;
+    }
+    .newrapper a{
+        color:#333333;
+        line-height: 0.85;
+        font-size: 24px;
+        font-family: 'Raleway', sans-serif;
+    }
+    .newrapper a:hover{
+        color:#bf3654;
+        text-decoration: none;
+    }
+    .newrapper p{
+        color: #808080;
+        line-height: 1.5;
+        font-size: 16px;
+        font-family: 'Raleway', sans-serif;
+    } 
+    .newrapper img{
+       width:100%;
+    }
+    .newrapper .owl-theme .owl-controls {
+        margin-top: 10px;
+        text-align: center;
+        position: absolute;
+        top: -8%;
+        left: 30%;
+    }
+    .newrapper .owl-theme .owl-controls .owl-buttons div{
+        color: #333333;
+        background-color: #ffffff;
+        font-size: large;
+    }
+    .newrapper .views-field.views-field-field-type{
+        border-left-width: 1px;
+        border-left-style: groove;
+        border-right-width: 1px;
+        border-right-style: groove;
+        border-bottom-width: 1px;
+        border-bottom-style: groove;
+        box-sizing: border-box;
+        margin-right: -1px;
+    }
+    .necontent .commentwrap{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+   }
+   .necontent .comment{
+       position: relative;
+       color: #bf3654;
+       background-color: #bf3654;
+       border-color: #bf3653;
+       height:40px;
+       width:40px; 
+       top:-1.5em;
+       border-radius: 80px;
+   }
+   .necontent .fa-pencil-alt:before {
+        position: absolute;
+        content: "\f303";
+        color: white;
+        top: 32%;
+        left: 32%;
+    }
+   .necontent .comment:hover{
+        color: orange;
+        background-color: orange;
+        border-color: orange;
+    }
+   .necontent .comment a{
+       display: none;
+   }
+    .neheader{
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 55px;
+        padding-left: 55px;
+        padding-right: 55px;
+    }
+    .neheader .title{
+        padding-bottom: 30px; 
+        height:60px;
+        overflow: auto;
+    }
+    .neheader .body{
+         height: 90px;
+         overflow: auto;
+    }
+    .nefooter{ 
+        display: flex;
+        flex-direction: row;
+   }
+   .nefooter .created{
+        width: 33.33%;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-size: 14px;
+        font-family: 'Raleway', sans-serif;
+        color: #333333;
+        border-top-width: 1px;
+        border-top-style: groove;
+        box-sizing: border-box;
+   }
+   .nefooter .created:hover{
+        color: #bf3654; 
+   }
+   .nefooter .uid{
+        width: 33.33%;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        border-top-width: 1px;
+        border-top-style: groove;
+        border-left-width: 1px;
+        border-left-style: groove;
+        box-sizing: border-box;
+   }
+   .nefooter .uid a{
+        font-size: 14px;
+        font-family: 'Raleway', sans-serif;
+        color: #333333;
+   }
+   .nefooter .uid a:hover{
+        color:#bf3654;
+   }
+   .nefooter .type{
+        width: 33.33%;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        border-top-width: 1px;
+        border-top-style: groove;
+        border-left-width: 1px;
+        border-left-style: groove;
+        box-sizing: border-box;
+    }
+   .nefooter .type a{
+        font-size: 14px;
+        font-family: 'Raleway', sans-serif;
+        color: #333333;
+   }
+   .nefooter .type a:hover{
+        color:#bf3654;
+   }
+   
+
+}
+/* for tablets */
+@media (min-width: 768px) and (max-width: 1024px){
+    /* for bitcoin block */
+    .bitcoinwrapper{
+        color:black;
+        padding-left: 3%;
+        padding-right: 3%;
+        padding-top: 10%;
+        padding-bottom: 10%;
+        background-size: cover;
+    }
+    .bitcoinwrapper .bitcoin-column .heading{
+        color: #bf3654;
+        font-family: 'Raleway', sans-serif;
+        font-size: 14px;
+    }
+    .bitcoinwrapper .bitcoin-column{
+        width:66%;
+    }
+    .bitcoinwrapper .bitcoin-column h2 {
+        font-family: 'Raleway', sans-serif;
+        line-height: 0.85;
+        font-size: 36px;
+        color: #3f3535;
+        margin-top: 6px;
+    }
+    .bitcoinwrapper .bitcoin-column .bitcoin-desc{
+        width:100%;
+        color:#ffffff;
+        font-family: 'Raleway', sans-serif;
+        font-size: 16px;
+        margin-bottom: 20px;
+        margin-top: -10px;
+    }
+    .bitcoin-func{
+        margin-bottom: 70px;
+        margin-top: 30px;
+        width:100%;
+        display:flex;
+    }
+    .bitcoinwrapper .bitcoin-column .bitcoin-func .form-text{
+        border-radius:20px;
+        width: 100%;
+        height: 40px;
+        padding: 5px,20px,5px,30px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    .bitcoinwrapper .bitcoin-column .bitcoin-func .form-select .sl1{
+        border-radius:20px;
+        margin-bottom: 10px; 
+        position: relative;
+        display: grid;
+    }
+    .bitcoinwrapper .bitcoin-column .bitcoin-func .form-select .sl2{
+        border-radius:20px;
+        margin-bottom: 8px;
+        position: relative;
+        display: grid;
+    }
+    .fa-chevron-circle-down:before {
+        top: 34%;
+        right: 10%;
+        content: "\f13a";
+        position: absolute;
+        color: #bf3654;
+    }
+    .bitcoinwrapper .form-select{
+        width: 100%;
+        height:40px;
+        padding: 2px 40px 5px 30px;
+        text-align: center;
+        -webkit-appearance: none;
+        -webkit-border-radius: 20px; 
+        -moz-border-radius: 6px;
+    }
+    .bitcoinwrapper select.form-select{
+        background-color: white;
+    } 
+    .bitcoinwrapper .form-submit{
+        width:33%;
+        height:50px;
+        border-radius:25px;
+        font-family: 'Raleway', sans-serif;
+        font-size: 14px;
+        color:white;
+        background-color: #bf3654;
+        background: #bf3654;
+        border-color: #bf3654; 
+    }
+    .bitcoinwrapper input[type="submit"]:hover{
+        background-color: orange;
+        border-color: orange;
+    }
+    /* for Quote form */
+    .quotewrapper{
+        color:black;
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-top: 8%;
+        padding-bottom: 8%;
+        background-position: right;
+        background-size: cover;
+    }
+    .quotewrapper .heading{
+        color: #bf3654;
+        font-family: 'Raleway', sans-serif;
+        font-size: 14px;
+        text-align: center;
+    }
+    .quotewrapper h2 {
+        font-family: 'Raleway', sans-serif;
+        line-height: 1.4;
+        font-size: 48px;
+        color: #333333;
+        text-align: center;
+        margin-top: -1%;
+    }
+    .quotewrapper label{
+        display: none;
+    }
+    .quotewrapper .tfwrapper{
+        width:100%;
+        display:flex;
+        justify-content: space-evenly;
+    }
+    .quotewrapper .tfwrapper .tf1{
+        width: 33.3%;
+        height: 40px;
+        border-radius: 20px;
+        margin-right: 11px;
+        position: relative;
+        display: inline-grid;
+    }
+    .quotewrapper .fa-user:before {
+        content: "\f007";
+        position: absolute;
+        display: inline-block;
+        color: #bf3654;
+        top: 35%;
+        left: 5%;
+    }
+    .quotewrapper .tfwrapper .tf2{
+        width: 33.3%;
+        height: 40px;
+        border-radius: 20px;
+        margin-right: 11px;
+        margin-left: 11px; 
+        position: relative;
+        display: inline-grid;
+    }
+    .quotewrapper .fa-envelope:before{
+        content: "\f0e0";
+        position: absolute;
+        display: inline-block;
+        color: #bf3654;
+        top: 35%;
+        left: 5%;
+    }
+    .quotewrapper .tfwrapper .tf3{
+        width: 33.3%;
+        height: 40px;
+        border-radius: 20px;
+        margin-left: 11px; 
+        position: relative;
+        display: inline-grid;
+    }
+    .quotewrapper .fa-paperclip:before{
+        content: "\f0c6";
+        position: absolute;
+        display: inline-block;
+        color: #bf3654;
+        top: 35%;
+        left: 5%;
+    }
+    .tf1 .form-text, .tf2 .form-email, .tf3 .form-text{
+        width:100%;
+        border-radius: 20px;
+        height: 40px;
+        text-align: center;
+        border-color: #ffffff;
+    }
+    .tfquestion{
+        margin-top: 30px;
+        position: relative;
+    }
+    .quotewrapper .fa-pencil-alt:before {
+        content: "\f303";
+        position: absolute;
+        top: 20%;
+        left: 1.5%;
+        color: #bf3653;
+
+    }
+    .tfquestion textarea.form-textarea{
+         border-radius: 20px;
+         height: 160px;
+         text-align: center;
+         border-color: #ffffff;
+    }
+    .quotewrapper .qfbutton{
+        display: flex;
+        justify-content: center;
+    }
+    .quotewrapper .form-submit{
+     background-color: #bf3654;
+     background: #bf3654;
+     border-color: #bf3654; 
+     color: #ffffff;
+     font-family: 'Raleway', sans-serif;
+     font-size: 14px;
+     border-radius:30px;
+     width: 200px;
+     height: 60px;
+     margin-top: 40px;
+     }
+     .quotewrapper input[type="submit"]:hover{
+         background-color: orange;
+         border-color: orange;
+     }
+
+     /* for feature block */
+    .featurewrapper{
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+        align-content: center;
+    }
+    .featurewrapper a{
+    color:black;
+    font-size: 24px;
+    font-family: 'Raleway', sans-serif;
+    }
+    .featurewrapper p{
+    color: #808080;
+    line-height: 1.5;
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    }
+    .featurecontent{
+        // margin-left: 5%;
+        // margin-right: 5%;
+        padding-top: 10%;
+        padding-bottom: 10%;
+    }
+    .featurewrapper .view-content {
+        display: flex;
+        justify-content: space-around;
+        background-color: transparent;
+        padding: 0%;
+   }
+    .featurecontent, .views-view-grid .views-row{
+        display:flex;
+        justify-content: center;
+        align-content: center;
+        text-align: center;
+        clear: none;
+    }
+    .views-col.col-1{
+        width:40%!important;
+    }
+    .views-col.col-2{
+        width:40%!important;
+    }
+    .views-row.clearfix.row-1 .col-1 {
+        padding-right: 20%;
+        margin-bottom: 50px;
+    }
+    .views-row.clearfix.row-1 a:hover{
+        color:#bf3654;
+        text-decoration: none;
+   }
+    .views-row.clearfix.row-1 .col-2 {
+        padding-left: 20%;
+        
+    }
+    .views-row.clearfix.row-2 .col-1{
+        padding-right: 25%;
+        margin-bottom: 50px;
+        
+    }
+    .views-row.clearfix.row-2 a:hover{
+        color:orangered;
+        text-decoration: none;
+    }
+    .views-row.clearfix.row-2 .col-2{
+        padding-left: 25%;
+        
+    }
+    .views-row.clearfix.row-3 .col-1 {
+        padding-right: 20%;
+        
+    }
+    .views-row.clearfix.row-3 a:hover{
+        color:orange;
+        text-decoration: none;
+    }
+    .views-row.clearfix.row-3 .col-2 {
+        padding-left: 20%;
+    }
+    /* for news and event block view*/
+   .newrapper{
+        padding-top: 100px;
+        padding-bottom: 100px;
+        padding-left: 60px;
+        padding-right: 60px;
+        text-align: center;
+    }
+    .newrapper .view-content {
+        display: flex;
+        justify-content: space-around;
+        background-color: transparent;
+        padding: 0%;
+    }
+    .newrapper .heading{
+        color: #bf3654;
+        font-family: 'Raleway', sans-serif;
+        font-size: 14px;
+    }
+    .newrapper h2 {
+        font-family: 'Raleway', sans-serif;
+        line-height: 0.85;
+        font-size: 48px;
+        color: #3f3535;
+        margin-top: unset;
+        margin-top: 10px;
+    }
+    .newrapper a{
+        color:#333333;
+        line-height: 0.85;
+        font-size: 24px;
+        font-family: 'Raleway', sans-serif;
+    }
+    .newrapper a:hover{
+        color:#bf3654;
+        text-decoration: none;
+    }
+    .newrapper p{
+        color: #808080;
+        line-height: 1.5;
+        font-size: 16px;
+        font-family: 'Raleway', sans-serif;
+    }
+    .newrapper img{
+        width:100%;
+    }
+    .newrapper .owl-carousel .owl-item{
+        padding-top: 20px;
+        padding-right: 10px;
+        padding-left: 10px;
+        box-sizing: border-box;
+    }
+    .newrapper .owl-theme .owl-controls {
+        margin-top: 10px;
+        text-align: center;
+        position: absolute;
+        top: -7%;
+        left: 38%;
+    }
+    .newrapper .owl-theme .owl-controls .owl-buttons div{
+       color: #333333;
+       background-color: #ffffff;
+       font-size: large;
+   }
+   .newrapper .views-field.views-field-field-type{
+        border-left-width: 1px;
+        border-left-style: groove;
+        border-right-width: 1px;
+        border-right-style: groove;
+        border-bottom-width: 1px;
+        border-bottom-style: groove;
+        box-sizing: border-box;
+        margin-right: -1px;
+    }
+    .necontent .commentwrap{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+   }
+   .necontent .comment{
+       position: relative;
+       color: #bf3654;
+       background-color: #bf3654;
+       border-color: #bf3653;
+       height:40px;
+       width:40px; 
+       top:-1.5em;
+       border-radius: 80px;
+   }
+   .necontent .fa-pencil-alt:before {
+        position: absolute;
+        content: "\f303";
+        color: white;
+        top: 32%;
+        left: 32%;
+    }
+   .necontent .comment:hover{
+        color: orange;
+       background-color: orange;
+       border-color: orange;
+   }
+   .necontent .comment a{
+       display: none;
+   }
+    .neheader{
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 55px;
+        padding-left: 55px;
+        padding-right: 55px;
+    }
+    .neheader .title{
+        padding-bottom: 30px; 
+        height:60px;
+        overflow: auto;
+    }
+    .neheader .body{
+         height: 90px;
+         overflow: auto;
+    }
+    .nefooter{ 
+        display: flex;
+        flex-direction: row;
+   }
+   .nefooter .created{
+        width: 33.33%;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-size: 14px;
+        font-family: 'Raleway', sans-serif;
+        color: #333333;
+        border-top-width: 1px;
+        border-top-style: groove;
+        box-sizing: border-box;
+   }
+   .nefooter .created:hover{
+        color: #bf3654; 
+   }
+   .nefooter .uid{
+        width: 33.33%;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        border-top-width: 1px;
+        border-top-style: groove;
+        border-left-width: 1px;
+        border-left-style: groove;
+        box-sizing: border-box;
+   }
+   .nefooter .uid a{
+        font-size: 14px;
+        font-family: 'Raleway', sans-serif;
+        color: #333333;
+   }
+   .nefooter .uid a:hover{
+        color:#bf3654;
+   }
+   .nefooter .type{
+        width: 33.33%;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        border-top-width: 1px;
+        border-top-style: groove;
+        border-left-width: 1px;
+        border-left-style: groove;
+        box-sizing: border-box;
+    }
+   .nefooter .type a{
+        font-size: 14px;
+        font-family: 'Raleway', sans-serif;
+        color: #333333;
+   }
+   .nefooter .type a:hover{
+        color:#bf3654;
+   }
+
+}

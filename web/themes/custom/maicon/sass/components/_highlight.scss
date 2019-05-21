@@ -1,0 +1,572 @@
+@media only screen and (min-width: 1025px){
+.view-highlight .view-content{
+    margin : 0px;
+    padding : 0px;
+}
+
+
+.highlight .slider{
+    position: relative;
+    height : 675px;
+    background-size: cover;
+}
+
+.highlight .view-content .owl-carousel {
+    display: none;
+    position: relative;
+    width: 100%;
+    height: 675px;
+}
+.slider {
+    .title{
+    position: absolute;
+    text-decoration: none;
+    width : 80%;
+    font-size: 50px;
+    right: 10%;
+    top : 17%;   
+    animation: fade 1s ease-in both; 
+    }
+}
+@keyframes fade {
+    from {
+        opacity: 0;
+        transform: translate3d(0, 0, 0);
+    }
+    to {
+        opacity: 1;
+        transform: translate3d(0, -10%, 0);
+    }
+}
+
+.slider .buttontext{
+    position: absolute;
+    background-color: #bf3654;
+    width : 100%;
+
+}
+
+.slider .title :hover{
+    text-decoration: none;
+}
+
+.slider img{
+    height : 675px;
+    width : 100%;
+}
+
+#block-maicon-views-block-highlight-block-1 .owl-theme .owl-controls .owl-page.active span, .owl-theme .owl-controls.clickable .owl-page span{
+    opacity: 1;
+    background-color: white;
+}
+#block-maicon-views-block-highlight-block-1 .owl-theme .owl-controls .owl-page.active span, .owl-theme .owl-controls.clickable .owl-page:hover span{
+    opacity: 1;
+    background-color: #bf3654;
+}
+
+.title > h2{
+    margin : 0;
+}
+h2.class1{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;    
+    color: white;
+}
+
+h2.class2{
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+}
+h2.class3{
+    font-weight: 900;
+    color: white;
+}
+
+h2.class4{
+    color:black;
+}
+
+h2.class5{
+    color:#bf3654;
+}
+
+#block-maicon-views-block-highlight-block-1 .owl-pagination{
+    position: absolute;
+    display: grid;
+    top: 300px;
+    left: 20px;
+}
+
+//Class for Text Slide
+.owl-wrapper{
+    .owl-item{
+    &:nth-child(1) {
+        
+            .highlight .slider{
+               
+                text-align:right;
+                align-items: right;
+                justify-content: right;
+            } 
+        } 
+
+    }
+    .owl-item{
+    &:nth-child(2) {
+        
+            .highlight .slider{
+                
+                text-align:center;
+                align-items: center;
+                justify-content: center;
+            }
+        }
+
+    }
+    .owl-item{
+    &:nth-child(3) {
+        
+            .highlight .slider{
+               
+                text-align:left;
+                align-items: left;
+                justify-content: left;
+            }
+        }
+
+    }
+
+}
+
+//Button Class
+.class6{
+        color : white;
+        font-size: 15px;    
+        width: 200px;
+        height : 60px;
+        letter-spacing: 0.2em;
+        display:flex;
+        align-items: center;
+        margin-top : 10px !important;
+        justify-content: center;
+        border-top-left-radius: 30px;
+        border-top-right-radius: 30px;
+        border-bottom-right-radius: 30px;
+        border-bottom-left-radius: 30px;
+}
+//Slider Button
+.owl-wrapper{
+    .owl-item{
+    &:nth-child(1) {
+        
+            .highlight .slider .title p.class6{
+                background-color: #f58770;
+                margin-left: auto;          
+            }
+        }
+
+    }
+    .owl-item{
+    &:nth-child(2) {
+        
+            .highlight .slider .title p.class6{
+                background-color: #bf3654;
+                margin: 0 auto;
+            }
+        }
+
+    }
+    .owl-item{
+    &:nth-child(3) {
+        
+            .highlight .slider .title p.class6{
+                background-color: #fab915;
+                margin-left: 0;
+            }
+        }
+
+    }
+
+}
+
+//Button Hover
+.owl-wrapper{
+    .owl-item{
+    &:nth-child(1) {
+        
+            .highlight .slider .title p.class6:hover{
+                cursor: pointer;
+                background-color: #fab915;       
+            }
+        }
+
+    }
+    .owl-item{
+    &:nth-child(2) {
+        
+            .highlight .slider .title p.class6:hover{
+                cursor: pointer;
+                background-color: #fab915;
+            }
+        }
+
+    }
+    .owl-item{
+    &:nth-child(3) {
+        
+            .highlight .slider .title p.class6:hover{
+                cursor: pointer;
+                background-color: #bf3654;
+            }
+        }
+
+    }
+
+}
+}
+
+@media only screen and (max-width: 767px){
+    .view-highlight .view-content{
+        margin : 0px;
+        padding : 0px;
+    }
+
+    .highlight{
+        // height: 400px;
+        background-color: #333333;
+        
+    }
+    .slider img{
+        height : auto;
+        width : 100%;
+    }
+
+    .highlight .slider{
+        // display : flex;
+        // flex-direction: column-reverse;
+        height : auto;
+    }
+
+    .slider .title{
+        position: relative;
+        background-color: #333333;
+        width : 100%;
+        height : 200px;
+        display : flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .title > h2 {
+        margin : 0;
+    }
+    h2.class1{
+        font-family: 'Raleway', sans-serif;
+        font-weight: 100; 
+        font-size : 25px;  
+        color: white;
+    }
+    
+    h2.class2{
+        font-weight: 600;
+        font-family: 'Raleway', sans-serif;
+        color: white;
+        font-size : 25px;
+    }
+    h2.class3{
+        font-weight: 900;
+        color: white;
+        font-size : 25px;
+    }
+    
+    .class4{
+        color:black;
+        font-size : 25px;
+    }
+    
+    .class5{
+        color:#bf3654;
+        font-size : 25px;
+    }
+
+    .class6{
+        color : white;
+        font-size: 14px;    
+        width: 160px;
+        height : 35px;
+        letter-spacing: 0.2em;
+        display:flex;
+        margin : 4%;
+        align-items: center;
+        justify-content: center;
+        border-top-left-radius: 30px;
+        border-top-right-radius: 30px;
+        border-bottom-right-radius: 30px;
+        border-bottom-left-radius: 30px;
+    }
+    .owl-wrapper{
+        .owl-item{
+        &:nth-child(1) {
+            
+                .highlight .slider .title p.class6{
+                    background-color: #f58770;          
+                }
+            }
+    
+        }
+        .owl-item{
+        &:nth-child(2) {
+            
+                .highlight .slider .title p.class6{
+                    background-color: #bf3654;
+                }
+            }
+    
+        }
+        .owl-item{
+        &:nth-child(3) {
+            
+                .highlight .slider .title p.class6{
+                    background-color: #fab915;
+                }
+            }
+    
+        }
+
+    
+    }
+
+    .owl-wrapper{
+    .owl-item{
+    &:nth-child(1) {
+        
+            .highlight .slider .title p.class6:hover{
+                cursor: pointer;
+                background-color: #fab915;       
+            }
+        }
+
+    }
+    .owl-item{
+    &:nth-child(2) {
+        
+            .highlight .slider .title p.class6:hover{
+                cursor: pointer;
+                background-color: #fab915;
+            }
+        }
+
+    }
+    .owl-item{
+    &:nth-child(3) {
+        
+            .highlight .slider .title p.class6:hover{
+                cursor: pointer;
+                background-color: #bf3654;
+            }
+        }
+
+    }
+
+}
+    .owl-theme .owl-controls{
+        margin-top: 0px;
+        text-align: center;
+    }
+
+    .owl-pagination{
+        background-color: #333333;
+    }
+}
+@media (min-width: 768px) and (max-width: 1024px){
+    .view-highlight .view-content{
+        margin : 0px;
+        padding : 0px;
+    }
+
+    .highlight{
+        // height: 400px;
+        background-color: transparent;
+        
+    }
+
+    .slider img{
+        height : auto;
+        width : 100%;
+    }
+
+    .slider .title{
+        position: absolute;
+        text-decoration: none;
+        width : 80%;
+        font-size: 30px;
+        right: 10%;
+        top : 17%;
+    
+    }
+    .title > h2 {
+        margin : 0;
+    }
+
+    h2.class1{
+        font-family: 'Raleway', sans-serif;
+        font-weight: 100;    
+        color: white;
+    }
+    
+    h2.class2{
+        font-weight: 600;
+        font-family: 'Raleway', sans-serif;
+        color: white;
+    }
+    h2.class3{
+        font-weight: 900;
+        color: white;
+    }
+    
+    .class4{
+        color:black;
+    }
+    
+    .class5{
+        color:#bf3654;
+    }
+
+    //Button Class
+.class6{
+    color : white;
+    font-size: 12px;    
+    width: 150px;
+    height : 50px;
+    letter-spacing: 0.2em;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+//Class for Text Slide
+.owl-wrapper{
+    .owl-item{
+    &:nth-child(1) {
+        
+            .highlight .slider{
+               
+                text-align:right;
+                align-items: right;
+                justify-content: right;
+            } 
+        } 
+
+    }
+    .owl-item{
+    &:nth-child(2) {
+        
+            .highlight .slider{
+                
+                text-align:center;
+                align-items: center;
+                justify-content: center;
+            }
+        }
+
+    }
+    .owl-item{
+    &:nth-child(3) {
+        
+            .highlight .slider{
+               
+                text-align:left;
+                align-items: left;
+                justify-content: left;
+            }
+        }
+
+    }
+
+}
+//Slider Button
+.owl-wrapper{
+    .owl-item{
+    &:nth-child(1) {
+        
+            .highlight .slider .title p.class6{
+                background-color: #f58770;
+                margin-left: auto;          
+            }
+        }
+
+    }
+    .owl-item{
+    &:nth-child(2) {
+        
+            .highlight .slider .title p.class6{
+                background-color: #bf3654;
+                margin: 0 auto;
+            }
+        }
+
+    }
+    .owl-item{
+    &:nth-child(3) {
+        
+            .highlight .slider .title p.class6{
+                background-color: #fab915;
+                margin-left: 0;
+            }
+        }
+
+    }
+
+}
+
+//Button Hover
+.owl-wrapper{
+    .owl-item{
+    &:nth-child(1) {
+        
+            .highlight .slider .title p.class6:hover{
+                cursor: pointer;
+                background-color: #fab915;       
+            }
+        }
+
+    }
+    .owl-item{
+    &:nth-child(2) {
+        
+            .highlight .slider .title p.class6:hover{
+                cursor: pointer;
+                background-color: #fab915;
+            }
+        }
+
+    }
+    .owl-item{
+    &:nth-child(3) {
+        
+            .highlight .slider .title p.class6:hover{
+                cursor: pointer;
+                background-color: #bf3654;
+            }
+        }
+
+    }
+
+}
+
+.owl-theme .owl-controls{
+    margin-top: 0px;
+    text-align: center;
+}
+
+.owl-pagination{
+    position: absolute;
+    bottom: 2%;    
+    left: 45%;
+}
+
+}
