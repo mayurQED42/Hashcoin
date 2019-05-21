@@ -325,7 +325,6 @@ readers do not read off random characters that represent icons */
 
 .fa-apple-alt:before {
   content: "\f5d1"; }
-
 .fa-apple-pay:before {
   content: "\f415"; }
 

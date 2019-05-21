@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "Gulp for Subtheme - Maicon",
   "main": "index.js",
-  "dependencies": {},
+  "dependencies": {
+    "compass": "^0.1.1"
+  },
   "devDependencies": {
     "browser-sync": "^2.26.3",
     "gulp": "^4.0.1",

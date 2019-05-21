@@ -6,7 +6,7 @@ var imagemin = require('gulp-imagemin');
 //task for compiled scss files to css.
 gulp.task('default', defaultTask);
 function defaultTask(done) {
-  return gulp.src('custom/maicon/sass/**/*.scss') 
+  return gulp.src('custom/maicon/sass/styles.scss') 
     .pipe(sass())
     .pipe(gulp.dest('custom/maicon/css/'))
     .pipe(browserSync.reload({stream: true}));
